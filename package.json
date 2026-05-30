@@ -21,6 +21,7 @@
     "all": "npm run lint && npm run tsc && npm test && npm run prettier:check",
     "start": "node server/index.js --debug",
     "build": "node scripts/build-frontend.js",
+    "watch": "node scripts/watch-frontend.js",
     "test": "vitest run",
     "test:watch": "vitest",
     "tsc": "tsc -p tsconfig.json --noEmit",
