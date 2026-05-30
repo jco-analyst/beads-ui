@@ -65,8 +65,6 @@ npm run prettier:write # format
 npm run all            # full gate: lint && tsc && test && prettier:check
 ```
 
-**Pre-handoff validation:** run `npm run all` (or the individual gates) before considering work done. Never touch `CHANGES.md` (release-managed).
-
 ## Architecture Overview
 
 Pure Node.js + vanilla-JS kanban UI for the beads (`bd`) issue tracker — no framework, no build step for the server.
@@ -79,13 +77,12 @@ Pure Node.js + vanilla-JS kanban UI for the beads (`bd`) issue tracker — no fr
 
 ## Conventions & Patterns
 
-**`AGENTS.md` is the authoritative coding/testing standards doc** — Claude Code does not read `AGENTS.md` automatically, so the essentials are mirrored here; consult `AGENTS.md` for the full detail.
+Coding conventions for this vanilla-JS / lit-html codebase:
 
 - **Modules:** ECMAScript modules everywhere. `.js` for runtime (with JSDoc `@param`/`@import` types), `.ts` only for pure type/interface definitions (no runtime side effects).
 - **Naming:** `PascalCase` classes/interfaces · `camelCase` functions/methods (and callable-valued vars) · `lower_snake_case` variables/params · `UPPER_SNAKE_CASE` constants · `kebab-case` files/dirs.
 - **JSDoc:** annotate all functions; declare every `@param`; add `@returns` only when the return type isn't self-evident. Add `@type` for ambiguous or empty-collection (`{}`/`[]`/`new Map()`) locals.
 - **Control flow:** always brace bodies. Use `?.`/`??` only for intentionally-nullable values — prefer explicit narrowing.
-- **Tests:** one behavior per test; active-verb names (`returns correct value`, `throws on invalid input`) — never start with "should". Structure as setup → execution → assertion, blank-line separated. Fix the code or the test, never bend the implementation just to pass.
 
 ## Beads (project-specific config)
 
