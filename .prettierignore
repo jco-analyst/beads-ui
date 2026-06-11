@@ -2,6 +2,7 @@ node_modules
 coverage
 dist
 .beads
+beads-ui-knowledge
 CHANGES.md
 app/main.bundle.js
 app/main.bundle.js.map

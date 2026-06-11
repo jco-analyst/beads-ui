@@ -91,12 +91,44 @@ This repo tracks its own dev work in beads under the **`bdui-`** prefix.
 - **Mode:** external server (shared horde Dolt on `127.0.0.1:3307`, database `bdui`). The server is managed by systemd — **do NOT run `bd dolt start`/`stop`**.
 - General `bd` workflow + session-close protocol is injected by `bd prime` (see the Beads Issue Tracker section above); don't duplicate it here.
 
-## graphify
+## Code understanding — tool router
 
-This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+Three complementary tools for understanding code. Pick the lens (check in this order):
 
-Rules:
-- For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
-- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
-- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
-- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
+- **graphify** (when `graphify-out/graph.json` exists) — ORIENT: where things live, how they
+  relate, blast radius. `graphify query "<q>"` (scoped subgraph), `graphify explain "<symbol>"`
+  (a node + its typed neighbours), `graphify path "<A>" "<B>"`, `graphify affected "<X>"`. Returns
+  pointers (`file:Ln`) + relations, **not source bodies**; trust `[EXTRACTED]` (AST) edges over
+  `[INFERRED]` (LLM-guessed). Snapshot is commit-fresh via the post-commit hook (in `.beads/hooks/`).
+  After changing code, `graphify update .` (AST-only, no API cost). `graphify-out/GRAPH_REPORT.md` /
+  `wiki/index.md` only for broad architecture review.
+- **Serena** — PRECISION: read a specific symbol body, find references, make symbol-aware edits.
+  `get_symbols_overview`, `find_symbol`, `find_referencing_symbols`, `replace_symbol_body`, etc.
+  Verify anything graphify suggested here before acting on it. (Project registered as `beads-ui`.)
+- **Read / grep** — non-code files, or when neither graph nor Serena has the detail.
+
+Rule: **graphify to find & frame → Serena to read & change.** Don't dump whole files when a symbol
+read or a graph query answers it. (A one-shot PreToolUse nudge fires once per session if a raw
+grep/read reaches past these.)
+
+**Hooks are reconciled, not hand-managed.** This repo's canonical CC hook set (`bd prime` on
+SessionStart/PreCompact + the single `tool-router-nudge.sh` on PreToolUse) is declared in
+`.claude/hooks/reconcile-hooks.py`. Installers (`graphify claude install`, `bd setup claude`) can
+re-inject superseded hooks — after running any of them, run `npm run hooks:reconcile` (or
+`npm run hooks:check` to detect drift) to restore the canonical set. Edit the `DESIRED` /
+`SUPERSEDED_MARKERS` tables in that script, not `settings.json` by hand.
+
+## Knowledge vault (`beads-ui-knowledge/`)
+
+`beads-ui-knowledge/` is this repo's own Obsidian vault for durable design/decision/research notes
+— the markdown counterpart to beads (tasks) and hindsight (episodic memory). Use it for artifacts
+worth keeping and cross-linking: ADRs, design notes, investigations, repo/tool docs.
+
+- **Structure:** numbered folders — `03-Repos/`, `04-Research/`, `05-Decisions/`, `06-Design/`,
+  `07-Opportunities/`, `08-Diagrams/` — plus `Templates/`.
+- **Creating an entry:** in Obsidian, instantiate the matching `Templates/<type>.md` (Templater
+  fills date/title/prompts). From the CLI, copy the template and fill the frontmatter statically.
+  Pick the template by intent: `decision` (ADR), `design`, `research`, `investigation`,
+  `architecture`, `repository`/`repo-index`, `requirement`, `opportunity`, `capability`, `tool-doc`.
+- **Tagging:** entries carry `domain/beads-ui`; link related notes with `[[wikilinks]]`.
+- **Not for:** task tracking (use beads / `bd`) or cross-session conversational recall (hindsight).

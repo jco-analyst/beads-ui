@@ -22,6 +22,8 @@
     "start": "node server/index.js --debug",
     "build": "node scripts/build-frontend.js",
     "watch": "node scripts/watch-frontend.js",
+    "hooks:check": "python3 .claude/hooks/reconcile-hooks.py --check",
+    "hooks:reconcile": "python3 .claude/hooks/reconcile-hooks.py",
     "test": "vitest run",
     "test:watch": "vitest",
     "tsc": "tsc -p tsconfig.json --noEmit",

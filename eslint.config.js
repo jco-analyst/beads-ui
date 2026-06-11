@@ -11,6 +11,7 @@ export default defineConfig([
       'coverage',
       'dist',
       '.beads',
+      'beads-ui-knowledge',
       'app/main.bundle.js',
       'app/main.bundle.js.map'
     ]

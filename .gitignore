@@ -11,3 +11,14 @@ app/main.bundle.js.map
 
 # Beads / Dolt files (added by bd init)
 .beads-credential-key
+
+# Obsidian vault state — config, workspace, plugin caches (volatile, per-machine,
+# may hold API keys; the markdown content under beads-ui-knowledge/ IS tracked).
+# Mirrors horde/.gitignore posture.
+**/.obsidian/
+**/.smart-env/
+
+# Machine-local / runtime state (per-machine, not shareable)
+.serena/
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
