@@ -1,12 +1,12 @@
 {
   ".beads/backup/backup_state.json": {
-    "mtime": 1780176159.9738722,
-    "ast_hash": "e5387b067a683a58c6c5c899e25f9830",
+    "mtime": 1781200992.6575825,
+    "ast_hash": "dfa9641c541c47c2ee69aa2bdc56efd0",
     "semantic_hash": ""
   },
   ".beads/export-state.json": {
-    "mtime": 1780175153.0966034,
-    "ast_hash": "62e9baecb478a1483782c7d6f8d7c037",
+    "mtime": 1781200992.6765828,
+    "ast_hash": "f2da59157d67de349a37187509d4c95e",
     "semantic_hash": ""
   },
   ".beads/hooks/post-checkout": {
@@ -45,8 +45,8 @@
     "semantic_hash": ""
   },
   ".claude/settings.json": {
-    "mtime": 1781021993.5980382,
-    "ast_hash": "3f7257bbb3bf8dc76e06d7d43f03936a",
+    "mtime": 1781200925.1006925,
+    "ast_hash": "dbc68d156fa555580d2b3fc3d6d397fe",
     "semantic_hash": ""
   },
   ".claude/skills/bmad-agent-builder/assets/init-sanctum-template.py": {
@@ -675,13 +675,13 @@
     "semantic_hash": ""
   },
   "eslint.config.js": {
-    "mtime": 1772919535.818384,
-    "ast_hash": "20c62da331f3c7c3ddb64efd6a54eb56",
+    "mtime": 1781199929.3612506,
+    "ast_hash": "76a918de932b68d599bf8663b83b8439",
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1779998423.2514613,
-    "ast_hash": "3d36f434ba7dfae7a6305ed824eddea5",
+    "mtime": 1781200956.2079065,
+    "ast_hash": "aec6a2bf1465294e6827ee85aa72a3a1",
     "semantic_hash": ""
   },
   "prettier.config.js": {
@@ -5325,8 +5325,8 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1781021993.597709,
-    "ast_hash": "3a29e094d0780158b45b9909910842ea",
+    "mtime": 1781200968.6181366,
+    "ast_hash": "7cc208e3643c32683dc8b9cbfd651b5b",
     "semantic_hash": ""
   },
   "README.md": {
@@ -5437,6 +5437,81 @@
   "media/bdui-issues.png": {
     "mtime": 1772919535.8207374,
     "ast_hash": "932ce48b7dec9e9c115a33444c5cd237",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/reconcile-hooks.py": {
+    "mtime": 1781200914.9641397,
+    "ast_hash": "c94b6778a84d7ce4df2ae8e5f78b678d",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/tool-router-nudge.sh": {
+    "mtime": 1781199799.7138574,
+    "ast_hash": "31da4efb73688cc690f3fbb1c123b415",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/architecture.md": {
+    "mtime": 1781199734.5668633,
+    "ast_hash": "009caa71e9a8b6ea2f45cbcf29b675ba",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/candidate.md": {
+    "mtime": 1781199734.5669577,
+    "ast_hash": "7026caaa4d09de61d90b127918f2148c",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/capability.md": {
+    "mtime": 1781199734.5669858,
+    "ast_hash": "b7cdbc64d6335b9f40f523a593a33bed",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/chronicle.md": {
+    "mtime": 1781199734.5670044,
+    "ast_hash": "6903cc6cc6a49417600f8bccbec7be4f",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/decision.md": {
+    "mtime": 1781199734.5670266,
+    "ast_hash": "3822ee8a0d28458aea19a3114cc7f83a",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/design.md": {
+    "mtime": 1781199734.5670455,
+    "ast_hash": "4da8558819a583dfe5b2f65dc5e85f42",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/investigation.md": {
+    "mtime": 1781199734.567065,
+    "ast_hash": "e076059c2753d96793789d79f4a107d4",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/opportunity.md": {
+    "mtime": 1781199734.5670826,
+    "ast_hash": "b12afeea534cb4f44c3c9c4c2f89c989",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/repo-index.md": {
+    "mtime": 1781199734.567102,
+    "ast_hash": "2d4b1488f9d9442ab54ba3bd9e2a2db9",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/repository.md": {
+    "mtime": 1781199734.5671217,
+    "ast_hash": "f8e724c32cdbf93ba45a232441854308",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/requirement.md": {
+    "mtime": 1781199734.5671403,
+    "ast_hash": "82e1952efe21acf4e87b686a7c4659bd",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/research.md": {
+    "mtime": 1781199734.5671585,
+    "ast_hash": "3706cc315a785a268c130f776fa86c06",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/Templates/tool-doc.md": {
+    "mtime": 1781199734.5671768,
+    "ast_hash": "dae2d07536ad24128f38d84424443206",
     "semantic_hash": ""
   }
 }

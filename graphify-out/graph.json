@@ -4,6 +4,128 @@
   "graph": {},
   "nodes": [
     {
+      "label": "reconcile-hooks.py",
+      "file_type": "code",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "hooks_reconcile_hooks",
+      "community": 24,
+      "norm_label": "reconcile-hooks.py"
+    },
+    {
+      "label": "load_settings()",
+      "file_type": "code",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "hooks_reconcile_hooks_load_settings",
+      "community": 24,
+      "norm_label": "load_settings()"
+    },
+    {
+      "label": "command_of()",
+      "file_type": "code",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "hooks_reconcile_hooks_command_of",
+      "community": 24,
+      "norm_label": "command_of()"
+    },
+    {
+      "label": "is_superseded()",
+      "file_type": "code",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "hooks_reconcile_hooks_is_superseded",
+      "community": 24,
+      "norm_label": "is_superseded()"
+    },
+    {
+      "label": "reconcile()",
+      "file_type": "code",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "hooks_reconcile_hooks_reconcile",
+      "community": 24,
+      "norm_label": "reconcile()"
+    },
+    {
+      "label": "check_scripts()",
+      "file_type": "code",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L134",
+      "_origin": "ast",
+      "id": "hooks_reconcile_hooks_check_scripts",
+      "community": 24,
+      "norm_label": "check_scripts()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L144",
+      "_origin": "ast",
+      "id": "hooks_reconcile_hooks_main",
+      "community": 24,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Return (new_settings, actions). Pure \u2014 does not write.",
+      "file_type": "rationale",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L89",
+      "_origin": "ast",
+      "id": "hooks_reconcile_hooks_rationale_89",
+      "community": 24,
+      "norm_label": "return (new_settings, actions). pure \u2014 does not write."
+    },
+    {
+      "label": "tool-router-nudge.sh",
+      "file_type": "code",
+      "source_file": ".claude/hooks/tool-router-nudge.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "hooks_tool_router_nudge",
+      "community": 34,
+      "norm_label": "tool-router-nudge.sh"
+    },
+    {
+      "label": "tool-router-nudge.sh script",
+      "file_type": "code",
+      "source_file": ".claude/hooks/tool-router-nudge.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "mnt_main_beads_ui_claude_hooks_tool_router_nudge_sh__entry",
+      "community": 34,
+      "norm_label": "tool-router-nudge.sh script"
+    },
+    {
+      "label": ".lower()",
+      "file_type": "code",
+      "source_file": ".claude/hooks/tool-router-nudge.sh",
+      "source_location": "L40",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "hooks_tool_router_nudge_lower",
+      "community": 34,
+      "norm_label": ".lower()"
+    },
+    {
       "label": "settings.json",
       "file_type": "code",
       "source_file": ".claude/settings.json",
@@ -154,14 +276,1724 @@
       "norm_label": "beads (project-specific config)"
     },
     {
-      "label": "graphify",
+      "label": "Code understanding \u2014 tool router",
       "file_type": "document",
       "source_file": "CLAUDE.md",
       "source_location": "L94",
       "_origin": "ast",
-      "id": "claude_graphify",
+      "id": "claude_code_understanding_tool_router",
       "community": 7,
-      "norm_label": "graphify"
+      "norm_label": "code understanding \u2014 tool router"
+    },
+    {
+      "label": "Knowledge vault (`beads-ui-knowledge/`)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "claude_knowledge_vault_beads_ui_knowledge",
+      "community": 7,
+      "norm_label": "knowledge vault (`beads-ui-knowledge/`)"
+    },
+    {
+      "label": "architecture.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_architecture",
+      "community": 18,
+      "norm_label": "architecture.md"
+    },
+    {
+      "label": "<%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "templates_architecture_tp_file_title",
+      "community": 18,
+      "norm_label": "<%tp.file.title%>"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "templates_architecture_overview",
+      "community": 18,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Components",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "templates_architecture_components",
+      "community": 18,
+      "norm_label": "components"
+    },
+    {
+      "label": "Trade-offs",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "templates_architecture_trade_offs",
+      "community": 18,
+      "norm_label": "trade-offs"
+    },
+    {
+      "label": "Chosen Approach",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "templates_architecture_chosen_approach",
+      "community": 18,
+      "norm_label": "chosen approach"
+    },
+    {
+      "label": "Alternatives Rejected",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "templates_architecture_alternatives_rejected",
+      "community": 18,
+      "norm_label": "alternatives rejected"
+    },
+    {
+      "label": "Diagrams",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "templates_architecture_diagrams",
+      "community": 18,
+      "norm_label": "diagrams"
+    },
+    {
+      "label": "Dependencies",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "templates_architecture_dependencies",
+      "community": 18,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "Related",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "templates_architecture_related",
+      "community": 18,
+      "norm_label": "related"
+    },
+    {
+      "label": "candidate.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_candidate",
+      "community": 19,
+      "norm_label": "candidate.md"
+    },
+    {
+      "label": "<%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "templates_candidate_tp_file_title",
+      "community": 19,
+      "norm_label": "<%tp.file.title%>"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "templates_candidate_overview",
+      "community": 19,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Code Location",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "templates_candidate_code_location",
+      "community": 19,
+      "norm_label": "code location"
+    },
+    {
+      "label": "Strengths",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "templates_candidate_strengths",
+      "community": 19,
+      "norm_label": "strengths"
+    },
+    {
+      "label": "Weaknesses",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "templates_candidate_weaknesses",
+      "community": 19,
+      "norm_label": "weaknesses"
+    },
+    {
+      "label": "Implementation Notes",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "templates_candidate_implementation_notes",
+      "community": 19,
+      "norm_label": "implementation notes"
+    },
+    {
+      "label": "Dependencies",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "templates_candidate_dependencies",
+      "community": 19,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "Related Candidates",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "templates_candidate_related_candidates",
+      "community": 19,
+      "norm_label": "related candidates"
+    },
+    {
+      "label": "capability.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_capability",
+      "community": 25,
+      "norm_label": "capability.md"
+    },
+    {
+      "label": "<%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "templates_capability_tp_file_title",
+      "community": 25,
+      "norm_label": "<%tp.file.title%>"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "templates_capability_overview",
+      "community": 25,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "templates_capability_requirements",
+      "community": 25,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Status Summary",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "templates_capability_status_summary",
+      "community": 25,
+      "norm_label": "status summary"
+    },
+    {
+      "label": "Architecture Notes",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "templates_capability_architecture_notes",
+      "community": 25,
+      "norm_label": "architecture notes"
+    },
+    {
+      "label": "Related Capabilities",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "templates_capability_related_capabilities",
+      "community": 25,
+      "norm_label": "related capabilities"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "templates_capability_open_questions",
+      "community": 25,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "chronicle.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_chronicle",
+      "community": 31,
+      "norm_label": "chronicle.md"
+    },
+    {
+      "label": "<%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "templates_chronicle_tp_file_title",
+      "community": 31,
+      "norm_label": "<%tp.file.title%>"
+    },
+    {
+      "label": "Session Summary",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "templates_chronicle_session_summary",
+      "community": 31,
+      "norm_label": "session summary"
+    },
+    {
+      "label": "Key Decisions",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "templates_chronicle_key_decisions",
+      "community": 31,
+      "norm_label": "key decisions"
+    },
+    {
+      "label": "Handoff Notes",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "templates_chronicle_handoff_notes",
+      "community": 31,
+      "norm_label": "handoff notes"
+    },
+    {
+      "label": "Next Steps",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "templates_chronicle_next_steps",
+      "community": 31,
+      "norm_label": "next steps"
+    },
+    {
+      "label": "Dependencies",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "templates_chronicle_dependencies",
+      "community": 31,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "decision.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_decision",
+      "community": 14,
+      "norm_label": "decision.md"
+    },
+    {
+      "label": "ADR-<%tp.system.prompt('ADR Number')%>: <%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
+      "community": 14,
+      "norm_label": "adr-<%tp.system.prompt('adr number')%>: <%tp.file.title%>"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "templates_decision_context",
+      "community": 14,
+      "norm_label": "context"
+    },
+    {
+      "label": "Decision",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "templates_decision_decision",
+      "community": 14,
+      "norm_label": "decision"
+    },
+    {
+      "label": "Rationale",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "templates_decision_rationale",
+      "community": 14,
+      "norm_label": "rationale"
+    },
+    {
+      "label": "Consequences",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "templates_decision_consequences",
+      "community": 14,
+      "norm_label": "consequences"
+    },
+    {
+      "label": "Positive",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "templates_decision_positive",
+      "community": 14,
+      "norm_label": "positive"
+    },
+    {
+      "label": "Negative",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "templates_decision_negative",
+      "community": 14,
+      "norm_label": "negative"
+    },
+    {
+      "label": "Risks",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "templates_decision_risks",
+      "community": 14,
+      "norm_label": "risks"
+    },
+    {
+      "label": "Trade-offs",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "templates_decision_trade_offs",
+      "community": 14,
+      "norm_label": "trade-offs"
+    },
+    {
+      "label": "Alternatives Considered",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "templates_decision_alternatives_considered",
+      "community": 14,
+      "norm_label": "alternatives considered"
+    },
+    {
+      "label": "Implementation Notes",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "templates_decision_implementation_notes",
+      "community": 14,
+      "norm_label": "implementation notes"
+    },
+    {
+      "label": "Related Decisions",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "templates_decision_related_decisions",
+      "community": 14,
+      "norm_label": "related decisions"
+    },
+    {
+      "label": "design.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_design",
+      "community": 26,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "<%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "templates_design_tp_file_title",
+      "community": 26,
+      "norm_label": "<%tp.file.title%>"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "templates_design_context",
+      "community": 26,
+      "norm_label": "context"
+    },
+    {
+      "label": "Design",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "templates_design_design",
+      "community": 26,
+      "norm_label": "design"
+    },
+    {
+      "label": "Implementation Plan",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "templates_design_implementation_plan",
+      "community": 26,
+      "norm_label": "implementation plan"
+    },
+    {
+      "label": "Open Questions",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "templates_design_open_questions",
+      "community": 26,
+      "norm_label": "open questions"
+    },
+    {
+      "label": "Dependencies",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "templates_design_dependencies",
+      "community": 26,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "Related",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "templates_design_related",
+      "community": 26,
+      "norm_label": "related"
+    },
+    {
+      "label": "investigation.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_investigation",
+      "community": 27,
+      "norm_label": "investigation.md"
+    },
+    {
+      "label": "<%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "templates_investigation_tp_file_title",
+      "community": 27,
+      "norm_label": "<%tp.file.title%>"
+    },
+    {
+      "label": "Summary",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "templates_investigation_summary",
+      "community": 27,
+      "norm_label": "summary"
+    },
+    {
+      "label": "Key Findings",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "templates_investigation_key_findings",
+      "community": 27,
+      "norm_label": "key findings"
+    },
+    {
+      "label": "Relevant Code",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "templates_investigation_relevant_code",
+      "community": 27,
+      "norm_label": "relevant code"
+    },
+    {
+      "label": "Recommendations",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "templates_investigation_recommendations",
+      "community": 27,
+      "norm_label": "recommendations"
+    },
+    {
+      "label": "Dependencies",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "templates_investigation_dependencies",
+      "community": 27,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "Related",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "templates_investigation_related",
+      "community": 27,
+      "norm_label": "related"
+    },
+    {
+      "label": "opportunity.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_opportunity",
+      "community": 28,
+      "norm_label": "opportunity.md"
+    },
+    {
+      "label": "<%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "templates_opportunity_tp_file_title",
+      "community": 28,
+      "norm_label": "<%tp.file.title%>"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "templates_opportunity_overview",
+      "community": 28,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Value Proposition",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "templates_opportunity_value_proposition",
+      "community": 28,
+      "norm_label": "value proposition"
+    },
+    {
+      "label": "Code Location",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "templates_opportunity_code_location",
+      "community": 28,
+      "norm_label": "code location"
+    },
+    {
+      "label": "Promotion Rationale",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "templates_opportunity_promotion_rationale",
+      "community": 28,
+      "norm_label": "promotion rationale"
+    },
+    {
+      "label": "Rejection Rationale",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "templates_opportunity_rejection_rationale",
+      "community": 28,
+      "norm_label": "rejection rationale"
+    },
+    {
+      "label": "Promoted To",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "templates_opportunity_promoted_to",
+      "community": 28,
+      "norm_label": "promoted to"
+    },
+    {
+      "label": "repo-index.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repo-index.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_repo_index",
+      "community": 33,
+      "norm_label": "repo-index.md"
+    },
+    {
+      "label": "<%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repo-index.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "templates_repo_index_tp_file_title",
+      "community": 33,
+      "norm_label": "<%tp.file.title%>"
+    },
+    {
+      "label": "File Map",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repo-index.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "templates_repo_index_file_map",
+      "community": 33,
+      "norm_label": "file map"
+    },
+    {
+      "label": "Cross-Repo Research",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repo-index.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "templates_repo_index_cross_repo_research",
+      "community": 33,
+      "norm_label": "cross-repo research"
+    },
+    {
+      "label": "MVP Notes",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repo-index.md",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "templates_repo_index_mvp_notes",
+      "community": 33,
+      "norm_label": "mvp notes"
+    },
+    {
+      "label": "repository.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_repository",
+      "community": 20,
+      "norm_label": "repository.md"
+    },
+    {
+      "label": "<%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "templates_repository_tp_file_title",
+      "community": 20,
+      "norm_label": "<%tp.file.title%>"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "templates_repository_overview",
+      "community": 20,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Key Features",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "templates_repository_key_features",
+      "community": 20,
+      "norm_label": "key features"
+    },
+    {
+      "label": "Candidates Provided",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "templates_repository_candidates_provided",
+      "community": 20,
+      "norm_label": "candidates provided"
+    },
+    {
+      "label": "Opportunities Discovered",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "templates_repository_opportunities_discovered",
+      "community": 20,
+      "norm_label": "opportunities discovered"
+    },
+    {
+      "label": "Tech Stack",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "templates_repository_tech_stack",
+      "community": 20,
+      "norm_label": "tech stack"
+    },
+    {
+      "label": "Integration Notes",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "templates_repository_integration_notes",
+      "community": 20,
+      "norm_label": "integration notes"
+    },
+    {
+      "label": "Investigation Files",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "templates_repository_investigation_files",
+      "community": 20,
+      "norm_label": "investigation files"
+    },
+    {
+      "label": "requirement.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_requirement",
+      "community": 21,
+      "norm_label": "requirement.md"
+    },
+    {
+      "label": "<%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "templates_requirement_tp_file_title",
+      "community": 21,
+      "norm_label": "<%tp.file.title%>"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "templates_requirement_overview",
+      "community": 21,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Acceptance Criteria",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "templates_requirement_acceptance_criteria",
+      "community": 21,
+      "norm_label": "acceptance criteria"
+    },
+    {
+      "label": "Candidates",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "templates_requirement_candidates",
+      "community": 21,
+      "norm_label": "candidates"
+    },
+    {
+      "label": "Comparison",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "templates_requirement_comparison",
+      "community": 21,
+      "norm_label": "comparison"
+    },
+    {
+      "label": "Candidate 1",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "templates_requirement_candidate_1",
+      "community": 21,
+      "norm_label": "candidate 1"
+    },
+    {
+      "label": "Decision",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "templates_requirement_decision",
+      "community": 21,
+      "norm_label": "decision"
+    },
+    {
+      "label": "Neo4j Query",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "templates_requirement_neo4j_query",
+      "community": 21,
+      "norm_label": "neo4j query"
+    },
+    {
+      "label": "research.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_research",
+      "community": 29,
+      "norm_label": "research.md"
+    },
+    {
+      "label": "<%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "templates_research_tp_file_title",
+      "community": 29,
+      "norm_label": "<%tp.file.title%>"
+    },
+    {
+      "label": "Background",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "templates_research_background",
+      "community": 29,
+      "norm_label": "background"
+    },
+    {
+      "label": "Findings",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "templates_research_findings",
+      "community": 29,
+      "norm_label": "findings"
+    },
+    {
+      "label": "Implications",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "templates_research_implications",
+      "community": 29,
+      "norm_label": "implications"
+    },
+    {
+      "label": "References",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "templates_research_references",
+      "community": 29,
+      "norm_label": "references"
+    },
+    {
+      "label": "Dependencies",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "templates_research_dependencies",
+      "community": 29,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "Related",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "templates_research_related",
+      "community": 29,
+      "norm_label": "related"
+    },
+    {
+      "label": "tool-doc.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "templates_tool_doc",
+      "community": 30,
+      "norm_label": "tool-doc.md"
+    },
+    {
+      "label": "<%tp.file.title%>",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "templates_tool_doc_tp_file_title",
+      "community": 30,
+      "norm_label": "<%tp.file.title%>"
+    },
+    {
+      "label": "Overview",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "templates_tool_doc_overview",
+      "community": 30,
+      "norm_label": "overview"
+    },
+    {
+      "label": "Usage",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "templates_tool_doc_usage",
+      "community": 30,
+      "norm_label": "usage"
+    },
+    {
+      "label": "Configuration",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "templates_tool_doc_configuration",
+      "community": 30,
+      "norm_label": "configuration"
+    },
+    {
+      "label": "Troubleshooting",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "templates_tool_doc_troubleshooting",
+      "community": 30,
+      "norm_label": "troubleshooting"
+    },
+    {
+      "label": "Dependencies",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "templates_tool_doc_dependencies",
+      "community": 30,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "Related",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "templates_tool_doc_related",
+      "community": 30,
+      "norm_label": "related"
+    },
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "eslint.config.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "eslint_config",
+      "community": 35,
+      "norm_label": "eslint.config.js"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "package",
+      "community": 5,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "package_name",
+      "community": 5,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "package_version",
+      "community": 5,
+      "norm_label": "version"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "package_description",
+      "community": 5,
+      "norm_label": "description"
+    },
+    {
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "package_keywords",
+      "community": 5,
+      "norm_label": "keywords"
+    },
+    {
+      "label": "homepage",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "package_homepage",
+      "community": 5,
+      "norm_label": "homepage"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "package_author",
+      "community": 5,
+      "norm_label": "author"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "package_type",
+      "community": 5,
+      "norm_label": "type"
+    },
+    {
+      "label": "bin",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "package_bin",
+      "community": 5,
+      "norm_label": "bin"
+    },
+    {
+      "label": "bdui",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "package_bin_bdui",
+      "community": 5,
+      "norm_label": "bdui"
+    },
+    {
+      "label": "engines",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "package_engines",
+      "community": 5,
+      "norm_label": "engines"
+    },
+    {
+      "label": "node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "package_engines_node",
+      "community": 5,
+      "norm_label": "node"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "package_scripts",
+      "community": 5,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "all",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "package_scripts_all",
+      "community": 5,
+      "norm_label": "all"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "package_scripts_start",
+      "community": 5,
+      "norm_label": "start"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "package_scripts_build",
+      "community": 5,
+      "norm_label": "build"
+    },
+    {
+      "label": "watch",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "package_scripts_watch",
+      "community": 5,
+      "norm_label": "watch"
+    },
+    {
+      "label": "hooks:check",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "package_scripts_hooks_check",
+      "community": 5,
+      "norm_label": "hooks:check"
+    },
+    {
+      "label": "hooks:reconcile",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "package_scripts_hooks_reconcile",
+      "community": 5,
+      "norm_label": "hooks:reconcile"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "package_scripts_test",
+      "community": 5,
+      "norm_label": "test"
+    },
+    {
+      "label": "test:watch",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "package_scripts_test_watch",
+      "community": 5,
+      "norm_label": "test:watch"
+    },
+    {
+      "label": "tsc",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "package_scripts_tsc",
+      "community": 5,
+      "norm_label": "tsc"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "package_scripts_lint",
+      "community": 5,
+      "norm_label": "lint"
+    },
+    {
+      "label": "prettier:write",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "package_scripts_prettier_write",
+      "community": 5,
+      "norm_label": "prettier:write"
+    },
+    {
+      "label": "prettier:check",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "package_scripts_prettier_check",
+      "community": 5,
+      "norm_label": "prettier:check"
+    },
+    {
+      "label": "preversion",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "package_scripts_preversion",
+      "community": 5,
+      "norm_label": "preversion"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "package_scripts_version",
+      "community": 5,
+      "norm_label": "version"
+    },
+    {
+      "label": "postversion",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "package_scripts_postversion",
+      "community": 5,
+      "norm_label": "postversion"
+    },
+    {
+      "label": "prepack",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "package_scripts_prepack",
+      "community": 5,
+      "norm_label": "prepack"
+    },
+    {
+      "label": "postpack",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "package_scripts_postpack",
+      "community": 5,
+      "norm_label": "postpack"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "package_dependencies",
+      "community": 5,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "debug",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "package_dependencies_debug",
+      "community": 5,
+      "norm_label": "debug"
+    },
+    {
+      "label": "dompurify",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "_origin": "ast",
+      "id": "package_dependencies_dompurify",
+      "community": 5,
+      "norm_label": "dompurify"
+    },
+    {
+      "label": "express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "package_dependencies_express",
+      "community": 5,
+      "norm_label": "express"
+    },
+    {
+      "label": "lit-html",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "package_dependencies_lit_html",
+      "community": 5,
+      "norm_label": "lit-html"
+    },
+    {
+      "label": "marked",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "package_dependencies_marked",
+      "community": 5,
+      "norm_label": "marked"
+    },
+    {
+      "label": "ws",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "package_dependencies_ws",
+      "community": 5,
+      "norm_label": "ws"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "package_devdependencies",
+      "community": 8,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "package_devdependencies_eslint_js",
+      "community": 8,
+      "norm_label": "@eslint/js"
+    },
+    {
+      "label": "@studio/changes",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "package_devdependencies_studio_changes",
+      "community": 8,
+      "norm_label": "@studio/changes"
+    },
+    {
+      "label": "@trivago/prettier-plugin-sort-imports",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L50",
+      "_origin": "ast",
+      "id": "package_devdependencies_trivago_prettier_plugin_sort_imports",
+      "community": 8,
+      "norm_label": "@trivago/prettier-plugin-sort-imports"
+    },
+    {
+      "label": "@types/debug",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_debug",
+      "community": 8,
+      "norm_label": "@types/debug"
+    },
+    {
+      "label": "@types/express",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_express",
+      "community": 8,
+      "norm_label": "@types/express"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_node",
+      "community": 8,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "@types/ws",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "package_devdependencies_types_ws",
+      "community": 8,
+      "norm_label": "@types/ws"
+    },
+    {
+      "label": "esbuild",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L55",
+      "_origin": "ast",
+      "id": "package_devdependencies_esbuild",
+      "community": 8,
+      "norm_label": "esbuild"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "package_devdependencies_eslint",
+      "community": 8,
+      "norm_label": "eslint"
+    },
+    {
+      "label": "eslint-plugin-import",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "package_devdependencies_eslint_plugin_import",
+      "community": 8,
+      "norm_label": "eslint-plugin-import"
+    },
+    {
+      "label": "eslint-plugin-jsdoc",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "package_devdependencies_eslint_plugin_jsdoc",
+      "community": 8,
+      "norm_label": "eslint-plugin-jsdoc"
+    },
+    {
+      "label": "eslint-plugin-n",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "package_devdependencies_eslint_plugin_n",
+      "community": 8,
+      "norm_label": "eslint-plugin-n"
+    },
+    {
+      "label": "globals",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "package_devdependencies_globals",
+      "community": 8,
+      "norm_label": "globals"
+    },
+    {
+      "label": "jsdom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "package_devdependencies_jsdom",
+      "community": 8,
+      "norm_label": "jsdom"
+    },
+    {
+      "label": "prettier",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "package_devdependencies_prettier",
+      "community": 8,
+      "norm_label": "prettier"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L63",
+      "_origin": "ast",
+      "id": "package_devdependencies_typescript",
+      "community": 8,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "vitest",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "package_devdependencies_vitest",
+      "community": 8,
+      "norm_label": "vitest"
+    },
+    {
+      "label": "files",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "package_files",
+      "community": 5,
+      "norm_label": "files"
+    },
+    {
+      "label": "repository",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "package_repository",
+      "community": 5,
+      "norm_label": "repository"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L80",
+      "_origin": "ast",
+      "id": "package_repository_type",
+      "community": 5,
+      "norm_label": "type"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "package_repository_url",
+      "community": 5,
+      "norm_label": "url"
     },
     {
       "label": "list-selectors.js",
@@ -169,7 +2001,7 @@
       "source_file": "app/data/list-selectors.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 1,
       "norm_label": "list-selectors.js",
       "id": "mnt_main_beads_ui_app_data_list_selectors_js"
     },
@@ -179,7 +2011,7 @@
       "source_file": "app/data/list-selectors.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 2,
+      "community": 1,
       "norm_label": "createlistselectors()",
       "id": "data_list_selectors_createlistselectors"
     },
@@ -259,7 +2091,7 @@
       "source_file": "app/data/sort.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 1,
       "norm_label": "sort.js",
       "id": "mnt_main_beads_ui_app_data_sort_js"
     },
@@ -269,7 +2101,7 @@
       "source_file": "app/data/sort.js",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 2,
+      "community": 1,
       "norm_label": "cmpprioritythencreated()",
       "id": "data_sort_cmpprioritythencreated"
     },
@@ -279,7 +2111,7 @@
       "source_file": "app/data/sort.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 2,
+      "community": 1,
       "norm_label": "cmpcloseddesc()",
       "id": "data_sort_cmpcloseddesc"
     },
@@ -459,7 +2291,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 22,
       "norm_label": "main.deep-link.test.js",
       "id": "mnt_main_beads_ui_app_main_deep_link_test_js"
     },
@@ -469,7 +2301,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 6,
+      "community": 22,
       "norm_label": "calls",
       "id": "app_main_deep_link_test_calls"
     },
@@ -479,7 +2311,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 6,
+      "community": 22,
       "norm_label": "issues",
       "id": "app_main_deep_link_test_issues"
     },
@@ -489,7 +2321,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 6,
+      "community": 22,
       "norm_label": "send()",
       "id": "app_main_deep_link_test_send"
     },
@@ -499,7 +2331,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 6,
+      "community": 22,
       "norm_label": "on()",
       "id": "app_main_deep_link_test_on"
     },
@@ -509,7 +2341,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 6,
+      "community": 22,
       "norm_label": "_trigger()",
       "id": "app_main_deep_link_test_trigger"
     },
@@ -519,7 +2351,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L39",
       "_origin": "ast",
-      "community": 6,
+      "community": 22,
       "norm_label": "close()",
       "id": "app_main_deep_link_test_close"
     },
@@ -529,7 +2361,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L40",
       "_origin": "ast",
-      "community": 6,
+      "community": 22,
       "norm_label": "getstate()",
       "id": "app_main_deep_link_test_getstate"
     },
@@ -589,7 +2421,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "norm_label": "main.filter-switch-reset.test.js",
       "id": "mnt_main_beads_ui_app_main_filter_switch_reset_test_js"
     },
@@ -599,7 +2431,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "norm_label": "togglefilter()",
       "id": "app_main_filter_switch_reset_test_togglefilter"
     },
@@ -609,7 +2441,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "norm_label": "send()",
       "id": "app_main_filter_switch_reset_test_send"
     },
@@ -619,7 +2451,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "norm_label": "on()",
       "id": "app_main_filter_switch_reset_test_on"
     },
@@ -629,7 +2461,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L58",
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "norm_label": "_trigger()",
       "id": "app_main_filter_switch_reset_test_trigger"
     },
@@ -639,7 +2471,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L63",
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "norm_label": "onconnection()",
       "id": "app_main_filter_switch_reset_test_onconnection"
     },
@@ -649,7 +2481,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L66",
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "norm_label": "close()",
       "id": "app_main_filter_switch_reset_test_close"
     },
@@ -659,7 +2491,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "norm_label": "getstate()",
       "id": "app_main_filter_switch_reset_test_getstate"
     },
@@ -849,7 +2681,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 23,
       "norm_label": "main.push-stores.e2e.test.js",
       "id": "mnt_main_beads_ui_app_main_push_stores_e2e_test_js"
     },
@@ -859,7 +2691,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 6,
+      "community": 23,
       "norm_label": "send()",
       "id": "app_main_push_stores_e2e_test_send"
     },
@@ -869,7 +2701,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 6,
+      "community": 23,
       "norm_label": "on()",
       "id": "app_main_push_stores_e2e_test_on"
     },
@@ -879,7 +2711,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L37",
       "_origin": "ast",
-      "community": 6,
+      "community": 23,
       "norm_label": "_trigger()",
       "id": "app_main_push_stores_e2e_test_trigger"
     },
@@ -889,7 +2721,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 6,
+      "community": 23,
       "norm_label": "onconnection()",
       "id": "app_main_push_stores_e2e_test_onconnection"
     },
@@ -899,7 +2731,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 6,
+      "community": 23,
       "norm_label": "_emitconn()",
       "id": "app_main_push_stores_e2e_test_emitconn"
     },
@@ -909,7 +2741,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L60",
       "_origin": "ast",
-      "community": 6,
+      "community": 23,
       "norm_label": "close()",
       "id": "app_main_push_stores_e2e_test_close"
     },
@@ -919,7 +2751,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 6,
+      "community": 23,
       "norm_label": "getstate()",
       "id": "app_main_push_stores_e2e_test_getstate"
     },
@@ -949,7 +2781,7 @@
       "source_file": "app/main.view-sync.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 32,
       "norm_label": "main.view-sync.test.js",
       "id": "mnt_main_beads_ui_app_main_view_sync_test_js"
     },
@@ -959,7 +2791,7 @@
       "source_file": "app/main.view-sync.test.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 1,
+      "community": 32,
       "norm_label": "send()",
       "id": "app_main_view_sync_test_send"
     },
@@ -969,7 +2801,7 @@
       "source_file": "app/main.view-sync.test.js",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 1,
+      "community": 32,
       "norm_label": "on()",
       "id": "app_main_view_sync_test_on"
     },
@@ -979,7 +2811,7 @@
       "source_file": "app/main.view-sync.test.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 1,
+      "community": 32,
       "norm_label": "close()",
       "id": "app_main_view_sync_test_close"
     },
@@ -989,7 +2821,7 @@
       "source_file": "app/main.view-sync.test.js",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 1,
+      "community": 32,
       "norm_label": "getstate()",
       "id": "app_main_view_sync_test_getstate"
     },
@@ -1069,7 +2901,7 @@
       "source_file": "app/protocol.js",
       "source_location": "L74",
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "norm_label": "nextid()",
       "id": "app_protocol_nextid"
     },
@@ -1279,7 +3111,7 @@
       "source_file": "app/utils/issue-id-renderer.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 3,
       "norm_label": "issue-id-renderer.js",
       "id": "mnt_main_beads_ui_app_utils_issue_id_renderer_js"
     },
@@ -1289,7 +3121,7 @@
       "source_file": "app/utils/issue-id-renderer.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 5,
+      "community": 3,
       "norm_label": "createissueidrenderer()",
       "id": "utils_issue_id_renderer_createissueidrenderer"
     },
@@ -1299,7 +3131,7 @@
       "source_file": "app/utils/issue-id-renderer.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 3,
       "norm_label": "issue-id-renderer.test.js",
       "id": "mnt_main_beads_ui_app_utils_issue_id_renderer_test_js"
     },
@@ -1339,7 +3171,7 @@
       "source_file": "app/utils/issue-url.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 8,
+      "community": 1,
       "norm_label": "issue-url.js",
       "id": "mnt_main_beads_ui_app_utils_issue_url_js"
     },
@@ -1349,7 +3181,7 @@
       "source_file": "app/utils/issue-url.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 8,
+      "community": 1,
       "norm_label": "issuehashfor()",
       "id": "utils_issue_url_issuehashfor"
     },
@@ -1379,7 +3211,7 @@
       "source_file": "app/utils/markdown.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 8,
+      "community": 0,
       "norm_label": "markdown.js",
       "id": "mnt_main_beads_ui_app_utils_markdown_js"
     },
@@ -1389,7 +3221,7 @@
       "source_file": "app/utils/markdown.js",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 8,
+      "community": 0,
       "norm_label": "rendermarkdown()",
       "id": "utils_markdown_rendermarkdown"
     },
@@ -1399,7 +3231,7 @@
       "source_file": "app/utils/markdown.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 8,
+      "community": 0,
       "norm_label": "markdown.test.js",
       "id": "mnt_main_beads_ui_app_utils_markdown_test_js"
     },
@@ -1529,7 +3361,7 @@
       "source_file": "app/utils/toast.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 8,
+      "community": 1,
       "norm_label": "toast.js",
       "id": "mnt_main_beads_ui_app_utils_toast_js"
     },
@@ -1539,7 +3371,7 @@
       "source_file": "app/utils/toast.js",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 8,
+      "community": 1,
       "norm_label": "showtoast()",
       "id": "utils_toast_showtoast"
     },
@@ -1599,7 +3431,7 @@
       "source_file": "app/views/board.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 1,
       "norm_label": "board.js",
       "id": "mnt_main_beads_ui_app_views_board_js"
     },
@@ -1609,7 +3441,7 @@
       "source_file": "app/views/board.js",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 2,
+      "community": 1,
       "norm_label": "column_status_map",
       "id": "views_board_column_status_map"
     },
@@ -1619,7 +3451,7 @@
       "source_file": "app/views/board.js",
       "source_location": "L52",
       "_origin": "ast",
-      "community": 2,
+      "community": 1,
       "norm_label": "createboardview()",
       "id": "views_board_createboardview"
     },
@@ -1719,7 +3551,7 @@
       "source_file": "app/views/detail.acceptance-notes.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 24,
+      "community": 0,
       "norm_label": "detail.acceptance-notes.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_acceptance_notes_test_js"
     },
@@ -1729,7 +3561,7 @@
       "source_file": "app/views/detail.acceptance-notes.test.js",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 24,
+      "community": 0,
       "norm_label": "snapshotfor()",
       "id": "views_detail_acceptance_notes_test_snapshotfor"
     },
@@ -1739,7 +3571,7 @@
       "source_file": "app/views/detail.acceptance-notes.test.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 24,
+      "community": 0,
       "norm_label": "subscribe()",
       "id": "views_detail_acceptance_notes_test_subscribe"
     },
@@ -1749,7 +3581,7 @@
       "source_file": "app/views/detail.acceptance-placeholder.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 25,
+      "community": 0,
       "norm_label": "detail.acceptance-placeholder.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_acceptance_placeholder_test_js"
     },
@@ -1759,7 +3591,7 @@
       "source_file": "app/views/detail.acceptance-placeholder.test.js",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 25,
+      "community": 0,
       "norm_label": "snapshotfor()",
       "id": "views_detail_acceptance_placeholder_test_snapshotfor"
     },
@@ -1769,7 +3601,7 @@
       "source_file": "app/views/detail.acceptance-placeholder.test.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 25,
+      "community": 0,
       "norm_label": "subscribe()",
       "id": "views_detail_acceptance_placeholder_test_subscribe"
     },
@@ -1779,7 +3611,7 @@
       "source_file": "app/views/detail.assignee.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 14,
+      "community": 0,
       "norm_label": "detail.assignee.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_assignee_test_js"
     },
@@ -1789,7 +3621,7 @@
       "source_file": "app/views/detail.assignee.test.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 14,
+      "community": 0,
       "norm_label": "mocksend()",
       "id": "views_detail_assignee_test_mocksend"
     },
@@ -1799,7 +3631,7 @@
       "source_file": "app/views/detail.assignee.test.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 14,
+      "community": 0,
       "norm_label": "snapshotfor()",
       "id": "views_detail_assignee_test_snapshotfor"
     },
@@ -1809,7 +3641,7 @@
       "source_file": "app/views/detail.assignee.test.js",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 14,
+      "community": 0,
       "norm_label": "subscribe()",
       "id": "views_detail_assignee_test_subscribe"
     },
@@ -1819,7 +3651,7 @@
       "source_file": "app/views/detail.deps.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 18,
+      "community": 0,
       "norm_label": "detail.deps.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_deps_test_js"
     },
@@ -1829,7 +3661,7 @@
       "source_file": "app/views/detail.deps.test.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 18,
+      "community": 0,
       "norm_label": "setupdom()",
       "id": "views_detail_deps_test_setupdom"
     },
@@ -1839,7 +3671,7 @@
       "source_file": "app/views/detail.deps.test.js",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 18,
+      "community": 0,
       "norm_label": "snapshotfor()",
       "id": "views_detail_deps_test_snapshotfor"
     },
@@ -1849,7 +3681,7 @@
       "source_file": "app/views/detail.deps.test.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 18,
+      "community": 0,
       "norm_label": "subscribe()",
       "id": "views_detail_deps_test_subscribe"
     },
@@ -1859,7 +3691,7 @@
       "source_file": "app/views/detail.design.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 19,
+      "community": 0,
       "norm_label": "detail.design.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_design_test_js"
     },
@@ -1869,7 +3701,7 @@
       "source_file": "app/views/detail.design.test.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 19,
+      "community": 0,
       "norm_label": "mountdiv()",
       "id": "views_detail_design_test_mountdiv"
     },
@@ -1879,7 +3711,7 @@
       "source_file": "app/views/detail.design.test.js",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 19,
+      "community": 0,
       "norm_label": "snapshotfor()",
       "id": "views_detail_design_test_snapshotfor"
     },
@@ -1889,7 +3721,7 @@
       "source_file": "app/views/detail.design.test.js",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 19,
+      "community": 0,
       "norm_label": "subscribe()",
       "id": "views_detail_design_test_subscribe"
     },
@@ -1899,7 +3731,7 @@
       "source_file": "app/views/detail.edits.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 20,
+      "community": 0,
       "norm_label": "detail.edits.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_edits_test_js"
     },
@@ -1909,7 +3741,7 @@
       "source_file": "app/views/detail.edits.test.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 20,
+      "community": 0,
       "norm_label": "mocksend()",
       "id": "views_detail_edits_test_mocksend"
     },
@@ -1919,7 +3751,7 @@
       "source_file": "app/views/detail.edits.test.js",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 20,
+      "community": 0,
       "norm_label": "snapshotfor()",
       "id": "views_detail_edits_test_snapshotfor"
     },
@@ -1929,7 +3761,7 @@
       "source_file": "app/views/detail.edits.test.js",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 20,
+      "community": 0,
       "norm_label": "subscribe()",
       "id": "views_detail_edits_test_subscribe"
     },
@@ -1939,7 +3771,7 @@
       "source_file": "app/views/detail.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 8,
+      "community": 0,
       "norm_label": "detail.js",
       "id": "mnt_main_beads_ui_app_views_detail_js"
     },
@@ -1949,7 +3781,7 @@
       "source_file": "app/views/detail.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 8,
+      "community": 0,
       "norm_label": "formatcommentdate()",
       "id": "views_detail_formatcommentdate"
     },
@@ -1959,7 +3791,7 @@
       "source_file": "app/views/detail.js",
       "source_location": "L73",
       "_origin": "ast",
-      "community": 8,
+      "community": 0,
       "norm_label": "defaultnavigatefn()",
       "id": "views_detail_defaultnavigatefn"
     },
@@ -1979,7 +3811,7 @@
       "source_file": "app/views/detail.labels.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 21,
+      "community": 0,
       "norm_label": "detail.labels.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_labels_test_js"
     },
@@ -1989,7 +3821,7 @@
       "source_file": "app/views/detail.labels.test.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 21,
+      "community": 0,
       "norm_label": "mountdiv()",
       "id": "views_detail_labels_test_mountdiv"
     },
@@ -1999,7 +3831,7 @@
       "source_file": "app/views/detail.labels.test.js",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 21,
+      "community": 0,
       "norm_label": "snapshotfor()",
       "id": "views_detail_labels_test_snapshotfor"
     },
@@ -2009,7 +3841,7 @@
       "source_file": "app/views/detail.labels.test.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 21,
+      "community": 0,
       "norm_label": "subscribe()",
       "id": "views_detail_labels_test_subscribe"
     },
@@ -2049,7 +3881,7 @@
       "source_file": "app/views/detail.priority.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 22,
+      "community": 0,
       "norm_label": "detail.priority.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_priority_test_js"
     },
@@ -2059,7 +3891,7 @@
       "source_file": "app/views/detail.priority.test.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 22,
+      "community": 0,
       "norm_label": "mocksend()",
       "id": "views_detail_priority_test_mocksend"
     },
@@ -2069,7 +3901,7 @@
       "source_file": "app/views/detail.priority.test.js",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 22,
+      "community": 0,
       "norm_label": "snapshotfor()",
       "id": "views_detail_priority_test_snapshotfor"
     },
@@ -2079,7 +3911,7 @@
       "source_file": "app/views/detail.priority.test.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 22,
+      "community": 0,
       "norm_label": "subscribe()",
       "id": "views_detail_priority_test_subscribe"
     },
@@ -2119,7 +3951,7 @@
       "source_file": "app/views/detail.toast.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 23,
+      "community": 0,
       "norm_label": "detail.toast.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_toast_test_js"
     },
@@ -2129,7 +3961,7 @@
       "source_file": "app/views/detail.toast.test.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 23,
+      "community": 0,
       "norm_label": "mocksend()",
       "id": "views_detail_toast_test_mocksend"
     },
@@ -2139,7 +3971,7 @@
       "source_file": "app/views/detail.toast.test.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 23,
+      "community": 0,
       "norm_label": "snapshotfor()",
       "id": "views_detail_toast_test_snapshotfor"
     },
@@ -2149,7 +3981,7 @@
       "source_file": "app/views/detail.toast.test.js",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 23,
+      "community": 0,
       "norm_label": "subscribe()",
       "id": "views_detail_toast_test_subscribe"
     },
@@ -2159,7 +3991,7 @@
       "source_file": "app/views/detail.ui47.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 26,
+      "community": 0,
       "norm_label": "detail.ui47.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_ui47_test_js"
     },
@@ -2169,7 +4001,7 @@
       "source_file": "app/views/detail.ui47.test.js",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 26,
+      "community": 0,
       "norm_label": "snapshotfor()",
       "id": "views_detail_ui47_test_snapshotfor"
     },
@@ -2179,7 +4011,7 @@
       "source_file": "app/views/detail.ui47.test.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 26,
+      "community": 0,
       "norm_label": "subscribe()",
       "id": "views_detail_ui47_test_subscribe"
     },
@@ -2189,7 +4021,7 @@
       "source_file": "app/views/epics.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 1,
       "norm_label": "epics.js",
       "id": "mnt_main_beads_ui_app_views_epics_js"
     },
@@ -2199,7 +4031,7 @@
       "source_file": "app/views/epics.js",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 5,
+      "community": 1,
       "norm_label": "createepicsview()",
       "id": "views_epics_createepicsview"
     },
@@ -2209,7 +4041,7 @@
       "source_file": "app/views/epics.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "norm_label": "epics.test.js",
       "id": "mnt_main_beads_ui_app_views_epics_test_js"
     },
@@ -2219,7 +4051,7 @@
       "source_file": "app/views/epics.test.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "norm_label": "snapshotfor()",
       "id": "views_epics_test_snapshotfor"
     },
@@ -2229,7 +4061,7 @@
       "source_file": "app/views/epics.test.js",
       "source_location": "L42",
       "_origin": "ast",
-      "community": 5,
+      "community": 2,
       "norm_label": "subscribe()",
       "id": "views_epics_test_subscribe"
     },
@@ -2259,7 +4091,7 @@
       "source_file": "app/views/issue-dialog.focus.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 3,
       "norm_label": "issue-dialog.focus.test.js",
       "id": "mnt_main_beads_ui_app_views_issue_dialog_focus_test_js"
     },
@@ -2269,7 +4101,7 @@
       "source_file": "app/views/issue-dialog.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 5,
+      "community": 3,
       "norm_label": "issue-dialog.js",
       "id": "mnt_main_beads_ui_app_views_issue_dialog_js"
     },
@@ -2279,7 +4111,7 @@
       "source_file": "app/views/issue-dialog.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 5,
+      "community": 3,
       "norm_label": "createissuedialog()",
       "id": "views_issue_dialog_createissuedialog"
     },
@@ -2299,7 +4131,7 @@
       "source_file": "app/views/issue-row.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 5,
+      "community": 1,
       "norm_label": "createissuerowrenderer()",
       "id": "views_issue_row_createissuerowrenderer"
     },
@@ -2359,7 +4191,7 @@
       "source_file": "app/views/list.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 1,
       "norm_label": "list.js",
       "id": "mnt_main_beads_ui_app_views_list_js"
     },
@@ -2519,7 +4351,7 @@
       "source_file": "app/views/new-issue-dialog.js",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 3,
+      "community": 1,
       "norm_label": "createnewissuedialog()",
       "id": "views_new_issue_dialog_createnewissuedialog"
     },
@@ -2559,7 +4391,7 @@
       "source_file": "app/ws.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 4,
       "norm_label": "ws.js",
       "id": "mnt_main_beads_ui_app_ws_js"
     },
@@ -2569,7 +4401,7 @@
       "source_file": "app/ws.js",
       "source_location": "L33",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "createwsclient()",
       "id": "app_ws_createwsclient"
     },
@@ -2579,7 +4411,7 @@
       "source_file": "app/ws.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "ws.test.js",
       "id": "mnt_main_beads_ui_app_ws_test_js"
     },
@@ -2589,7 +4421,7 @@
       "source_file": "app/ws.test.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "setupfakewebsocket()",
       "id": "app_ws_test_setupfakewebsocket"
     },
@@ -2618,12 +4450,168 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks",
+      "target": "hooks_reconcile_hooks_check_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks",
+      "target": "hooks_reconcile_hooks_command_of",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks",
+      "target": "hooks_reconcile_hooks_is_superseded",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks",
+      "target": "hooks_reconcile_hooks_load_settings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks",
+      "target": "hooks_reconcile_hooks_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks",
+      "target": "hooks_reconcile_hooks_reconcile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks_main",
+      "target": "hooks_reconcile_hooks_load_settings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks_is_superseded",
+      "target": "hooks_reconcile_hooks_command_of",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks_reconcile",
+      "target": "hooks_reconcile_hooks_command_of",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks_reconcile",
+      "target": "hooks_reconcile_hooks_is_superseded",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L147",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks_main",
+      "target": "hooks_reconcile_hooks_reconcile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks_rationale_89",
+      "target": "hooks_reconcile_hooks_reconcile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/reconcile-hooks.py",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "hooks_reconcile_hooks_main",
+      "target": "hooks_reconcile_hooks_check_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/tool-router-nudge.sh",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "hooks_tool_router_nudge",
+      "target": "hooks_tool_router_nudge_lower",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".claude/hooks/tool-router-nudge.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "hooks_tool_router_nudge",
+      "target": "mnt_main_beads_ui_claude_hooks_tool_router_nudge_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".claude/settings.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_settings",
-      "target": "claude_settings_hooks",
-      "confidence_score": 1.0
+      "target": "claude_settings_hooks"
     },
     {
       "relation": "contains",
@@ -2631,9 +4619,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_settings_hooks",
-      "target": "claude_settings_hooks_precompact",
-      "confidence_score": 1.0
+      "target": "claude_settings_hooks_precompact"
     },
     {
       "relation": "contains",
@@ -2641,9 +4629,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_settings_hooks",
-      "target": "claude_settings_hooks_pretooluse",
-      "confidence_score": 1.0
+      "target": "claude_settings_hooks_pretooluse"
     },
     {
       "relation": "contains",
@@ -2651,9 +4639,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_settings_hooks",
-      "target": "claude_settings_hooks_sessionstart",
-      "confidence_score": 1.0
+      "target": "claude_settings_hooks_sessionstart"
     },
     {
       "relation": "contains",
@@ -2661,9 +4649,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude",
-      "target": "claude_project_instructions_for_ai_agents",
-      "confidence_score": 1.0
+      "target": "claude_project_instructions_for_ai_agents"
     },
     {
       "relation": "contains",
@@ -2671,9 +4659,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_architecture_overview",
-      "confidence_score": 1.0
+      "target": "claude_architecture_overview"
     },
     {
       "relation": "contains",
@@ -2681,9 +4669,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_beads_issue_tracker",
-      "confidence_score": 1.0
+      "target": "claude_beads_issue_tracker"
     },
     {
       "relation": "contains",
@@ -2691,9 +4679,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L87",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_beads_project_specific_config",
-      "confidence_score": 1.0
+      "target": "claude_beads_project_specific_config"
     },
     {
       "relation": "contains",
@@ -2701,19 +4689,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_build_test",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L78",
-      "weight": 1.0,
-      "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_conventions_patterns",
-      "confidence_score": 1.0
+      "target": "claude_build_test"
     },
     {
       "relation": "contains",
@@ -2722,7 +4700,27 @@
       "source_location": "L94",
       "weight": 1.0,
       "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_graphify",
+      "target": "claude_code_understanding_tool_router",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_project_instructions_for_ai_agents",
+      "target": "claude_conventions_patterns"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "claude_project_instructions_for_ai_agents",
+      "target": "claude_knowledge_vault_beads_ui_knowledge",
       "confidence_score": 1.0
     },
     {
@@ -2731,9 +4729,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_session_completion",
-      "confidence_score": 1.0
+      "target": "claude_session_completion"
     },
     {
       "relation": "contains",
@@ -2741,9 +4739,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_beads_issue_tracker",
-      "target": "claude_quick_reference",
-      "confidence_score": 1.0
+      "target": "claude_quick_reference"
     },
     {
       "relation": "contains",
@@ -2751,8 +4749,1558 @@
       "source_file": "CLAUDE.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_beads_issue_tracker",
-      "target": "claude_rules",
+      "target": "claude_rules"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "templates_architecture",
+      "target": "templates_architecture_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "templates_architecture_tp_file_title",
+      "target": "templates_architecture_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "templates_architecture_tp_file_title",
+      "target": "templates_architecture_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "templates_architecture_tp_file_title",
+      "target": "templates_architecture_diagrams",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "templates_architecture_tp_file_title",
+      "target": "templates_architecture_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "templates_architecture_tp_file_title",
+      "target": "templates_architecture_related",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "templates_architecture_tp_file_title",
+      "target": "templates_architecture_trade_offs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "templates_architecture_trade_offs",
+      "target": "templates_architecture_alternatives_rejected",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/architecture.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "templates_architecture_trade_offs",
+      "target": "templates_architecture_chosen_approach",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "templates_candidate",
+      "target": "templates_candidate_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "templates_candidate_tp_file_title",
+      "target": "templates_candidate_code_location",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "templates_candidate_tp_file_title",
+      "target": "templates_candidate_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "templates_candidate_tp_file_title",
+      "target": "templates_candidate_implementation_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "templates_candidate_tp_file_title",
+      "target": "templates_candidate_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "templates_candidate_tp_file_title",
+      "target": "templates_candidate_related_candidates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "templates_candidate_tp_file_title",
+      "target": "templates_candidate_strengths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/candidate.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "templates_candidate_tp_file_title",
+      "target": "templates_candidate_weaknesses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "templates_capability",
+      "target": "templates_capability_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "templates_capability_tp_file_title",
+      "target": "templates_capability_architecture_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "templates_capability_tp_file_title",
+      "target": "templates_capability_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "templates_capability_tp_file_title",
+      "target": "templates_capability_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "templates_capability_tp_file_title",
+      "target": "templates_capability_related_capabilities",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "templates_capability_tp_file_title",
+      "target": "templates_capability_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/capability.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "templates_capability_tp_file_title",
+      "target": "templates_capability_status_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "templates_chronicle",
+      "target": "templates_chronicle_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "templates_chronicle_tp_file_title",
+      "target": "templates_chronicle_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "templates_chronicle_tp_file_title",
+      "target": "templates_chronicle_handoff_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "templates_chronicle_tp_file_title",
+      "target": "templates_chronicle_key_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "templates_chronicle_tp_file_title",
+      "target": "templates_chronicle_next_steps",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/chronicle.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "templates_chronicle_tp_file_title",
+      "target": "templates_chronicle_session_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "templates_decision",
+      "target": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
+      "target": "templates_decision_alternatives_considered",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
+      "target": "templates_decision_consequences",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
+      "target": "templates_decision_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
+      "target": "templates_decision_decision",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
+      "target": "templates_decision_implementation_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
+      "target": "templates_decision_rationale",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
+      "target": "templates_decision_related_decisions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
+      "target": "templates_decision_trade_offs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "templates_decision_consequences",
+      "target": "templates_decision_negative",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "templates_decision_consequences",
+      "target": "templates_decision_positive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/decision.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "templates_decision_consequences",
+      "target": "templates_decision_risks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "templates_design",
+      "target": "templates_design_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "templates_design_tp_file_title",
+      "target": "templates_design_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "templates_design_tp_file_title",
+      "target": "templates_design_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "templates_design_tp_file_title",
+      "target": "templates_design_design",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "templates_design_tp_file_title",
+      "target": "templates_design_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "templates_design_tp_file_title",
+      "target": "templates_design_open_questions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/design.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "templates_design_tp_file_title",
+      "target": "templates_design_related",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "templates_investigation",
+      "target": "templates_investigation_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "templates_investigation_tp_file_title",
+      "target": "templates_investigation_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "templates_investigation_tp_file_title",
+      "target": "templates_investigation_key_findings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "templates_investigation_tp_file_title",
+      "target": "templates_investigation_recommendations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "templates_investigation_tp_file_title",
+      "target": "templates_investigation_related",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "templates_investigation_tp_file_title",
+      "target": "templates_investigation_relevant_code",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/investigation.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "templates_investigation_tp_file_title",
+      "target": "templates_investigation_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "templates_opportunity",
+      "target": "templates_opportunity_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "templates_opportunity_tp_file_title",
+      "target": "templates_opportunity_code_location",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "templates_opportunity_tp_file_title",
+      "target": "templates_opportunity_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "templates_opportunity_tp_file_title",
+      "target": "templates_opportunity_promoted_to",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "templates_opportunity_tp_file_title",
+      "target": "templates_opportunity_promotion_rationale",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "templates_opportunity_tp_file_title",
+      "target": "templates_opportunity_rejection_rationale",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/opportunity.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "templates_opportunity_tp_file_title",
+      "target": "templates_opportunity_value_proposition",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/repo-index.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "templates_repo_index",
+      "target": "templates_repo_index_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/repo-index.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "templates_repo_index_tp_file_title",
+      "target": "templates_repo_index_cross_repo_research",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/repo-index.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "templates_repo_index_tp_file_title",
+      "target": "templates_repo_index_file_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/repo-index.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "templates_repo_index_tp_file_title",
+      "target": "templates_repo_index_mvp_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "templates_repository",
+      "target": "templates_repository_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "templates_repository_tp_file_title",
+      "target": "templates_repository_candidates_provided",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "templates_repository_tp_file_title",
+      "target": "templates_repository_integration_notes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "templates_repository_tp_file_title",
+      "target": "templates_repository_investigation_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "templates_repository_tp_file_title",
+      "target": "templates_repository_key_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "templates_repository_tp_file_title",
+      "target": "templates_repository_opportunities_discovered",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "templates_repository_tp_file_title",
+      "target": "templates_repository_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/repository.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "templates_repository_tp_file_title",
+      "target": "templates_repository_tech_stack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "templates_requirement",
+      "target": "templates_requirement_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "templates_requirement_tp_file_title",
+      "target": "templates_requirement_acceptance_criteria",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "templates_requirement_tp_file_title",
+      "target": "templates_requirement_candidates",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "templates_requirement_tp_file_title",
+      "target": "templates_requirement_comparison",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "templates_requirement_tp_file_title",
+      "target": "templates_requirement_decision",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "templates_requirement_tp_file_title",
+      "target": "templates_requirement_neo4j_query",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "templates_requirement_tp_file_title",
+      "target": "templates_requirement_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/requirement.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "templates_requirement_comparison",
+      "target": "templates_requirement_candidate_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "templates_research",
+      "target": "templates_research_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "templates_research_tp_file_title",
+      "target": "templates_research_background",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "templates_research_tp_file_title",
+      "target": "templates_research_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "templates_research_tp_file_title",
+      "target": "templates_research_findings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "templates_research_tp_file_title",
+      "target": "templates_research_implications",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "templates_research_tp_file_title",
+      "target": "templates_research_references",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/research.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "templates_research_tp_file_title",
+      "target": "templates_research_related",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "templates_tool_doc",
+      "target": "templates_tool_doc_tp_file_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "templates_tool_doc_tp_file_title",
+      "target": "templates_tool_doc_configuration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "templates_tool_doc_tp_file_title",
+      "target": "templates_tool_doc_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "templates_tool_doc_tp_file_title",
+      "target": "templates_tool_doc_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "templates_tool_doc_tp_file_title",
+      "target": "templates_tool_doc_related",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "templates_tool_doc_tp_file_title",
+      "target": "templates_tool_doc_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "templates_tool_doc_tp_file_title",
+      "target": "templates_tool_doc_usage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_author",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_bin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_engines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_files",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_homepage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_keywords",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_repository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package_bin",
+      "target": "package_bin_bdui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "package_engines",
+      "target": "package_engines_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_all",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_hooks_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_hooks_reconcile",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_lint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_postpack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_postversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_prepack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_prettier_check",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_prettier_write",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_preversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test_watch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_tsc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_watch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_debug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_dompurify",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_lit_html",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_marked",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_ws",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_esbuild",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_plugin_import",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_plugin_jsdoc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_eslint_plugin_n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_globals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_jsdom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_prettier",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_studio_changes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_trivago_prettier_plugin_sort_imports",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_debug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_express",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_types_ws",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_vitest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "package_repository",
+      "target": "package_repository_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "package_repository",
+      "target": "package_repository_url",
       "confidence_score": 1.0
     },
     {
@@ -8092,5 +11640,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "fe89c2aa2d7b99b5f4b64accae6ed3d620f4520e"
+  "built_at_commit": "a45555c52f4cd4ad4a6b085e30b3cf7685d30652"
 }
