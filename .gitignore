@@ -3,6 +3,11 @@ tsconfig.tsbuildinfo
 app/main.bundle.js
 app/main.bundle.js.map
 .DS_Store
+
+# Vite (React strangler frontend) build output + caches
+/dist
+.vite/
+node_modules/.tmp/
 .beads/issues.jsonl
 
 # Dolt database files (added by bd init)
