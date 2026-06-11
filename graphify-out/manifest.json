@@ -1,12 +1,12 @@
 {
   ".beads/backup/backup_state.json": {
-    "mtime": 1781215098.4224508,
-    "ast_hash": "1abb0a8375d1196c26dcb50d618b37f3",
+    "mtime": 1781216286.9860253,
+    "ast_hash": "a005603aae5755d6de2318a823be7768",
     "semantic_hash": ""
   },
   ".beads/export-state.json": {
-    "mtime": 1781215175.9142883,
-    "ast_hash": "447cbf25ff4dbe01ac43856f8cc26fd3",
+    "mtime": 1781216287.011026,
+    "ast_hash": "0fe4a4904108fcb3eed9d1f277782cc4",
     "semantic_hash": ""
   },
   ".beads/hooks/post-checkout": {
@@ -680,8 +680,8 @@
     "semantic_hash": ""
   },
   "package.json": {
-    "mtime": 1781200956.2079065,
-    "ast_hash": "aec6a2bf1465294e6827ee85aa72a3a1",
+    "mtime": 1781215911.7885094,
+    "ast_hash": "3094121e23bbcbde71fda2510ebb5f09",
     "semantic_hash": ""
   },
   "prettier.config.js": {
@@ -5517,6 +5517,31 @@
   "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md": {
     "mtime": 1781215088.4773433,
     "ast_hash": "e6d5bda71c3377b416fe0c60abc463cd",
+    "semantic_hash": ""
+  },
+  "src/App.tsx": {
+    "mtime": 1781215877.58186,
+    "ast_hash": "4e6797a96fb0141160a35d87080569d2",
+    "semantic_hash": ""
+  },
+  "src/main.tsx": {
+    "mtime": 1781215949.4272108,
+    "ast_hash": "237a20cde7b0fb5f1f2244a6a7788ba5",
+    "semantic_hash": ""
+  },
+  "tsconfig.app.json": {
+    "mtime": 1781215894.88419,
+    "ast_hash": "a6867dbe35dc1e9620d8cff4e8c4ae58",
+    "semantic_hash": ""
+  },
+  "vite.config.ts": {
+    "mtime": 1781215868.4906855,
+    "ast_hash": "a3b286be21e0214c82fb914752fa1c07",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1781215873.1757755,
+    "ast_hash": "5c40169a0506cb13b690ff32aba34747",
     "semantic_hash": ""
   }
 }
