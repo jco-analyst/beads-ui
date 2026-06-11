@@ -1,12 +1,12 @@
 {
   ".beads/backup/backup_state.json": {
-    "mtime": 1781200992.6575825,
-    "ast_hash": "dfa9641c541c47c2ee69aa2bdc56efd0",
+    "mtime": 1781215098.4224508,
+    "ast_hash": "1abb0a8375d1196c26dcb50d618b37f3",
     "semantic_hash": ""
   },
   ".beads/export-state.json": {
-    "mtime": 1781200992.6765828,
-    "ast_hash": "f2da59157d67de349a37187509d4c95e",
+    "mtime": 1781215175.9142883,
+    "ast_hash": "447cbf25ff4dbe01ac43856f8cc26fd3",
     "semantic_hash": ""
   },
   ".beads/hooks/post-checkout": {
@@ -5512,6 +5512,11 @@
   "beads-ui-knowledge/Templates/tool-doc.md": {
     "mtime": 1781199734.5671768,
     "ast_hash": "dae2d07536ad24128f38d84424443206",
+    "semantic_hash": ""
+  },
+  "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md": {
+    "mtime": 1781215088.4773433,
+    "ast_hash": "e6d5bda71c3377b416fe0c60abc463cd",
     "semantic_hash": ""
   }
 }

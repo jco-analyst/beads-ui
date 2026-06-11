@@ -4,14 +4,124 @@
   "graph": {},
   "nodes": [
     {
+      "label": "ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn",
+      "community": 13,
+      "norm_label": "adr-0001-migrate-frontend-to-react-shadcn.md"
+    },
+    {
+      "label": "ADR-0001: Migrate beads-ui frontend to React 19 + Vite + Tailwind v4 + shadcn (Base UI)",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_adr_0001_migrate_beads_ui_frontend_to_react_19_vite_tailwind_v4_shadcn_base_ui",
+      "community": 13,
+      "norm_label": "adr-0001: migrate beads-ui frontend to react 19 + vite + tailwind v4 + shadcn (base ui)"
+    },
+    {
+      "label": "Context",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_context",
+      "community": 13,
+      "norm_label": "context"
+    },
+    {
+      "label": "Decision",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_decision",
+      "community": 13,
+      "norm_label": "decision"
+    },
+    {
+      "label": "Target stack (verified from Work-wellness)",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_target_stack_verified_from_work_wellness",
+      "community": 13,
+      "norm_label": "target stack (verified from work-wellness)"
+    },
+    {
+      "label": "Rationale",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_rationale",
+      "community": 13,
+      "norm_label": "rationale"
+    },
+    {
+      "label": "Consequences",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_consequences",
+      "community": 13,
+      "norm_label": "consequences"
+    },
+    {
+      "label": "Positive",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L81",
+      "_origin": "ast",
+      "id": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_positive",
+      "community": 13,
+      "norm_label": "positive"
+    },
+    {
+      "label": "Negative / risks",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_negative_risks",
+      "community": 13,
+      "norm_label": "negative / risks"
+    },
+    {
+      "label": "Evidence (verified, not assumed)",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L92",
+      "_origin": "ast",
+      "id": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_evidence_verified_not_assumed",
+      "community": 13,
+      "norm_label": "evidence (verified, not assumed)"
+    },
+    {
+      "label": "Related",
+      "file_type": "document",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_related",
+      "community": 13,
+      "norm_label": "related"
+    },
+    {
       "label": "reconcile-hooks.py",
       "file_type": "code",
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "hooks_reconcile_hooks",
       "community": 24,
-      "norm_label": "reconcile-hooks.py"
+      "norm_label": "reconcile-hooks.py",
+      "id": "hooks_reconcile_hooks"
     },
     {
       "label": "load_settings()",
@@ -19,9 +129,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L69",
       "_origin": "ast",
-      "id": "hooks_reconcile_hooks_load_settings",
       "community": 24,
-      "norm_label": "load_settings()"
+      "norm_label": "load_settings()",
+      "id": "hooks_reconcile_hooks_load_settings"
     },
     {
       "label": "command_of()",
@@ -29,9 +139,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L79",
       "_origin": "ast",
-      "id": "hooks_reconcile_hooks_command_of",
       "community": 24,
-      "norm_label": "command_of()"
+      "norm_label": "command_of()",
+      "id": "hooks_reconcile_hooks_command_of"
     },
     {
       "label": "is_superseded()",
@@ -39,9 +149,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L83",
       "_origin": "ast",
-      "id": "hooks_reconcile_hooks_is_superseded",
       "community": 24,
-      "norm_label": "is_superseded()"
+      "norm_label": "is_superseded()",
+      "id": "hooks_reconcile_hooks_is_superseded"
     },
     {
       "label": "reconcile()",
@@ -49,9 +159,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L88",
       "_origin": "ast",
-      "id": "hooks_reconcile_hooks_reconcile",
       "community": 24,
-      "norm_label": "reconcile()"
+      "norm_label": "reconcile()",
+      "id": "hooks_reconcile_hooks_reconcile"
     },
     {
       "label": "check_scripts()",
@@ -59,9 +169,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L134",
       "_origin": "ast",
-      "id": "hooks_reconcile_hooks_check_scripts",
       "community": 24,
-      "norm_label": "check_scripts()"
+      "norm_label": "check_scripts()",
+      "id": "hooks_reconcile_hooks_check_scripts"
     },
     {
       "label": "main()",
@@ -69,9 +179,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L144",
       "_origin": "ast",
-      "id": "hooks_reconcile_hooks_main",
       "community": 24,
-      "norm_label": "main()"
+      "norm_label": "main()",
+      "id": "hooks_reconcile_hooks_main"
     },
     {
       "label": "Return (new_settings, actions). Pure \u2014 does not write.",
@@ -79,9 +189,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L89",
       "_origin": "ast",
-      "id": "hooks_reconcile_hooks_rationale_89",
       "community": 24,
-      "norm_label": "return (new_settings, actions). pure \u2014 does not write."
+      "norm_label": "return (new_settings, actions). pure \u2014 does not write.",
+      "id": "hooks_reconcile_hooks_rationale_89"
     },
     {
       "label": "tool-router-nudge.sh",
@@ -93,9 +203,9 @@
         "kind": "file"
       },
       "_origin": "ast",
-      "id": "hooks_tool_router_nudge",
       "community": 34,
-      "norm_label": "tool-router-nudge.sh"
+      "norm_label": "tool-router-nudge.sh",
+      "id": "hooks_tool_router_nudge"
     },
     {
       "label": "tool-router-nudge.sh script",
@@ -107,9 +217,9 @@
         "kind": "bash_entrypoint"
       },
       "_origin": "ast",
-      "id": "mnt_main_beads_ui_claude_hooks_tool_router_nudge_sh__entry",
       "community": 34,
-      "norm_label": "tool-router-nudge.sh script"
+      "norm_label": "tool-router-nudge.sh script",
+      "id": "mnt_main_beads_ui_claude_hooks_tool_router_nudge_sh__entry"
     },
     {
       "label": ".lower()",
@@ -121,9 +231,9 @@
         "kind": "bash_function"
       },
       "_origin": "ast",
-      "id": "hooks_tool_router_nudge_lower",
       "community": 34,
-      "norm_label": ".lower()"
+      "norm_label": ".lower()",
+      "id": "hooks_tool_router_nudge_lower"
     },
     {
       "label": "settings.json",
@@ -131,9 +241,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude_settings",
       "community": 9,
-      "norm_label": "settings.json"
+      "norm_label": "settings.json",
+      "id": "claude_settings"
     },
     {
       "label": "hooks",
@@ -141,9 +251,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "claude_settings_hooks",
       "community": 9,
-      "norm_label": "hooks"
+      "norm_label": "hooks",
+      "id": "claude_settings_hooks"
     },
     {
       "label": "PreCompact",
@@ -151,9 +261,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "claude_settings_hooks_precompact",
       "community": 9,
-      "norm_label": "precompact"
+      "norm_label": "precompact",
+      "id": "claude_settings_hooks_precompact"
     },
     {
       "label": "SessionStart",
@@ -161,9 +271,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "claude_settings_hooks_sessionstart",
       "community": 9,
-      "norm_label": "sessionstart"
+      "norm_label": "sessionstart",
+      "id": "claude_settings_hooks_sessionstart"
     },
     {
       "label": "PreToolUse",
@@ -171,9 +281,9 @@
       "source_file": ".claude/settings.json",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "claude_settings_hooks_pretooluse",
       "community": 9,
-      "norm_label": "pretooluse"
+      "norm_label": "pretooluse",
+      "id": "claude_settings_hooks_pretooluse"
     },
     {
       "label": "CLAUDE.md",
@@ -181,9 +291,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude",
       "community": 7,
-      "norm_label": "claude.md"
+      "norm_label": "claude.md",
+      "id": "claude"
     },
     {
       "label": "Project Instructions for AI Agents",
@@ -191,9 +301,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "claude_project_instructions_for_ai_agents",
       "community": 7,
-      "norm_label": "project instructions for ai agents"
+      "norm_label": "project instructions for ai agents",
+      "id": "claude_project_instructions_for_ai_agents"
     },
     {
       "label": "Beads Issue Tracker",
@@ -201,9 +311,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "claude_beads_issue_tracker",
       "community": 7,
-      "norm_label": "beads issue tracker"
+      "norm_label": "beads issue tracker",
+      "id": "claude_beads_issue_tracker"
     },
     {
       "label": "Quick Reference",
@@ -211,9 +321,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "claude_quick_reference",
       "community": 7,
-      "norm_label": "quick reference"
+      "norm_label": "quick reference",
+      "id": "claude_quick_reference"
     },
     {
       "label": "Rules",
@@ -221,9 +331,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "claude_rules",
       "community": 7,
-      "norm_label": "rules"
+      "norm_label": "rules",
+      "id": "claude_rules"
     },
     {
       "label": "Session Completion",
@@ -231,9 +341,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "claude_session_completion",
       "community": 7,
-      "norm_label": "session completion"
+      "norm_label": "session completion",
+      "id": "claude_session_completion"
     },
     {
       "label": "Build & Test",
@@ -241,9 +351,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L53",
       "_origin": "ast",
-      "id": "claude_build_test",
       "community": 7,
-      "norm_label": "build & test"
+      "norm_label": "build & test",
+      "id": "claude_build_test"
     },
     {
       "label": "Architecture Overview",
@@ -251,9 +361,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "claude_architecture_overview",
       "community": 7,
-      "norm_label": "architecture overview"
+      "norm_label": "architecture overview",
+      "id": "claude_architecture_overview"
     },
     {
       "label": "Conventions & Patterns",
@@ -261,9 +371,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L78",
       "_origin": "ast",
-      "id": "claude_conventions_patterns",
       "community": 7,
-      "norm_label": "conventions & patterns"
+      "norm_label": "conventions & patterns",
+      "id": "claude_conventions_patterns"
     },
     {
       "label": "Beads (project-specific config)",
@@ -271,9 +381,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L87",
       "_origin": "ast",
-      "id": "claude_beads_project_specific_config",
       "community": 7,
-      "norm_label": "beads (project-specific config)"
+      "norm_label": "beads (project-specific config)",
+      "id": "claude_beads_project_specific_config"
     },
     {
       "label": "Code understanding \u2014 tool router",
@@ -281,9 +391,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L94",
       "_origin": "ast",
-      "id": "claude_code_understanding_tool_router",
       "community": 7,
-      "norm_label": "code understanding \u2014 tool router"
+      "norm_label": "code understanding \u2014 tool router",
+      "id": "claude_code_understanding_tool_router"
     },
     {
       "label": "Knowledge vault (`beads-ui-knowledge/`)",
@@ -291,9 +401,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L121",
       "_origin": "ast",
-      "id": "claude_knowledge_vault_beads_ui_knowledge",
       "community": 7,
-      "norm_label": "knowledge vault (`beads-ui-knowledge/`)"
+      "norm_label": "knowledge vault (`beads-ui-knowledge/`)",
+      "id": "claude_knowledge_vault_beads_ui_knowledge"
     },
     {
       "label": "architecture.md",
@@ -301,9 +411,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_architecture",
       "community": 18,
-      "norm_label": "architecture.md"
+      "norm_label": "architecture.md",
+      "id": "templates_architecture"
     },
     {
       "label": "<%tp.file.title%>",
@@ -311,9 +421,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "templates_architecture_tp_file_title",
       "community": 18,
-      "norm_label": "<%tp.file.title%>"
+      "norm_label": "<%tp.file.title%>",
+      "id": "templates_architecture_tp_file_title"
     },
     {
       "label": "Overview",
@@ -321,9 +431,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "templates_architecture_overview",
       "community": 18,
-      "norm_label": "overview"
+      "norm_label": "overview",
+      "id": "templates_architecture_overview"
     },
     {
       "label": "Components",
@@ -331,9 +441,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "templates_architecture_components",
       "community": 18,
-      "norm_label": "components"
+      "norm_label": "components",
+      "id": "templates_architecture_components"
     },
     {
       "label": "Trade-offs",
@@ -341,9 +451,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "templates_architecture_trade_offs",
       "community": 18,
-      "norm_label": "trade-offs"
+      "norm_label": "trade-offs",
+      "id": "templates_architecture_trade_offs"
     },
     {
       "label": "Chosen Approach",
@@ -351,9 +461,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "templates_architecture_chosen_approach",
       "community": 18,
-      "norm_label": "chosen approach"
+      "norm_label": "chosen approach",
+      "id": "templates_architecture_chosen_approach"
     },
     {
       "label": "Alternatives Rejected",
@@ -361,9 +471,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "templates_architecture_alternatives_rejected",
       "community": 18,
-      "norm_label": "alternatives rejected"
+      "norm_label": "alternatives rejected",
+      "id": "templates_architecture_alternatives_rejected"
     },
     {
       "label": "Diagrams",
@@ -371,9 +481,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "templates_architecture_diagrams",
       "community": 18,
-      "norm_label": "diagrams"
+      "norm_label": "diagrams",
+      "id": "templates_architecture_diagrams"
     },
     {
       "label": "Dependencies",
@@ -381,9 +491,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "templates_architecture_dependencies",
       "community": 18,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "templates_architecture_dependencies"
     },
     {
       "label": "Related",
@@ -391,9 +501,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "templates_architecture_related",
       "community": 18,
-      "norm_label": "related"
+      "norm_label": "related",
+      "id": "templates_architecture_related"
     },
     {
       "label": "candidate.md",
@@ -401,9 +511,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_candidate",
       "community": 19,
-      "norm_label": "candidate.md"
+      "norm_label": "candidate.md",
+      "id": "templates_candidate"
     },
     {
       "label": "<%tp.file.title%>",
@@ -411,9 +521,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "templates_candidate_tp_file_title",
       "community": 19,
-      "norm_label": "<%tp.file.title%>"
+      "norm_label": "<%tp.file.title%>",
+      "id": "templates_candidate_tp_file_title"
     },
     {
       "label": "Overview",
@@ -421,9 +531,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "templates_candidate_overview",
       "community": 19,
-      "norm_label": "overview"
+      "norm_label": "overview",
+      "id": "templates_candidate_overview"
     },
     {
       "label": "Code Location",
@@ -431,9 +541,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "templates_candidate_code_location",
       "community": 19,
-      "norm_label": "code location"
+      "norm_label": "code location",
+      "id": "templates_candidate_code_location"
     },
     {
       "label": "Strengths",
@@ -441,9 +551,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "templates_candidate_strengths",
       "community": 19,
-      "norm_label": "strengths"
+      "norm_label": "strengths",
+      "id": "templates_candidate_strengths"
     },
     {
       "label": "Weaknesses",
@@ -451,9 +561,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "templates_candidate_weaknesses",
       "community": 19,
-      "norm_label": "weaknesses"
+      "norm_label": "weaknesses",
+      "id": "templates_candidate_weaknesses"
     },
     {
       "label": "Implementation Notes",
@@ -461,9 +571,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L41",
       "_origin": "ast",
-      "id": "templates_candidate_implementation_notes",
       "community": 19,
-      "norm_label": "implementation notes"
+      "norm_label": "implementation notes",
+      "id": "templates_candidate_implementation_notes"
     },
     {
       "label": "Dependencies",
@@ -471,9 +581,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L45",
       "_origin": "ast",
-      "id": "templates_candidate_dependencies",
       "community": 19,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "templates_candidate_dependencies"
     },
     {
       "label": "Related Candidates",
@@ -481,9 +591,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "templates_candidate_related_candidates",
       "community": 19,
-      "norm_label": "related candidates"
+      "norm_label": "related candidates",
+      "id": "templates_candidate_related_candidates"
     },
     {
       "label": "capability.md",
@@ -491,9 +601,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_capability",
       "community": 25,
-      "norm_label": "capability.md"
+      "norm_label": "capability.md",
+      "id": "templates_capability"
     },
     {
       "label": "<%tp.file.title%>",
@@ -501,9 +611,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "templates_capability_tp_file_title",
       "community": 25,
-      "norm_label": "<%tp.file.title%>"
+      "norm_label": "<%tp.file.title%>",
+      "id": "templates_capability_tp_file_title"
     },
     {
       "label": "Overview",
@@ -511,9 +621,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "templates_capability_overview",
       "community": 25,
-      "norm_label": "overview"
+      "norm_label": "overview",
+      "id": "templates_capability_overview"
     },
     {
       "label": "Requirements",
@@ -521,9 +631,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "templates_capability_requirements",
       "community": 25,
-      "norm_label": "requirements"
+      "norm_label": "requirements",
+      "id": "templates_capability_requirements"
     },
     {
       "label": "Status Summary",
@@ -531,9 +641,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "templates_capability_status_summary",
       "community": 25,
-      "norm_label": "status summary"
+      "norm_label": "status summary",
+      "id": "templates_capability_status_summary"
     },
     {
       "label": "Architecture Notes",
@@ -541,9 +651,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "templates_capability_architecture_notes",
       "community": 25,
-      "norm_label": "architecture notes"
+      "norm_label": "architecture notes",
+      "id": "templates_capability_architecture_notes"
     },
     {
       "label": "Related Capabilities",
@@ -551,9 +661,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L41",
       "_origin": "ast",
-      "id": "templates_capability_related_capabilities",
       "community": 25,
-      "norm_label": "related capabilities"
+      "norm_label": "related capabilities",
+      "id": "templates_capability_related_capabilities"
     },
     {
       "label": "Open Questions",
@@ -561,9 +671,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L45",
       "_origin": "ast",
-      "id": "templates_capability_open_questions",
       "community": 25,
-      "norm_label": "open questions"
+      "norm_label": "open questions",
+      "id": "templates_capability_open_questions"
     },
     {
       "label": "chronicle.md",
@@ -571,9 +681,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_chronicle",
       "community": 31,
-      "norm_label": "chronicle.md"
+      "norm_label": "chronicle.md",
+      "id": "templates_chronicle"
     },
     {
       "label": "<%tp.file.title%>",
@@ -581,9 +691,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "templates_chronicle_tp_file_title",
       "community": 31,
-      "norm_label": "<%tp.file.title%>"
+      "norm_label": "<%tp.file.title%>",
+      "id": "templates_chronicle_tp_file_title"
     },
     {
       "label": "Session Summary",
@@ -591,9 +701,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "templates_chronicle_session_summary",
       "community": 31,
-      "norm_label": "session summary"
+      "norm_label": "session summary",
+      "id": "templates_chronicle_session_summary"
     },
     {
       "label": "Key Decisions",
@@ -601,9 +711,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "templates_chronicle_key_decisions",
       "community": 31,
-      "norm_label": "key decisions"
+      "norm_label": "key decisions",
+      "id": "templates_chronicle_key_decisions"
     },
     {
       "label": "Handoff Notes",
@@ -611,9 +721,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "templates_chronicle_handoff_notes",
       "community": 31,
-      "norm_label": "handoff notes"
+      "norm_label": "handoff notes",
+      "id": "templates_chronicle_handoff_notes"
     },
     {
       "label": "Next Steps",
@@ -621,9 +731,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "templates_chronicle_next_steps",
       "community": 31,
-      "norm_label": "next steps"
+      "norm_label": "next steps",
+      "id": "templates_chronicle_next_steps"
     },
     {
       "label": "Dependencies",
@@ -631,9 +741,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "templates_chronicle_dependencies",
       "community": 31,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "templates_chronicle_dependencies"
     },
     {
       "label": "decision.md",
@@ -641,9 +751,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_decision",
       "community": 14,
-      "norm_label": "decision.md"
+      "norm_label": "decision.md",
+      "id": "templates_decision"
     },
     {
       "label": "ADR-<%tp.system.prompt('ADR Number')%>: <%tp.file.title%>",
@@ -651,9 +761,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
       "community": 14,
-      "norm_label": "adr-<%tp.system.prompt('adr number')%>: <%tp.file.title%>"
+      "norm_label": "adr-<%tp.system.prompt('adr number')%>: <%tp.file.title%>",
+      "id": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title"
     },
     {
       "label": "Context",
@@ -661,9 +771,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "templates_decision_context",
       "community": 14,
-      "norm_label": "context"
+      "norm_label": "context",
+      "id": "templates_decision_context"
     },
     {
       "label": "Decision",
@@ -671,9 +781,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "templates_decision_decision",
       "community": 14,
-      "norm_label": "decision"
+      "norm_label": "decision",
+      "id": "templates_decision_decision"
     },
     {
       "label": "Rationale",
@@ -681,9 +791,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "templates_decision_rationale",
       "community": 14,
-      "norm_label": "rationale"
+      "norm_label": "rationale",
+      "id": "templates_decision_rationale"
     },
     {
       "label": "Consequences",
@@ -691,9 +801,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "templates_decision_consequences",
       "community": 14,
-      "norm_label": "consequences"
+      "norm_label": "consequences",
+      "id": "templates_decision_consequences"
     },
     {
       "label": "Positive",
@@ -701,9 +811,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "templates_decision_positive",
       "community": 14,
-      "norm_label": "positive"
+      "norm_label": "positive",
+      "id": "templates_decision_positive"
     },
     {
       "label": "Negative",
@@ -711,9 +821,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "templates_decision_negative",
       "community": 14,
-      "norm_label": "negative"
+      "norm_label": "negative",
+      "id": "templates_decision_negative"
     },
     {
       "label": "Risks",
@@ -721,9 +831,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "templates_decision_risks",
       "community": 14,
-      "norm_label": "risks"
+      "norm_label": "risks",
+      "id": "templates_decision_risks"
     },
     {
       "label": "Trade-offs",
@@ -731,9 +841,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L45",
       "_origin": "ast",
-      "id": "templates_decision_trade_offs",
       "community": 14,
-      "norm_label": "trade-offs"
+      "norm_label": "trade-offs",
+      "id": "templates_decision_trade_offs"
     },
     {
       "label": "Alternatives Considered",
@@ -741,9 +851,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "templates_decision_alternatives_considered",
       "community": 14,
-      "norm_label": "alternatives considered"
+      "norm_label": "alternatives considered",
+      "id": "templates_decision_alternatives_considered"
     },
     {
       "label": "Implementation Notes",
@@ -751,9 +861,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L57",
       "_origin": "ast",
-      "id": "templates_decision_implementation_notes",
       "community": 14,
-      "norm_label": "implementation notes"
+      "norm_label": "implementation notes",
+      "id": "templates_decision_implementation_notes"
     },
     {
       "label": "Related Decisions",
@@ -761,9 +871,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "templates_decision_related_decisions",
       "community": 14,
-      "norm_label": "related decisions"
+      "norm_label": "related decisions",
+      "id": "templates_decision_related_decisions"
     },
     {
       "label": "design.md",
@@ -771,9 +881,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_design",
       "community": 26,
-      "norm_label": "design.md"
+      "norm_label": "design.md",
+      "id": "templates_design"
     },
     {
       "label": "<%tp.file.title%>",
@@ -781,9 +891,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "templates_design_tp_file_title",
       "community": 26,
-      "norm_label": "<%tp.file.title%>"
+      "norm_label": "<%tp.file.title%>",
+      "id": "templates_design_tp_file_title"
     },
     {
       "label": "Context",
@@ -791,9 +901,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "templates_design_context",
       "community": 26,
-      "norm_label": "context"
+      "norm_label": "context",
+      "id": "templates_design_context"
     },
     {
       "label": "Design",
@@ -801,9 +911,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "templates_design_design",
       "community": 26,
-      "norm_label": "design"
+      "norm_label": "design",
+      "id": "templates_design_design"
     },
     {
       "label": "Implementation Plan",
@@ -811,9 +921,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "templates_design_implementation_plan",
       "community": 26,
-      "norm_label": "implementation plan"
+      "norm_label": "implementation plan",
+      "id": "templates_design_implementation_plan"
     },
     {
       "label": "Open Questions",
@@ -821,9 +931,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "templates_design_open_questions",
       "community": 26,
-      "norm_label": "open questions"
+      "norm_label": "open questions",
+      "id": "templates_design_open_questions"
     },
     {
       "label": "Dependencies",
@@ -831,9 +941,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "templates_design_dependencies",
       "community": 26,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "templates_design_dependencies"
     },
     {
       "label": "Related",
@@ -841,9 +951,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "templates_design_related",
       "community": 26,
-      "norm_label": "related"
+      "norm_label": "related",
+      "id": "templates_design_related"
     },
     {
       "label": "investigation.md",
@@ -851,9 +961,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_investigation",
       "community": 27,
-      "norm_label": "investigation.md"
+      "norm_label": "investigation.md",
+      "id": "templates_investigation"
     },
     {
       "label": "<%tp.file.title%>",
@@ -861,9 +971,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "templates_investigation_tp_file_title",
       "community": 27,
-      "norm_label": "<%tp.file.title%>"
+      "norm_label": "<%tp.file.title%>",
+      "id": "templates_investigation_tp_file_title"
     },
     {
       "label": "Summary",
@@ -871,9 +981,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "templates_investigation_summary",
       "community": 27,
-      "norm_label": "summary"
+      "norm_label": "summary",
+      "id": "templates_investigation_summary"
     },
     {
       "label": "Key Findings",
@@ -881,9 +991,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "templates_investigation_key_findings",
       "community": 27,
-      "norm_label": "key findings"
+      "norm_label": "key findings",
+      "id": "templates_investigation_key_findings"
     },
     {
       "label": "Relevant Code",
@@ -891,9 +1001,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "templates_investigation_relevant_code",
       "community": 27,
-      "norm_label": "relevant code"
+      "norm_label": "relevant code",
+      "id": "templates_investigation_relevant_code"
     },
     {
       "label": "Recommendations",
@@ -901,9 +1011,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "templates_investigation_recommendations",
       "community": 27,
-      "norm_label": "recommendations"
+      "norm_label": "recommendations",
+      "id": "templates_investigation_recommendations"
     },
     {
       "label": "Dependencies",
@@ -911,9 +1021,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "templates_investigation_dependencies",
       "community": 27,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "templates_investigation_dependencies"
     },
     {
       "label": "Related",
@@ -921,9 +1031,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "templates_investigation_related",
       "community": 27,
-      "norm_label": "related"
+      "norm_label": "related",
+      "id": "templates_investigation_related"
     },
     {
       "label": "opportunity.md",
@@ -931,9 +1041,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_opportunity",
       "community": 28,
-      "norm_label": "opportunity.md"
+      "norm_label": "opportunity.md",
+      "id": "templates_opportunity"
     },
     {
       "label": "<%tp.file.title%>",
@@ -941,9 +1051,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "templates_opportunity_tp_file_title",
       "community": 28,
-      "norm_label": "<%tp.file.title%>"
+      "norm_label": "<%tp.file.title%>",
+      "id": "templates_opportunity_tp_file_title"
     },
     {
       "label": "Overview",
@@ -951,9 +1061,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "templates_opportunity_overview",
       "community": 28,
-      "norm_label": "overview"
+      "norm_label": "overview",
+      "id": "templates_opportunity_overview"
     },
     {
       "label": "Value Proposition",
@@ -961,9 +1071,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "templates_opportunity_value_proposition",
       "community": 28,
-      "norm_label": "value proposition"
+      "norm_label": "value proposition",
+      "id": "templates_opportunity_value_proposition"
     },
     {
       "label": "Code Location",
@@ -971,9 +1081,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "templates_opportunity_code_location",
       "community": 28,
-      "norm_label": "code location"
+      "norm_label": "code location",
+      "id": "templates_opportunity_code_location"
     },
     {
       "label": "Promotion Rationale",
@@ -981,9 +1091,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L35",
       "_origin": "ast",
-      "id": "templates_opportunity_promotion_rationale",
       "community": 28,
-      "norm_label": "promotion rationale"
+      "norm_label": "promotion rationale",
+      "id": "templates_opportunity_promotion_rationale"
     },
     {
       "label": "Rejection Rationale",
@@ -991,9 +1101,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "templates_opportunity_rejection_rationale",
       "community": 28,
-      "norm_label": "rejection rationale"
+      "norm_label": "rejection rationale",
+      "id": "templates_opportunity_rejection_rationale"
     },
     {
       "label": "Promoted To",
@@ -1001,9 +1111,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L43",
       "_origin": "ast",
-      "id": "templates_opportunity_promoted_to",
       "community": 28,
-      "norm_label": "promoted to"
+      "norm_label": "promoted to",
+      "id": "templates_opportunity_promoted_to"
     },
     {
       "label": "repo-index.md",
@@ -1011,9 +1121,9 @@
       "source_file": "beads-ui-knowledge/Templates/repo-index.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_repo_index",
       "community": 33,
-      "norm_label": "repo-index.md"
+      "norm_label": "repo-index.md",
+      "id": "templates_repo_index"
     },
     {
       "label": "<%tp.file.title%>",
@@ -1021,9 +1131,9 @@
       "source_file": "beads-ui-knowledge/Templates/repo-index.md",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "templates_repo_index_tp_file_title",
       "community": 33,
-      "norm_label": "<%tp.file.title%>"
+      "norm_label": "<%tp.file.title%>",
+      "id": "templates_repo_index_tp_file_title"
     },
     {
       "label": "File Map",
@@ -1031,9 +1141,9 @@
       "source_file": "beads-ui-knowledge/Templates/repo-index.md",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "templates_repo_index_file_map",
       "community": 33,
-      "norm_label": "file map"
+      "norm_label": "file map",
+      "id": "templates_repo_index_file_map"
     },
     {
       "label": "Cross-Repo Research",
@@ -1041,9 +1151,9 @@
       "source_file": "beads-ui-knowledge/Templates/repo-index.md",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "templates_repo_index_cross_repo_research",
       "community": 33,
-      "norm_label": "cross-repo research"
+      "norm_label": "cross-repo research",
+      "id": "templates_repo_index_cross_repo_research"
     },
     {
       "label": "MVP Notes",
@@ -1051,9 +1161,9 @@
       "source_file": "beads-ui-knowledge/Templates/repo-index.md",
       "source_location": "L41",
       "_origin": "ast",
-      "id": "templates_repo_index_mvp_notes",
       "community": 33,
-      "norm_label": "mvp notes"
+      "norm_label": "mvp notes",
+      "id": "templates_repo_index_mvp_notes"
     },
     {
       "label": "repository.md",
@@ -1061,9 +1171,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_repository",
       "community": 20,
-      "norm_label": "repository.md"
+      "norm_label": "repository.md",
+      "id": "templates_repository"
     },
     {
       "label": "<%tp.file.title%>",
@@ -1071,9 +1181,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "templates_repository_tp_file_title",
       "community": 20,
-      "norm_label": "<%tp.file.title%>"
+      "norm_label": "<%tp.file.title%>",
+      "id": "templates_repository_tp_file_title"
     },
     {
       "label": "Overview",
@@ -1081,9 +1191,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "templates_repository_overview",
       "community": 20,
-      "norm_label": "overview"
+      "norm_label": "overview",
+      "id": "templates_repository_overview"
     },
     {
       "label": "Key Features",
@@ -1091,9 +1201,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "templates_repository_key_features",
       "community": 20,
-      "norm_label": "key features"
+      "norm_label": "key features",
+      "id": "templates_repository_key_features"
     },
     {
       "label": "Candidates Provided",
@@ -1101,9 +1211,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "templates_repository_candidates_provided",
       "community": 20,
-      "norm_label": "candidates provided"
+      "norm_label": "candidates provided",
+      "id": "templates_repository_candidates_provided"
     },
     {
       "label": "Opportunities Discovered",
@@ -1111,9 +1221,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "templates_repository_opportunities_discovered",
       "community": 20,
-      "norm_label": "opportunities discovered"
+      "norm_label": "opportunities discovered",
+      "id": "templates_repository_opportunities_discovered"
     },
     {
       "label": "Tech Stack",
@@ -1121,9 +1231,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L52",
       "_origin": "ast",
-      "id": "templates_repository_tech_stack",
       "community": 20,
-      "norm_label": "tech stack"
+      "norm_label": "tech stack",
+      "id": "templates_repository_tech_stack"
     },
     {
       "label": "Integration Notes",
@@ -1131,9 +1241,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L58",
       "_origin": "ast",
-      "id": "templates_repository_integration_notes",
       "community": 20,
-      "norm_label": "integration notes"
+      "norm_label": "integration notes",
+      "id": "templates_repository_integration_notes"
     },
     {
       "label": "Investigation Files",
@@ -1141,9 +1251,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L62",
       "_origin": "ast",
-      "id": "templates_repository_investigation_files",
       "community": 20,
-      "norm_label": "investigation files"
+      "norm_label": "investigation files",
+      "id": "templates_repository_investigation_files"
     },
     {
       "label": "requirement.md",
@@ -1151,9 +1261,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_requirement",
       "community": 21,
-      "norm_label": "requirement.md"
+      "norm_label": "requirement.md",
+      "id": "templates_requirement"
     },
     {
       "label": "<%tp.file.title%>",
@@ -1161,9 +1271,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "templates_requirement_tp_file_title",
       "community": 21,
-      "norm_label": "<%tp.file.title%>"
+      "norm_label": "<%tp.file.title%>",
+      "id": "templates_requirement_tp_file_title"
     },
     {
       "label": "Overview",
@@ -1171,9 +1281,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "templates_requirement_overview",
       "community": 21,
-      "norm_label": "overview"
+      "norm_label": "overview",
+      "id": "templates_requirement_overview"
     },
     {
       "label": "Acceptance Criteria",
@@ -1181,9 +1291,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "templates_requirement_acceptance_criteria",
       "community": 21,
-      "norm_label": "acceptance criteria"
+      "norm_label": "acceptance criteria",
+      "id": "templates_requirement_acceptance_criteria"
     },
     {
       "label": "Candidates",
@@ -1191,9 +1301,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "templates_requirement_candidates",
       "community": 21,
-      "norm_label": "candidates"
+      "norm_label": "candidates",
+      "id": "templates_requirement_candidates"
     },
     {
       "label": "Comparison",
@@ -1201,9 +1311,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "templates_requirement_comparison",
       "community": 21,
-      "norm_label": "comparison"
+      "norm_label": "comparison",
+      "id": "templates_requirement_comparison"
     },
     {
       "label": "Candidate 1",
@@ -1211,9 +1321,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "templates_requirement_candidate_1",
       "community": 21,
-      "norm_label": "candidate 1"
+      "norm_label": "candidate 1",
+      "id": "templates_requirement_candidate_1"
     },
     {
       "label": "Decision",
@@ -1221,9 +1331,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L46",
       "_origin": "ast",
-      "id": "templates_requirement_decision",
       "community": 21,
-      "norm_label": "decision"
+      "norm_label": "decision",
+      "id": "templates_requirement_decision"
     },
     {
       "label": "Neo4j Query",
@@ -1231,9 +1341,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "templates_requirement_neo4j_query",
       "community": 21,
-      "norm_label": "neo4j query"
+      "norm_label": "neo4j query",
+      "id": "templates_requirement_neo4j_query"
     },
     {
       "label": "research.md",
@@ -1241,9 +1351,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_research",
       "community": 29,
-      "norm_label": "research.md"
+      "norm_label": "research.md",
+      "id": "templates_research"
     },
     {
       "label": "<%tp.file.title%>",
@@ -1251,9 +1361,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "templates_research_tp_file_title",
       "community": 29,
-      "norm_label": "<%tp.file.title%>"
+      "norm_label": "<%tp.file.title%>",
+      "id": "templates_research_tp_file_title"
     },
     {
       "label": "Background",
@@ -1261,9 +1371,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "templates_research_background",
       "community": 29,
-      "norm_label": "background"
+      "norm_label": "background",
+      "id": "templates_research_background"
     },
     {
       "label": "Findings",
@@ -1271,9 +1381,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "templates_research_findings",
       "community": 29,
-      "norm_label": "findings"
+      "norm_label": "findings",
+      "id": "templates_research_findings"
     },
     {
       "label": "Implications",
@@ -1281,9 +1391,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "templates_research_implications",
       "community": 29,
-      "norm_label": "implications"
+      "norm_label": "implications",
+      "id": "templates_research_implications"
     },
     {
       "label": "References",
@@ -1291,9 +1401,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "templates_research_references",
       "community": 29,
-      "norm_label": "references"
+      "norm_label": "references",
+      "id": "templates_research_references"
     },
     {
       "label": "Dependencies",
@@ -1301,9 +1411,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "templates_research_dependencies",
       "community": 29,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "templates_research_dependencies"
     },
     {
       "label": "Related",
@@ -1311,9 +1421,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L43",
       "_origin": "ast",
-      "id": "templates_research_related",
       "community": 29,
-      "norm_label": "related"
+      "norm_label": "related",
+      "id": "templates_research_related"
     },
     {
       "label": "tool-doc.md",
@@ -1321,9 +1431,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "templates_tool_doc",
       "community": 30,
-      "norm_label": "tool-doc.md"
+      "norm_label": "tool-doc.md",
+      "id": "templates_tool_doc"
     },
     {
       "label": "<%tp.file.title%>",
@@ -1331,9 +1441,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "templates_tool_doc_tp_file_title",
       "community": 30,
-      "norm_label": "<%tp.file.title%>"
+      "norm_label": "<%tp.file.title%>",
+      "id": "templates_tool_doc_tp_file_title"
     },
     {
       "label": "Overview",
@@ -1341,9 +1451,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "templates_tool_doc_overview",
       "community": 30,
-      "norm_label": "overview"
+      "norm_label": "overview",
+      "id": "templates_tool_doc_overview"
     },
     {
       "label": "Usage",
@@ -1351,9 +1461,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "templates_tool_doc_usage",
       "community": 30,
-      "norm_label": "usage"
+      "norm_label": "usage",
+      "id": "templates_tool_doc_usage"
     },
     {
       "label": "Configuration",
@@ -1361,9 +1471,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "templates_tool_doc_configuration",
       "community": 30,
-      "norm_label": "configuration"
+      "norm_label": "configuration",
+      "id": "templates_tool_doc_configuration"
     },
     {
       "label": "Troubleshooting",
@@ -1371,9 +1481,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "templates_tool_doc_troubleshooting",
       "community": 30,
-      "norm_label": "troubleshooting"
+      "norm_label": "troubleshooting",
+      "id": "templates_tool_doc_troubleshooting"
     },
     {
       "label": "Dependencies",
@@ -1381,9 +1491,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "templates_tool_doc_dependencies",
       "community": 30,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "templates_tool_doc_dependencies"
     },
     {
       "label": "Related",
@@ -1391,9 +1501,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "templates_tool_doc_related",
       "community": 30,
-      "norm_label": "related"
+      "norm_label": "related",
+      "id": "templates_tool_doc_related"
     },
     {
       "label": "eslint.config.js",
@@ -1401,9 +1511,9 @@
       "source_file": "eslint.config.js",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "eslint_config",
       "community": 35,
-      "norm_label": "eslint.config.js"
+      "norm_label": "eslint.config.js",
+      "id": "eslint_config"
     },
     {
       "label": "package.json",
@@ -1411,9 +1521,9 @@
       "source_file": "package.json",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "package",
       "community": 5,
-      "norm_label": "package.json"
+      "norm_label": "package.json",
+      "id": "package"
     },
     {
       "label": "name",
@@ -1421,9 +1531,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "package_name",
       "community": 5,
-      "norm_label": "name"
+      "norm_label": "name",
+      "id": "package_name"
     },
     {
       "label": "version",
@@ -1431,9 +1541,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "package_version",
       "community": 5,
-      "norm_label": "version"
+      "norm_label": "version",
+      "id": "package_version"
     },
     {
       "label": "description",
@@ -1441,9 +1551,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "package_description",
       "community": 5,
-      "norm_label": "description"
+      "norm_label": "description",
+      "id": "package_description"
     },
     {
       "label": "keywords",
@@ -1451,9 +1561,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "package_keywords",
       "community": 5,
-      "norm_label": "keywords"
+      "norm_label": "keywords",
+      "id": "package_keywords"
     },
     {
       "label": "homepage",
@@ -1461,9 +1571,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "package_homepage",
       "community": 5,
-      "norm_label": "homepage"
+      "norm_label": "homepage",
+      "id": "package_homepage"
     },
     {
       "label": "author",
@@ -1471,9 +1581,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "package_author",
       "community": 5,
-      "norm_label": "author"
+      "norm_label": "author",
+      "id": "package_author"
     },
     {
       "label": "type",
@@ -1481,9 +1591,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "package_type",
       "community": 5,
-      "norm_label": "type"
+      "norm_label": "type",
+      "id": "package_type"
     },
     {
       "label": "bin",
@@ -1491,9 +1601,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "package_bin",
       "community": 5,
-      "norm_label": "bin"
+      "norm_label": "bin",
+      "id": "package_bin"
     },
     {
       "label": "bdui",
@@ -1501,9 +1611,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "package_bin_bdui",
       "community": 5,
-      "norm_label": "bdui"
+      "norm_label": "bdui",
+      "id": "package_bin_bdui"
     },
     {
       "label": "engines",
@@ -1511,9 +1621,9 @@
       "source_file": "package.json",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "package_engines",
       "community": 5,
-      "norm_label": "engines"
+      "norm_label": "engines",
+      "id": "package_engines"
     },
     {
       "label": "node",
@@ -1521,9 +1631,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "package_engines_node",
       "community": 5,
-      "norm_label": "node"
+      "norm_label": "node",
+      "id": "package_engines_node"
     },
     {
       "label": "scripts",
@@ -1531,9 +1641,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "package_scripts",
       "community": 5,
-      "norm_label": "scripts"
+      "norm_label": "scripts",
+      "id": "package_scripts"
     },
     {
       "label": "all",
@@ -1541,9 +1651,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "package_scripts_all",
       "community": 5,
-      "norm_label": "all"
+      "norm_label": "all",
+      "id": "package_scripts_all"
     },
     {
       "label": "start",
@@ -1551,9 +1661,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "package_scripts_start",
       "community": 5,
-      "norm_label": "start"
+      "norm_label": "start",
+      "id": "package_scripts_start"
     },
     {
       "label": "build",
@@ -1561,9 +1671,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "package_scripts_build",
       "community": 5,
-      "norm_label": "build"
+      "norm_label": "build",
+      "id": "package_scripts_build"
     },
     {
       "label": "watch",
@@ -1571,9 +1681,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "package_scripts_watch",
       "community": 5,
-      "norm_label": "watch"
+      "norm_label": "watch",
+      "id": "package_scripts_watch"
     },
     {
       "label": "hooks:check",
@@ -1581,9 +1691,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "package_scripts_hooks_check",
       "community": 5,
-      "norm_label": "hooks:check"
+      "norm_label": "hooks:check",
+      "id": "package_scripts_hooks_check"
     },
     {
       "label": "hooks:reconcile",
@@ -1591,9 +1701,9 @@
       "source_file": "package.json",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "package_scripts_hooks_reconcile",
       "community": 5,
-      "norm_label": "hooks:reconcile"
+      "norm_label": "hooks:reconcile",
+      "id": "package_scripts_hooks_reconcile"
     },
     {
       "label": "test",
@@ -1601,9 +1711,9 @@
       "source_file": "package.json",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "package_scripts_test",
       "community": 5,
-      "norm_label": "test"
+      "norm_label": "test",
+      "id": "package_scripts_test"
     },
     {
       "label": "test:watch",
@@ -1611,9 +1721,9 @@
       "source_file": "package.json",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "package_scripts_test_watch",
       "community": 5,
-      "norm_label": "test:watch"
+      "norm_label": "test:watch",
+      "id": "package_scripts_test_watch"
     },
     {
       "label": "tsc",
@@ -1621,9 +1731,9 @@
       "source_file": "package.json",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "package_scripts_tsc",
       "community": 5,
-      "norm_label": "tsc"
+      "norm_label": "tsc",
+      "id": "package_scripts_tsc"
     },
     {
       "label": "lint",
@@ -1631,9 +1741,9 @@
       "source_file": "package.json",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "package_scripts_lint",
       "community": 5,
-      "norm_label": "lint"
+      "norm_label": "lint",
+      "id": "package_scripts_lint"
     },
     {
       "label": "prettier:write",
@@ -1641,9 +1751,9 @@
       "source_file": "package.json",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "package_scripts_prettier_write",
       "community": 5,
-      "norm_label": "prettier:write"
+      "norm_label": "prettier:write",
+      "id": "package_scripts_prettier_write"
     },
     {
       "label": "prettier:check",
@@ -1651,9 +1761,9 @@
       "source_file": "package.json",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "package_scripts_prettier_check",
       "community": 5,
-      "norm_label": "prettier:check"
+      "norm_label": "prettier:check",
+      "id": "package_scripts_prettier_check"
     },
     {
       "label": "preversion",
@@ -1661,9 +1771,9 @@
       "source_file": "package.json",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "package_scripts_preversion",
       "community": 5,
-      "norm_label": "preversion"
+      "norm_label": "preversion",
+      "id": "package_scripts_preversion"
     },
     {
       "label": "version",
@@ -1671,9 +1781,9 @@
       "source_file": "package.json",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "package_scripts_version",
       "community": 5,
-      "norm_label": "version"
+      "norm_label": "version",
+      "id": "package_scripts_version"
     },
     {
       "label": "postversion",
@@ -1681,9 +1791,9 @@
       "source_file": "package.json",
       "source_location": "L35",
       "_origin": "ast",
-      "id": "package_scripts_postversion",
       "community": 5,
-      "norm_label": "postversion"
+      "norm_label": "postversion",
+      "id": "package_scripts_postversion"
     },
     {
       "label": "prepack",
@@ -1691,9 +1801,9 @@
       "source_file": "package.json",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "package_scripts_prepack",
       "community": 5,
-      "norm_label": "prepack"
+      "norm_label": "prepack",
+      "id": "package_scripts_prepack"
     },
     {
       "label": "postpack",
@@ -1701,9 +1811,9 @@
       "source_file": "package.json",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "package_scripts_postpack",
       "community": 5,
-      "norm_label": "postpack"
+      "norm_label": "postpack",
+      "id": "package_scripts_postpack"
     },
     {
       "label": "dependencies",
@@ -1711,9 +1821,9 @@
       "source_file": "package.json",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "package_dependencies",
       "community": 5,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "package_dependencies"
     },
     {
       "label": "debug",
@@ -1721,9 +1831,9 @@
       "source_file": "package.json",
       "source_location": "L40",
       "_origin": "ast",
-      "id": "package_dependencies_debug",
       "community": 5,
-      "norm_label": "debug"
+      "norm_label": "debug",
+      "id": "package_dependencies_debug"
     },
     {
       "label": "dompurify",
@@ -1731,9 +1841,9 @@
       "source_file": "package.json",
       "source_location": "L41",
       "_origin": "ast",
-      "id": "package_dependencies_dompurify",
       "community": 5,
-      "norm_label": "dompurify"
+      "norm_label": "dompurify",
+      "id": "package_dependencies_dompurify"
     },
     {
       "label": "express",
@@ -1741,9 +1851,9 @@
       "source_file": "package.json",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "package_dependencies_express",
       "community": 5,
-      "norm_label": "express"
+      "norm_label": "express",
+      "id": "package_dependencies_express"
     },
     {
       "label": "lit-html",
@@ -1751,9 +1861,9 @@
       "source_file": "package.json",
       "source_location": "L43",
       "_origin": "ast",
-      "id": "package_dependencies_lit_html",
       "community": 5,
-      "norm_label": "lit-html"
+      "norm_label": "lit-html",
+      "id": "package_dependencies_lit_html"
     },
     {
       "label": "marked",
@@ -1761,9 +1871,9 @@
       "source_file": "package.json",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "package_dependencies_marked",
       "community": 5,
-      "norm_label": "marked"
+      "norm_label": "marked",
+      "id": "package_dependencies_marked"
     },
     {
       "label": "ws",
@@ -1771,9 +1881,9 @@
       "source_file": "package.json",
       "source_location": "L45",
       "_origin": "ast",
-      "id": "package_dependencies_ws",
       "community": 5,
-      "norm_label": "ws"
+      "norm_label": "ws",
+      "id": "package_dependencies_ws"
     },
     {
       "label": "devDependencies",
@@ -1781,9 +1891,9 @@
       "source_file": "package.json",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "package_devdependencies",
       "community": 8,
-      "norm_label": "devdependencies"
+      "norm_label": "devdependencies",
+      "id": "package_devdependencies"
     },
     {
       "label": "@eslint/js",
@@ -1791,9 +1901,9 @@
       "source_file": "package.json",
       "source_location": "L48",
       "_origin": "ast",
-      "id": "package_devdependencies_eslint_js",
       "community": 8,
-      "norm_label": "@eslint/js"
+      "norm_label": "@eslint/js",
+      "id": "package_devdependencies_eslint_js"
     },
     {
       "label": "@studio/changes",
@@ -1801,9 +1911,9 @@
       "source_file": "package.json",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "package_devdependencies_studio_changes",
       "community": 8,
-      "norm_label": "@studio/changes"
+      "norm_label": "@studio/changes",
+      "id": "package_devdependencies_studio_changes"
     },
     {
       "label": "@trivago/prettier-plugin-sort-imports",
@@ -1811,9 +1921,9 @@
       "source_file": "package.json",
       "source_location": "L50",
       "_origin": "ast",
-      "id": "package_devdependencies_trivago_prettier_plugin_sort_imports",
       "community": 8,
-      "norm_label": "@trivago/prettier-plugin-sort-imports"
+      "norm_label": "@trivago/prettier-plugin-sort-imports",
+      "id": "package_devdependencies_trivago_prettier_plugin_sort_imports"
     },
     {
       "label": "@types/debug",
@@ -1821,9 +1931,9 @@
       "source_file": "package.json",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "package_devdependencies_types_debug",
       "community": 8,
-      "norm_label": "@types/debug"
+      "norm_label": "@types/debug",
+      "id": "package_devdependencies_types_debug"
     },
     {
       "label": "@types/express",
@@ -1831,9 +1941,9 @@
       "source_file": "package.json",
       "source_location": "L52",
       "_origin": "ast",
-      "id": "package_devdependencies_types_express",
       "community": 8,
-      "norm_label": "@types/express"
+      "norm_label": "@types/express",
+      "id": "package_devdependencies_types_express"
     },
     {
       "label": "@types/node",
@@ -1841,9 +1951,9 @@
       "source_file": "package.json",
       "source_location": "L53",
       "_origin": "ast",
-      "id": "package_devdependencies_types_node",
       "community": 8,
-      "norm_label": "@types/node"
+      "norm_label": "@types/node",
+      "id": "package_devdependencies_types_node"
     },
     {
       "label": "@types/ws",
@@ -1851,9 +1961,9 @@
       "source_file": "package.json",
       "source_location": "L54",
       "_origin": "ast",
-      "id": "package_devdependencies_types_ws",
       "community": 8,
-      "norm_label": "@types/ws"
+      "norm_label": "@types/ws",
+      "id": "package_devdependencies_types_ws"
     },
     {
       "label": "esbuild",
@@ -1861,9 +1971,9 @@
       "source_file": "package.json",
       "source_location": "L55",
       "_origin": "ast",
-      "id": "package_devdependencies_esbuild",
       "community": 8,
-      "norm_label": "esbuild"
+      "norm_label": "esbuild",
+      "id": "package_devdependencies_esbuild"
     },
     {
       "label": "eslint",
@@ -1871,9 +1981,9 @@
       "source_file": "package.json",
       "source_location": "L56",
       "_origin": "ast",
-      "id": "package_devdependencies_eslint",
       "community": 8,
-      "norm_label": "eslint"
+      "norm_label": "eslint",
+      "id": "package_devdependencies_eslint"
     },
     {
       "label": "eslint-plugin-import",
@@ -1881,9 +1991,9 @@
       "source_file": "package.json",
       "source_location": "L57",
       "_origin": "ast",
-      "id": "package_devdependencies_eslint_plugin_import",
       "community": 8,
-      "norm_label": "eslint-plugin-import"
+      "norm_label": "eslint-plugin-import",
+      "id": "package_devdependencies_eslint_plugin_import"
     },
     {
       "label": "eslint-plugin-jsdoc",
@@ -1891,9 +2001,9 @@
       "source_file": "package.json",
       "source_location": "L58",
       "_origin": "ast",
-      "id": "package_devdependencies_eslint_plugin_jsdoc",
       "community": 8,
-      "norm_label": "eslint-plugin-jsdoc"
+      "norm_label": "eslint-plugin-jsdoc",
+      "id": "package_devdependencies_eslint_plugin_jsdoc"
     },
     {
       "label": "eslint-plugin-n",
@@ -1901,9 +2011,9 @@
       "source_file": "package.json",
       "source_location": "L59",
       "_origin": "ast",
-      "id": "package_devdependencies_eslint_plugin_n",
       "community": 8,
-      "norm_label": "eslint-plugin-n"
+      "norm_label": "eslint-plugin-n",
+      "id": "package_devdependencies_eslint_plugin_n"
     },
     {
       "label": "globals",
@@ -1911,9 +2021,9 @@
       "source_file": "package.json",
       "source_location": "L60",
       "_origin": "ast",
-      "id": "package_devdependencies_globals",
       "community": 8,
-      "norm_label": "globals"
+      "norm_label": "globals",
+      "id": "package_devdependencies_globals"
     },
     {
       "label": "jsdom",
@@ -1921,9 +2031,9 @@
       "source_file": "package.json",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "package_devdependencies_jsdom",
       "community": 8,
-      "norm_label": "jsdom"
+      "norm_label": "jsdom",
+      "id": "package_devdependencies_jsdom"
     },
     {
       "label": "prettier",
@@ -1931,9 +2041,9 @@
       "source_file": "package.json",
       "source_location": "L62",
       "_origin": "ast",
-      "id": "package_devdependencies_prettier",
       "community": 8,
-      "norm_label": "prettier"
+      "norm_label": "prettier",
+      "id": "package_devdependencies_prettier"
     },
     {
       "label": "typescript",
@@ -1941,9 +2051,9 @@
       "source_file": "package.json",
       "source_location": "L63",
       "_origin": "ast",
-      "id": "package_devdependencies_typescript",
       "community": 8,
-      "norm_label": "typescript"
+      "norm_label": "typescript",
+      "id": "package_devdependencies_typescript"
     },
     {
       "label": "vitest",
@@ -1951,9 +2061,9 @@
       "source_file": "package.json",
       "source_location": "L64",
       "_origin": "ast",
-      "id": "package_devdependencies_vitest",
       "community": 8,
-      "norm_label": "vitest"
+      "norm_label": "vitest",
+      "id": "package_devdependencies_vitest"
     },
     {
       "label": "files",
@@ -1961,9 +2071,9 @@
       "source_file": "package.json",
       "source_location": "L66",
       "_origin": "ast",
-      "id": "package_files",
       "community": 5,
-      "norm_label": "files"
+      "norm_label": "files",
+      "id": "package_files"
     },
     {
       "label": "repository",
@@ -1971,9 +2081,9 @@
       "source_file": "package.json",
       "source_location": "L79",
       "_origin": "ast",
-      "id": "package_repository",
       "community": 5,
-      "norm_label": "repository"
+      "norm_label": "repository",
+      "id": "package_repository"
     },
     {
       "label": "type",
@@ -1981,9 +2091,9 @@
       "source_file": "package.json",
       "source_location": "L80",
       "_origin": "ast",
-      "id": "package_repository_type",
       "community": 5,
-      "norm_label": "type"
+      "norm_label": "type",
+      "id": "package_repository_type"
     },
     {
       "label": "url",
@@ -1991,9 +2101,9 @@
       "source_file": "package.json",
       "source_location": "L81",
       "_origin": "ast",
-      "id": "package_repository_url",
       "community": 5,
-      "norm_label": "url"
+      "norm_label": "url",
+      "id": "package_repository_url"
     },
     {
       "label": "list-selectors.js",
@@ -2001,7 +2111,7 @@
       "source_file": "app/data/list-selectors.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "list-selectors.js",
       "id": "mnt_main_beads_ui_app_data_list_selectors_js"
     },
@@ -2011,7 +2121,7 @@
       "source_file": "app/data/list-selectors.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "createlistselectors()",
       "id": "data_list_selectors_createlistselectors"
     },
@@ -2091,7 +2201,7 @@
       "source_file": "app/data/sort.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "sort.js",
       "id": "mnt_main_beads_ui_app_data_sort_js"
     },
@@ -2101,7 +2211,7 @@
       "source_file": "app/data/sort.js",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "cmpprioritythencreated()",
       "id": "data_sort_cmpprioritythencreated"
     },
@@ -2111,7 +2221,7 @@
       "source_file": "app/data/sort.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "cmpcloseddesc()",
       "id": "data_sort_cmpcloseddesc"
     },
@@ -2291,7 +2401,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 22,
+      "community": 6,
       "norm_label": "main.deep-link.test.js",
       "id": "mnt_main_beads_ui_app_main_deep_link_test_js"
     },
@@ -2301,7 +2411,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 22,
+      "community": 6,
       "norm_label": "calls",
       "id": "app_main_deep_link_test_calls"
     },
@@ -2311,7 +2421,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 22,
+      "community": 6,
       "norm_label": "issues",
       "id": "app_main_deep_link_test_issues"
     },
@@ -2321,7 +2431,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 22,
+      "community": 6,
       "norm_label": "send()",
       "id": "app_main_deep_link_test_send"
     },
@@ -2331,7 +2441,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 22,
+      "community": 6,
       "norm_label": "on()",
       "id": "app_main_deep_link_test_on"
     },
@@ -2341,7 +2451,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 22,
+      "community": 6,
       "norm_label": "_trigger()",
       "id": "app_main_deep_link_test_trigger"
     },
@@ -2351,7 +2461,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L39",
       "_origin": "ast",
-      "community": 22,
+      "community": 6,
       "norm_label": "close()",
       "id": "app_main_deep_link_test_close"
     },
@@ -2361,7 +2471,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L40",
       "_origin": "ast",
-      "community": 22,
+      "community": 6,
       "norm_label": "getstate()",
       "id": "app_main_deep_link_test_getstate"
     },
@@ -2371,7 +2481,7 @@
       "source_file": "app/main.dialog.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 13,
+      "community": 1,
       "norm_label": "main.dialog.test.js",
       "id": "mnt_main_beads_ui_app_main_dialog_test_js"
     },
@@ -2381,7 +2491,7 @@
       "source_file": "app/main.dialog.test.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 13,
+      "community": 1,
       "norm_label": "send()",
       "id": "app_main_dialog_test_send"
     },
@@ -2391,7 +2501,7 @@
       "source_file": "app/main.dialog.test.js",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 13,
+      "community": 1,
       "norm_label": "on()",
       "id": "app_main_dialog_test_on"
     },
@@ -2401,7 +2511,7 @@
       "source_file": "app/main.dialog.test.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 13,
+      "community": 1,
       "norm_label": "close()",
       "id": "app_main_dialog_test_close"
     },
@@ -2411,7 +2521,7 @@
       "source_file": "app/main.dialog.test.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 13,
+      "community": 1,
       "norm_label": "getstate()",
       "id": "app_main_dialog_test_getstate"
     },
@@ -2421,7 +2531,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 6,
       "norm_label": "main.filter-switch-reset.test.js",
       "id": "mnt_main_beads_ui_app_main_filter_switch_reset_test_js"
     },
@@ -2431,7 +2541,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 4,
+      "community": 6,
       "norm_label": "togglefilter()",
       "id": "app_main_filter_switch_reset_test_togglefilter"
     },
@@ -2441,7 +2551,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 4,
+      "community": 6,
       "norm_label": "send()",
       "id": "app_main_filter_switch_reset_test_send"
     },
@@ -2451,7 +2561,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 4,
+      "community": 6,
       "norm_label": "on()",
       "id": "app_main_filter_switch_reset_test_on"
     },
@@ -2461,7 +2571,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L58",
       "_origin": "ast",
-      "community": 4,
+      "community": 6,
       "norm_label": "_trigger()",
       "id": "app_main_filter_switch_reset_test_trigger"
     },
@@ -2471,7 +2581,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L63",
       "_origin": "ast",
-      "community": 4,
+      "community": 6,
       "norm_label": "onconnection()",
       "id": "app_main_filter_switch_reset_test_onconnection"
     },
@@ -2481,7 +2591,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L66",
       "_origin": "ast",
-      "community": 4,
+      "community": 6,
       "norm_label": "close()",
       "id": "app_main_filter_switch_reset_test_close"
     },
@@ -2491,7 +2601,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 4,
+      "community": 6,
       "norm_label": "getstate()",
       "id": "app_main_filter_switch_reset_test_getstate"
     },
@@ -2681,7 +2791,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 23,
+      "community": 6,
       "norm_label": "main.push-stores.e2e.test.js",
       "id": "mnt_main_beads_ui_app_main_push_stores_e2e_test_js"
     },
@@ -2691,7 +2801,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 23,
+      "community": 6,
       "norm_label": "send()",
       "id": "app_main_push_stores_e2e_test_send"
     },
@@ -2701,7 +2811,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 23,
+      "community": 6,
       "norm_label": "on()",
       "id": "app_main_push_stores_e2e_test_on"
     },
@@ -2711,7 +2821,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L37",
       "_origin": "ast",
-      "community": 23,
+      "community": 6,
       "norm_label": "_trigger()",
       "id": "app_main_push_stores_e2e_test_trigger"
     },
@@ -2721,7 +2831,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 23,
+      "community": 6,
       "norm_label": "onconnection()",
       "id": "app_main_push_stores_e2e_test_onconnection"
     },
@@ -2731,7 +2841,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 23,
+      "community": 6,
       "norm_label": "_emitconn()",
       "id": "app_main_push_stores_e2e_test_emitconn"
     },
@@ -2741,7 +2851,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L60",
       "_origin": "ast",
-      "community": 23,
+      "community": 6,
       "norm_label": "close()",
       "id": "app_main_push_stores_e2e_test_close"
     },
@@ -2751,7 +2861,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 23,
+      "community": 6,
       "norm_label": "getstate()",
       "id": "app_main_push_stores_e2e_test_getstate"
     },
@@ -2781,7 +2891,7 @@
       "source_file": "app/main.view-sync.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 32,
+      "community": 1,
       "norm_label": "main.view-sync.test.js",
       "id": "mnt_main_beads_ui_app_main_view_sync_test_js"
     },
@@ -2791,7 +2901,7 @@
       "source_file": "app/main.view-sync.test.js",
       "source_location": "L10",
       "_origin": "ast",
-      "community": 32,
+      "community": 1,
       "norm_label": "send()",
       "id": "app_main_view_sync_test_send"
     },
@@ -2801,7 +2911,7 @@
       "source_file": "app/main.view-sync.test.js",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 32,
+      "community": 1,
       "norm_label": "on()",
       "id": "app_main_view_sync_test_on"
     },
@@ -2811,7 +2921,7 @@
       "source_file": "app/main.view-sync.test.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 32,
+      "community": 1,
       "norm_label": "close()",
       "id": "app_main_view_sync_test_close"
     },
@@ -2821,7 +2931,7 @@
       "source_file": "app/main.view-sync.test.js",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 32,
+      "community": 1,
       "norm_label": "getstate()",
       "id": "app_main_view_sync_test_getstate"
     },
@@ -2901,7 +3011,7 @@
       "source_file": "app/protocol.js",
       "source_location": "L74",
       "_origin": "ast",
-      "community": 4,
+      "community": 6,
       "norm_label": "nextid()",
       "id": "app_protocol_nextid"
     },
@@ -3111,7 +3221,7 @@
       "source_file": "app/utils/issue-id-renderer.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 23,
       "norm_label": "issue-id-renderer.js",
       "id": "mnt_main_beads_ui_app_utils_issue_id_renderer_js"
     },
@@ -3121,7 +3231,7 @@
       "source_file": "app/utils/issue-id-renderer.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 3,
+      "community": 23,
       "norm_label": "createissueidrenderer()",
       "id": "utils_issue_id_renderer_createissueidrenderer"
     },
@@ -3131,7 +3241,7 @@
       "source_file": "app/utils/issue-id-renderer.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 23,
       "norm_label": "issue-id-renderer.test.js",
       "id": "mnt_main_beads_ui_app_utils_issue_id_renderer_test_js"
     },
@@ -3141,7 +3251,7 @@
       "source_file": "app/utils/issue-type.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 32,
       "norm_label": "issue-type.js",
       "id": "mnt_main_beads_ui_app_utils_issue_type_js"
     },
@@ -3151,7 +3261,7 @@
       "source_file": "app/utils/issue-type.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 3,
+      "community": 32,
       "norm_label": "issue_types",
       "id": "utils_issue_type_issue_types"
     },
@@ -3161,7 +3271,7 @@
       "source_file": "app/utils/issue-type.js",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 3,
+      "community": 32,
       "norm_label": "typelabel()",
       "id": "utils_issue_type_typelabel"
     },
@@ -3171,7 +3281,7 @@
       "source_file": "app/utils/issue-url.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 22,
       "norm_label": "issue-url.js",
       "id": "mnt_main_beads_ui_app_utils_issue_url_js"
     },
@@ -3181,7 +3291,7 @@
       "source_file": "app/utils/issue-url.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 1,
+      "community": 22,
       "norm_label": "issuehashfor()",
       "id": "utils_issue_url_issuehashfor"
     },
@@ -3211,7 +3321,7 @@
       "source_file": "app/utils/markdown.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 22,
       "norm_label": "markdown.js",
       "id": "mnt_main_beads_ui_app_utils_markdown_js"
     },
@@ -3221,7 +3331,7 @@
       "source_file": "app/utils/markdown.js",
       "source_location": "L12",
       "_origin": "ast",
-      "community": 0,
+      "community": 22,
       "norm_label": "rendermarkdown()",
       "id": "utils_markdown_rendermarkdown"
     },
@@ -3231,7 +3341,7 @@
       "source_file": "app/utils/markdown.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 22,
       "norm_label": "markdown.test.js",
       "id": "mnt_main_beads_ui_app_utils_markdown_test_js"
     },
@@ -3361,7 +3471,7 @@
       "source_file": "app/utils/toast.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 22,
       "norm_label": "toast.js",
       "id": "mnt_main_beads_ui_app_utils_toast_js"
     },
@@ -3371,7 +3481,7 @@
       "source_file": "app/utils/toast.js",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 1,
+      "community": 22,
       "norm_label": "showtoast()",
       "id": "utils_toast_showtoast"
     },
@@ -3431,7 +3541,7 @@
       "source_file": "app/views/board.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "board.js",
       "id": "mnt_main_beads_ui_app_views_board_js"
     },
@@ -3441,7 +3551,7 @@
       "source_file": "app/views/board.js",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "column_status_map",
       "id": "views_board_column_status_map"
     },
@@ -3451,7 +3561,7 @@
       "source_file": "app/views/board.js",
       "source_location": "L52",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "createboardview()",
       "id": "views_board_createboardview"
     },
@@ -3611,7 +3721,7 @@
       "source_file": "app/views/detail.assignee.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 36,
       "norm_label": "detail.assignee.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_assignee_test_js"
     },
@@ -3621,7 +3731,7 @@
       "source_file": "app/views/detail.assignee.test.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 0,
+      "community": 36,
       "norm_label": "mocksend()",
       "id": "views_detail_assignee_test_mocksend"
     },
@@ -3631,7 +3741,7 @@
       "source_file": "app/views/detail.assignee.test.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 0,
+      "community": 36,
       "norm_label": "snapshotfor()",
       "id": "views_detail_assignee_test_snapshotfor"
     },
@@ -3641,7 +3751,7 @@
       "source_file": "app/views/detail.assignee.test.js",
       "source_location": "L29",
       "_origin": "ast",
-      "community": 0,
+      "community": 36,
       "norm_label": "subscribe()",
       "id": "views_detail_assignee_test_subscribe"
     },
@@ -3651,7 +3761,7 @@
       "source_file": "app/views/detail.deps.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 37,
       "norm_label": "detail.deps.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_deps_test_js"
     },
@@ -3661,7 +3771,7 @@
       "source_file": "app/views/detail.deps.test.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 0,
+      "community": 37,
       "norm_label": "setupdom()",
       "id": "views_detail_deps_test_setupdom"
     },
@@ -3671,7 +3781,7 @@
       "source_file": "app/views/detail.deps.test.js",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 0,
+      "community": 37,
       "norm_label": "snapshotfor()",
       "id": "views_detail_deps_test_snapshotfor"
     },
@@ -3681,7 +3791,7 @@
       "source_file": "app/views/detail.deps.test.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 0,
+      "community": 37,
       "norm_label": "subscribe()",
       "id": "views_detail_deps_test_subscribe"
     },
@@ -3731,7 +3841,7 @@
       "source_file": "app/views/detail.edits.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 38,
       "norm_label": "detail.edits.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_edits_test_js"
     },
@@ -3741,7 +3851,7 @@
       "source_file": "app/views/detail.edits.test.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 0,
+      "community": 38,
       "norm_label": "mocksend()",
       "id": "views_detail_edits_test_mocksend"
     },
@@ -3751,7 +3861,7 @@
       "source_file": "app/views/detail.edits.test.js",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 0,
+      "community": 38,
       "norm_label": "snapshotfor()",
       "id": "views_detail_edits_test_snapshotfor"
     },
@@ -3761,7 +3871,7 @@
       "source_file": "app/views/detail.edits.test.js",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 0,
+      "community": 38,
       "norm_label": "subscribe()",
       "id": "views_detail_edits_test_subscribe"
     },
@@ -3771,7 +3881,7 @@
       "source_file": "app/views/detail.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 22,
       "norm_label": "detail.js",
       "id": "mnt_main_beads_ui_app_views_detail_js"
     },
@@ -3781,7 +3891,7 @@
       "source_file": "app/views/detail.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 0,
+      "community": 22,
       "norm_label": "formatcommentdate()",
       "id": "views_detail_formatcommentdate"
     },
@@ -3791,7 +3901,7 @@
       "source_file": "app/views/detail.js",
       "source_location": "L73",
       "_origin": "ast",
-      "community": 0,
+      "community": 22,
       "norm_label": "defaultnavigatefn()",
       "id": "views_detail_defaultnavigatefn"
     },
@@ -3811,7 +3921,7 @@
       "source_file": "app/views/detail.labels.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 39,
       "norm_label": "detail.labels.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_labels_test_js"
     },
@@ -3821,7 +3931,7 @@
       "source_file": "app/views/detail.labels.test.js",
       "source_location": "L4",
       "_origin": "ast",
-      "community": 0,
+      "community": 39,
       "norm_label": "mountdiv()",
       "id": "views_detail_labels_test_mountdiv"
     },
@@ -3831,7 +3941,7 @@
       "source_file": "app/views/detail.labels.test.js",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 0,
+      "community": 39,
       "norm_label": "snapshotfor()",
       "id": "views_detail_labels_test_snapshotfor"
     },
@@ -3841,7 +3951,7 @@
       "source_file": "app/views/detail.labels.test.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 0,
+      "community": 39,
       "norm_label": "subscribe()",
       "id": "views_detail_labels_test_subscribe"
     },
@@ -3851,7 +3961,7 @@
       "source_file": "app/views/detail.notes-edit.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 42,
       "norm_label": "detail.notes-edit.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_notes_edit_test_js"
     },
@@ -3861,7 +3971,7 @@
       "source_file": "app/views/detail.notes-edit.test.js",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 0,
+      "community": 42,
       "norm_label": "snapshotfor()",
       "id": "views_detail_notes_edit_test_snapshotfor"
     },
@@ -3871,7 +3981,7 @@
       "source_file": "app/views/detail.notes-edit.test.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 0,
+      "community": 42,
       "norm_label": "subscribe()",
       "id": "views_detail_notes_edit_test_subscribe"
     },
@@ -3881,7 +3991,7 @@
       "source_file": "app/views/detail.priority.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 40,
       "norm_label": "detail.priority.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_priority_test_js"
     },
@@ -3891,7 +4001,7 @@
       "source_file": "app/views/detail.priority.test.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 0,
+      "community": 40,
       "norm_label": "mocksend()",
       "id": "views_detail_priority_test_mocksend"
     },
@@ -3901,7 +4011,7 @@
       "source_file": "app/views/detail.priority.test.js",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 0,
+      "community": 40,
       "norm_label": "snapshotfor()",
       "id": "views_detail_priority_test_snapshotfor"
     },
@@ -3911,7 +4021,7 @@
       "source_file": "app/views/detail.priority.test.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 0,
+      "community": 40,
       "norm_label": "subscribe()",
       "id": "views_detail_priority_test_subscribe"
     },
@@ -3951,7 +4061,7 @@
       "source_file": "app/views/detail.toast.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 41,
       "norm_label": "detail.toast.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_toast_test_js"
     },
@@ -3961,7 +4071,7 @@
       "source_file": "app/views/detail.toast.test.js",
       "source_location": "L5",
       "_origin": "ast",
-      "community": 0,
+      "community": 41,
       "norm_label": "mocksend()",
       "id": "views_detail_toast_test_mocksend"
     },
@@ -3971,7 +4081,7 @@
       "source_file": "app/views/detail.toast.test.js",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 0,
+      "community": 41,
       "norm_label": "snapshotfor()",
       "id": "views_detail_toast_test_snapshotfor"
     },
@@ -3981,7 +4091,7 @@
       "source_file": "app/views/detail.toast.test.js",
       "source_location": "L20",
       "_origin": "ast",
-      "community": 0,
+      "community": 41,
       "norm_label": "subscribe()",
       "id": "views_detail_toast_test_subscribe"
     },
@@ -3991,7 +4101,7 @@
       "source_file": "app/views/detail.ui47.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
+      "community": 43,
       "norm_label": "detail.ui47.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_ui47_test_js"
     },
@@ -4001,7 +4111,7 @@
       "source_file": "app/views/detail.ui47.test.js",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 0,
+      "community": 43,
       "norm_label": "snapshotfor()",
       "id": "views_detail_ui47_test_snapshotfor"
     },
@@ -4011,7 +4121,7 @@
       "source_file": "app/views/detail.ui47.test.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 0,
+      "community": 43,
       "norm_label": "subscribe()",
       "id": "views_detail_ui47_test_subscribe"
     },
@@ -4021,7 +4131,7 @@
       "source_file": "app/views/epics.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "epics.js",
       "id": "mnt_main_beads_ui_app_views_epics_js"
     },
@@ -4031,7 +4141,7 @@
       "source_file": "app/views/epics.js",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "createepicsview()",
       "id": "views_epics_createepicsview"
     },
@@ -4091,7 +4201,7 @@
       "source_file": "app/views/issue-dialog.focus.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 23,
       "norm_label": "issue-dialog.focus.test.js",
       "id": "mnt_main_beads_ui_app_views_issue_dialog_focus_test_js"
     },
@@ -4101,7 +4211,7 @@
       "source_file": "app/views/issue-dialog.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 23,
       "norm_label": "issue-dialog.js",
       "id": "mnt_main_beads_ui_app_views_issue_dialog_js"
     },
@@ -4111,7 +4221,7 @@
       "source_file": "app/views/issue-dialog.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 3,
+      "community": 23,
       "norm_label": "createissuedialog()",
       "id": "views_issue_dialog_createissuedialog"
     },
@@ -4131,7 +4241,7 @@
       "source_file": "app/views/issue-row.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "createissuerowrenderer()",
       "id": "views_issue_row_createissuerowrenderer"
     },
@@ -4191,7 +4301,7 @@
       "source_file": "app/views/list.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "list.js",
       "id": "mnt_main_beads_ui_app_views_list_js"
     },
@@ -4201,7 +4311,7 @@
       "source_file": "app/views/list.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 1,
+      "community": 2,
       "norm_label": "createlistview()",
       "id": "views_list_createlistview"
     },
@@ -4341,7 +4451,7 @@
       "source_file": "app/views/new-issue-dialog.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 3,
+      "community": 32,
       "norm_label": "new-issue-dialog.js",
       "id": "mnt_main_beads_ui_app_views_new_issue_dialog_js"
     },
@@ -4351,7 +4461,7 @@
       "source_file": "app/views/new-issue-dialog.js",
       "source_location": "L13",
       "_origin": "ast",
-      "community": 1,
+      "community": 32,
       "norm_label": "createnewissuedialog()",
       "id": "views_new_issue_dialog_createnewissuedialog"
     },
@@ -4391,7 +4501,7 @@
       "source_file": "app/ws.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
+      "community": 6,
       "norm_label": "ws.js",
       "id": "mnt_main_beads_ui_app_ws_js"
     },
@@ -4401,7 +4511,7 @@
       "source_file": "app/ws.js",
       "source_location": "L33",
       "_origin": "ast",
-      "community": 1,
+      "community": 6,
       "norm_label": "createwsclient()",
       "id": "app_ws_createwsclient"
     },
@@ -4411,7 +4521,7 @@
       "source_file": "app/ws.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 6,
       "norm_label": "ws.test.js",
       "id": "mnt_main_beads_ui_app_ws_test_js"
     },
@@ -4421,7 +4531,7 @@
       "source_file": "app/ws.test.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 1,
+      "community": 6,
       "norm_label": "setupfakewebsocket()",
       "id": "app_ws_test_setupfakewebsocket"
     },
@@ -4450,12 +4560,112 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn",
+      "target": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_adr_0001_migrate_beads_ui_frontend_to_react_19_vite_tailwind_v4_shadcn_base_ui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_adr_0001_migrate_beads_ui_frontend_to_react_19_vite_tailwind_v4_shadcn_base_ui",
+      "target": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_consequences",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_adr_0001_migrate_beads_ui_frontend_to_react_19_vite_tailwind_v4_shadcn_base_ui",
+      "target": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_adr_0001_migrate_beads_ui_frontend_to_react_19_vite_tailwind_v4_shadcn_base_ui",
+      "target": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_decision",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_adr_0001_migrate_beads_ui_frontend_to_react_19_vite_tailwind_v4_shadcn_base_ui",
+      "target": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_evidence_verified_not_assumed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_adr_0001_migrate_beads_ui_frontend_to_react_19_vite_tailwind_v4_shadcn_base_ui",
+      "target": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_rationale",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_adr_0001_migrate_beads_ui_frontend_to_react_19_vite_tailwind_v4_shadcn_base_ui",
+      "target": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_related",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_decision",
+      "target": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_target_stack_verified_from_work_wellness",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_consequences",
+      "target": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_negative_risks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "beads-ui-knowledge/05-Decisions/ADR-0001-migrate-frontend-to-react-shadcn.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "source": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_consequences",
+      "target": "05_decisions_adr_0001_migrate_frontend_to_react_shadcn_positive",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L134",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks",
-      "target": "hooks_reconcile_hooks_check_scripts",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_check_scripts"
     },
     {
       "relation": "contains",
@@ -4463,9 +4673,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks",
-      "target": "hooks_reconcile_hooks_command_of",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_command_of"
     },
     {
       "relation": "contains",
@@ -4473,9 +4683,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L83",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks",
-      "target": "hooks_reconcile_hooks_is_superseded",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_is_superseded"
     },
     {
       "relation": "contains",
@@ -4483,9 +4693,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks",
-      "target": "hooks_reconcile_hooks_load_settings",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_load_settings"
     },
     {
       "relation": "contains",
@@ -4493,9 +4703,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L144",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks",
-      "target": "hooks_reconcile_hooks_main",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_main"
     },
     {
       "relation": "contains",
@@ -4503,9 +4713,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks",
-      "target": "hooks_reconcile_hooks_reconcile",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_reconcile"
     },
     {
       "relation": "calls",
@@ -4514,9 +4724,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L146",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks_main",
-      "target": "hooks_reconcile_hooks_load_settings",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_load_settings"
     },
     {
       "relation": "calls",
@@ -4525,9 +4735,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks_is_superseded",
-      "target": "hooks_reconcile_hooks_command_of",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_command_of"
     },
     {
       "relation": "calls",
@@ -4536,9 +4746,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L121",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks_reconcile",
-      "target": "hooks_reconcile_hooks_command_of",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_command_of"
     },
     {
       "relation": "calls",
@@ -4547,9 +4757,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks_reconcile",
-      "target": "hooks_reconcile_hooks_is_superseded",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_is_superseded"
     },
     {
       "relation": "calls",
@@ -4558,9 +4768,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L147",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks_main",
-      "target": "hooks_reconcile_hooks_reconcile",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_reconcile"
     },
     {
       "relation": "rationale_for",
@@ -4568,9 +4778,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks_rationale_89",
-      "target": "hooks_reconcile_hooks_reconcile",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_reconcile"
     },
     {
       "relation": "calls",
@@ -4579,9 +4789,9 @@
       "source_file": ".claude/hooks/reconcile-hooks.py",
       "source_location": "L148",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_reconcile_hooks_main",
-      "target": "hooks_reconcile_hooks_check_scripts",
-      "confidence_score": 1.0
+      "target": "hooks_reconcile_hooks_check_scripts"
     },
     {
       "relation": "defines",
@@ -4589,9 +4799,9 @@
       "source_file": ".claude/hooks/tool-router-nudge.sh",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_tool_router_nudge",
-      "target": "hooks_tool_router_nudge_lower",
-      "confidence_score": 1.0
+      "target": "hooks_tool_router_nudge_lower"
     },
     {
       "relation": "contains",
@@ -4599,9 +4809,9 @@
       "source_file": ".claude/hooks/tool-router-nudge.sh",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hooks_tool_router_nudge",
-      "target": "mnt_main_beads_ui_claude_hooks_tool_router_nudge_sh__entry",
-      "confidence_score": 1.0
+      "target": "mnt_main_beads_ui_claude_hooks_tool_router_nudge_sh__entry"
     },
     {
       "relation": "contains",
@@ -4699,9 +4909,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_code_understanding_tool_router",
-      "confidence_score": 1.0
+      "target": "claude_code_understanding_tool_router"
     },
     {
       "relation": "contains",
@@ -4719,9 +4929,9 @@
       "source_file": "CLAUDE.md",
       "source_location": "L121",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_knowledge_vault_beads_ui_knowledge",
-      "confidence_score": 1.0
+      "target": "claude_knowledge_vault_beads_ui_knowledge"
     },
     {
       "relation": "contains",
@@ -4759,9 +4969,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_architecture",
-      "target": "templates_architecture_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_architecture_tp_file_title"
     },
     {
       "relation": "contains",
@@ -4769,9 +4979,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_architecture_tp_file_title",
-      "target": "templates_architecture_components",
-      "confidence_score": 1.0
+      "target": "templates_architecture_components"
     },
     {
       "relation": "contains",
@@ -4779,9 +4989,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_architecture_tp_file_title",
-      "target": "templates_architecture_dependencies",
-      "confidence_score": 1.0
+      "target": "templates_architecture_dependencies"
     },
     {
       "relation": "contains",
@@ -4789,9 +4999,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_architecture_tp_file_title",
-      "target": "templates_architecture_diagrams",
-      "confidence_score": 1.0
+      "target": "templates_architecture_diagrams"
     },
     {
       "relation": "contains",
@@ -4799,9 +5009,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_architecture_tp_file_title",
-      "target": "templates_architecture_overview",
-      "confidence_score": 1.0
+      "target": "templates_architecture_overview"
     },
     {
       "relation": "contains",
@@ -4809,9 +5019,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_architecture_tp_file_title",
-      "target": "templates_architecture_related",
-      "confidence_score": 1.0
+      "target": "templates_architecture_related"
     },
     {
       "relation": "contains",
@@ -4819,9 +5029,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_architecture_tp_file_title",
-      "target": "templates_architecture_trade_offs",
-      "confidence_score": 1.0
+      "target": "templates_architecture_trade_offs"
     },
     {
       "relation": "contains",
@@ -4829,9 +5039,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_architecture_trade_offs",
-      "target": "templates_architecture_alternatives_rejected",
-      "confidence_score": 1.0
+      "target": "templates_architecture_alternatives_rejected"
     },
     {
       "relation": "contains",
@@ -4839,9 +5049,9 @@
       "source_file": "beads-ui-knowledge/Templates/architecture.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_architecture_trade_offs",
-      "target": "templates_architecture_chosen_approach",
-      "confidence_score": 1.0
+      "target": "templates_architecture_chosen_approach"
     },
     {
       "relation": "contains",
@@ -4849,9 +5059,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_candidate",
-      "target": "templates_candidate_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_candidate_tp_file_title"
     },
     {
       "relation": "contains",
@@ -4859,9 +5069,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_candidate_tp_file_title",
-      "target": "templates_candidate_code_location",
-      "confidence_score": 1.0
+      "target": "templates_candidate_code_location"
     },
     {
       "relation": "contains",
@@ -4869,9 +5079,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_candidate_tp_file_title",
-      "target": "templates_candidate_dependencies",
-      "confidence_score": 1.0
+      "target": "templates_candidate_dependencies"
     },
     {
       "relation": "contains",
@@ -4879,9 +5089,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_candidate_tp_file_title",
-      "target": "templates_candidate_implementation_notes",
-      "confidence_score": 1.0
+      "target": "templates_candidate_implementation_notes"
     },
     {
       "relation": "contains",
@@ -4889,9 +5099,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_candidate_tp_file_title",
-      "target": "templates_candidate_overview",
-      "confidence_score": 1.0
+      "target": "templates_candidate_overview"
     },
     {
       "relation": "contains",
@@ -4899,9 +5109,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_candidate_tp_file_title",
-      "target": "templates_candidate_related_candidates",
-      "confidence_score": 1.0
+      "target": "templates_candidate_related_candidates"
     },
     {
       "relation": "contains",
@@ -4909,9 +5119,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_candidate_tp_file_title",
-      "target": "templates_candidate_strengths",
-      "confidence_score": 1.0
+      "target": "templates_candidate_strengths"
     },
     {
       "relation": "contains",
@@ -4919,9 +5129,9 @@
       "source_file": "beads-ui-knowledge/Templates/candidate.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_candidate_tp_file_title",
-      "target": "templates_candidate_weaknesses",
-      "confidence_score": 1.0
+      "target": "templates_candidate_weaknesses"
     },
     {
       "relation": "contains",
@@ -4929,9 +5139,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_capability",
-      "target": "templates_capability_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_capability_tp_file_title"
     },
     {
       "relation": "contains",
@@ -4939,9 +5149,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_capability_tp_file_title",
-      "target": "templates_capability_architecture_notes",
-      "confidence_score": 1.0
+      "target": "templates_capability_architecture_notes"
     },
     {
       "relation": "contains",
@@ -4949,9 +5159,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_capability_tp_file_title",
-      "target": "templates_capability_open_questions",
-      "confidence_score": 1.0
+      "target": "templates_capability_open_questions"
     },
     {
       "relation": "contains",
@@ -4959,9 +5169,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_capability_tp_file_title",
-      "target": "templates_capability_overview",
-      "confidence_score": 1.0
+      "target": "templates_capability_overview"
     },
     {
       "relation": "contains",
@@ -4969,9 +5179,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_capability_tp_file_title",
-      "target": "templates_capability_related_capabilities",
-      "confidence_score": 1.0
+      "target": "templates_capability_related_capabilities"
     },
     {
       "relation": "contains",
@@ -4979,9 +5189,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_capability_tp_file_title",
-      "target": "templates_capability_requirements",
-      "confidence_score": 1.0
+      "target": "templates_capability_requirements"
     },
     {
       "relation": "contains",
@@ -4989,9 +5199,9 @@
       "source_file": "beads-ui-knowledge/Templates/capability.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_capability_tp_file_title",
-      "target": "templates_capability_status_summary",
-      "confidence_score": 1.0
+      "target": "templates_capability_status_summary"
     },
     {
       "relation": "contains",
@@ -4999,9 +5209,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_chronicle",
-      "target": "templates_chronicle_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_chronicle_tp_file_title"
     },
     {
       "relation": "contains",
@@ -5009,9 +5219,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_chronicle_tp_file_title",
-      "target": "templates_chronicle_dependencies",
-      "confidence_score": 1.0
+      "target": "templates_chronicle_dependencies"
     },
     {
       "relation": "contains",
@@ -5019,9 +5229,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_chronicle_tp_file_title",
-      "target": "templates_chronicle_handoff_notes",
-      "confidence_score": 1.0
+      "target": "templates_chronicle_handoff_notes"
     },
     {
       "relation": "contains",
@@ -5029,9 +5239,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_chronicle_tp_file_title",
-      "target": "templates_chronicle_key_decisions",
-      "confidence_score": 1.0
+      "target": "templates_chronicle_key_decisions"
     },
     {
       "relation": "contains",
@@ -5039,9 +5249,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_chronicle_tp_file_title",
-      "target": "templates_chronicle_next_steps",
-      "confidence_score": 1.0
+      "target": "templates_chronicle_next_steps"
     },
     {
       "relation": "contains",
@@ -5049,9 +5259,9 @@
       "source_file": "beads-ui-knowledge/Templates/chronicle.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_chronicle_tp_file_title",
-      "target": "templates_chronicle_session_summary",
-      "confidence_score": 1.0
+      "target": "templates_chronicle_session_summary"
     },
     {
       "relation": "contains",
@@ -5059,9 +5269,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_decision",
-      "target": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title"
     },
     {
       "relation": "contains",
@@ -5069,9 +5279,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
-      "target": "templates_decision_alternatives_considered",
-      "confidence_score": 1.0
+      "target": "templates_decision_alternatives_considered"
     },
     {
       "relation": "contains",
@@ -5079,9 +5289,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
-      "target": "templates_decision_consequences",
-      "confidence_score": 1.0
+      "target": "templates_decision_consequences"
     },
     {
       "relation": "contains",
@@ -5089,9 +5299,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
-      "target": "templates_decision_context",
-      "confidence_score": 1.0
+      "target": "templates_decision_context"
     },
     {
       "relation": "contains",
@@ -5099,9 +5309,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
-      "target": "templates_decision_decision",
-      "confidence_score": 1.0
+      "target": "templates_decision_decision"
     },
     {
       "relation": "contains",
@@ -5109,9 +5319,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
-      "target": "templates_decision_implementation_notes",
-      "confidence_score": 1.0
+      "target": "templates_decision_implementation_notes"
     },
     {
       "relation": "contains",
@@ -5119,9 +5329,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
-      "target": "templates_decision_rationale",
-      "confidence_score": 1.0
+      "target": "templates_decision_rationale"
     },
     {
       "relation": "contains",
@@ -5129,9 +5339,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
-      "target": "templates_decision_related_decisions",
-      "confidence_score": 1.0
+      "target": "templates_decision_related_decisions"
     },
     {
       "relation": "contains",
@@ -5139,9 +5349,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_decision_adr_tp_system_prompt_adr_number_tp_file_title",
-      "target": "templates_decision_trade_offs",
-      "confidence_score": 1.0
+      "target": "templates_decision_trade_offs"
     },
     {
       "relation": "contains",
@@ -5149,9 +5359,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_decision_consequences",
-      "target": "templates_decision_negative",
-      "confidence_score": 1.0
+      "target": "templates_decision_negative"
     },
     {
       "relation": "contains",
@@ -5159,9 +5369,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_decision_consequences",
-      "target": "templates_decision_positive",
-      "confidence_score": 1.0
+      "target": "templates_decision_positive"
     },
     {
       "relation": "contains",
@@ -5169,9 +5379,9 @@
       "source_file": "beads-ui-knowledge/Templates/decision.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_decision_consequences",
-      "target": "templates_decision_risks",
-      "confidence_score": 1.0
+      "target": "templates_decision_risks"
     },
     {
       "relation": "contains",
@@ -5179,9 +5389,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_design",
-      "target": "templates_design_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_design_tp_file_title"
     },
     {
       "relation": "contains",
@@ -5189,9 +5399,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_design_tp_file_title",
-      "target": "templates_design_context",
-      "confidence_score": 1.0
+      "target": "templates_design_context"
     },
     {
       "relation": "contains",
@@ -5199,9 +5409,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_design_tp_file_title",
-      "target": "templates_design_dependencies",
-      "confidence_score": 1.0
+      "target": "templates_design_dependencies"
     },
     {
       "relation": "contains",
@@ -5209,9 +5419,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_design_tp_file_title",
-      "target": "templates_design_design",
-      "confidence_score": 1.0
+      "target": "templates_design_design"
     },
     {
       "relation": "contains",
@@ -5219,9 +5429,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_design_tp_file_title",
-      "target": "templates_design_implementation_plan",
-      "confidence_score": 1.0
+      "target": "templates_design_implementation_plan"
     },
     {
       "relation": "contains",
@@ -5229,9 +5439,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_design_tp_file_title",
-      "target": "templates_design_open_questions",
-      "confidence_score": 1.0
+      "target": "templates_design_open_questions"
     },
     {
       "relation": "contains",
@@ -5239,9 +5449,9 @@
       "source_file": "beads-ui-knowledge/Templates/design.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_design_tp_file_title",
-      "target": "templates_design_related",
-      "confidence_score": 1.0
+      "target": "templates_design_related"
     },
     {
       "relation": "contains",
@@ -5249,9 +5459,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_investigation",
-      "target": "templates_investigation_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_investigation_tp_file_title"
     },
     {
       "relation": "contains",
@@ -5259,9 +5469,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_investigation_tp_file_title",
-      "target": "templates_investigation_dependencies",
-      "confidence_score": 1.0
+      "target": "templates_investigation_dependencies"
     },
     {
       "relation": "contains",
@@ -5269,9 +5479,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_investigation_tp_file_title",
-      "target": "templates_investigation_key_findings",
-      "confidence_score": 1.0
+      "target": "templates_investigation_key_findings"
     },
     {
       "relation": "contains",
@@ -5279,9 +5489,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_investigation_tp_file_title",
-      "target": "templates_investigation_recommendations",
-      "confidence_score": 1.0
+      "target": "templates_investigation_recommendations"
     },
     {
       "relation": "contains",
@@ -5289,9 +5499,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_investigation_tp_file_title",
-      "target": "templates_investigation_related",
-      "confidence_score": 1.0
+      "target": "templates_investigation_related"
     },
     {
       "relation": "contains",
@@ -5299,9 +5509,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_investigation_tp_file_title",
-      "target": "templates_investigation_relevant_code",
-      "confidence_score": 1.0
+      "target": "templates_investigation_relevant_code"
     },
     {
       "relation": "contains",
@@ -5309,9 +5519,9 @@
       "source_file": "beads-ui-knowledge/Templates/investigation.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_investigation_tp_file_title",
-      "target": "templates_investigation_summary",
-      "confidence_score": 1.0
+      "target": "templates_investigation_summary"
     },
     {
       "relation": "contains",
@@ -5319,9 +5529,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_opportunity",
-      "target": "templates_opportunity_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_opportunity_tp_file_title"
     },
     {
       "relation": "contains",
@@ -5329,9 +5539,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_opportunity_tp_file_title",
-      "target": "templates_opportunity_code_location",
-      "confidence_score": 1.0
+      "target": "templates_opportunity_code_location"
     },
     {
       "relation": "contains",
@@ -5339,9 +5549,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_opportunity_tp_file_title",
-      "target": "templates_opportunity_overview",
-      "confidence_score": 1.0
+      "target": "templates_opportunity_overview"
     },
     {
       "relation": "contains",
@@ -5349,9 +5559,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_opportunity_tp_file_title",
-      "target": "templates_opportunity_promoted_to",
-      "confidence_score": 1.0
+      "target": "templates_opportunity_promoted_to"
     },
     {
       "relation": "contains",
@@ -5359,9 +5569,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_opportunity_tp_file_title",
-      "target": "templates_opportunity_promotion_rationale",
-      "confidence_score": 1.0
+      "target": "templates_opportunity_promotion_rationale"
     },
     {
       "relation": "contains",
@@ -5369,9 +5579,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_opportunity_tp_file_title",
-      "target": "templates_opportunity_rejection_rationale",
-      "confidence_score": 1.0
+      "target": "templates_opportunity_rejection_rationale"
     },
     {
       "relation": "contains",
@@ -5379,9 +5589,9 @@
       "source_file": "beads-ui-knowledge/Templates/opportunity.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_opportunity_tp_file_title",
-      "target": "templates_opportunity_value_proposition",
-      "confidence_score": 1.0
+      "target": "templates_opportunity_value_proposition"
     },
     {
       "relation": "contains",
@@ -5389,9 +5599,9 @@
       "source_file": "beads-ui-knowledge/Templates/repo-index.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_repo_index",
-      "target": "templates_repo_index_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_repo_index_tp_file_title"
     },
     {
       "relation": "contains",
@@ -5399,9 +5609,9 @@
       "source_file": "beads-ui-knowledge/Templates/repo-index.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_repo_index_tp_file_title",
-      "target": "templates_repo_index_cross_repo_research",
-      "confidence_score": 1.0
+      "target": "templates_repo_index_cross_repo_research"
     },
     {
       "relation": "contains",
@@ -5409,9 +5619,9 @@
       "source_file": "beads-ui-knowledge/Templates/repo-index.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_repo_index_tp_file_title",
-      "target": "templates_repo_index_file_map",
-      "confidence_score": 1.0
+      "target": "templates_repo_index_file_map"
     },
     {
       "relation": "contains",
@@ -5419,9 +5629,9 @@
       "source_file": "beads-ui-knowledge/Templates/repo-index.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_repo_index_tp_file_title",
-      "target": "templates_repo_index_mvp_notes",
-      "confidence_score": 1.0
+      "target": "templates_repo_index_mvp_notes"
     },
     {
       "relation": "contains",
@@ -5429,9 +5639,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_repository",
-      "target": "templates_repository_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_repository_tp_file_title"
     },
     {
       "relation": "contains",
@@ -5439,9 +5649,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_repository_tp_file_title",
-      "target": "templates_repository_candidates_provided",
-      "confidence_score": 1.0
+      "target": "templates_repository_candidates_provided"
     },
     {
       "relation": "contains",
@@ -5449,9 +5659,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_repository_tp_file_title",
-      "target": "templates_repository_integration_notes",
-      "confidence_score": 1.0
+      "target": "templates_repository_integration_notes"
     },
     {
       "relation": "contains",
@@ -5459,9 +5669,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_repository_tp_file_title",
-      "target": "templates_repository_investigation_files",
-      "confidence_score": 1.0
+      "target": "templates_repository_investigation_files"
     },
     {
       "relation": "contains",
@@ -5469,9 +5679,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_repository_tp_file_title",
-      "target": "templates_repository_key_features",
-      "confidence_score": 1.0
+      "target": "templates_repository_key_features"
     },
     {
       "relation": "contains",
@@ -5479,9 +5689,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_repository_tp_file_title",
-      "target": "templates_repository_opportunities_discovered",
-      "confidence_score": 1.0
+      "target": "templates_repository_opportunities_discovered"
     },
     {
       "relation": "contains",
@@ -5489,9 +5699,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_repository_tp_file_title",
-      "target": "templates_repository_overview",
-      "confidence_score": 1.0
+      "target": "templates_repository_overview"
     },
     {
       "relation": "contains",
@@ -5499,9 +5709,9 @@
       "source_file": "beads-ui-knowledge/Templates/repository.md",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_repository_tp_file_title",
-      "target": "templates_repository_tech_stack",
-      "confidence_score": 1.0
+      "target": "templates_repository_tech_stack"
     },
     {
       "relation": "contains",
@@ -5509,9 +5719,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_requirement",
-      "target": "templates_requirement_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_requirement_tp_file_title"
     },
     {
       "relation": "contains",
@@ -5519,9 +5729,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_requirement_tp_file_title",
-      "target": "templates_requirement_acceptance_criteria",
-      "confidence_score": 1.0
+      "target": "templates_requirement_acceptance_criteria"
     },
     {
       "relation": "contains",
@@ -5529,9 +5739,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_requirement_tp_file_title",
-      "target": "templates_requirement_candidates",
-      "confidence_score": 1.0
+      "target": "templates_requirement_candidates"
     },
     {
       "relation": "contains",
@@ -5539,9 +5749,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_requirement_tp_file_title",
-      "target": "templates_requirement_comparison",
-      "confidence_score": 1.0
+      "target": "templates_requirement_comparison"
     },
     {
       "relation": "contains",
@@ -5549,9 +5759,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_requirement_tp_file_title",
-      "target": "templates_requirement_decision",
-      "confidence_score": 1.0
+      "target": "templates_requirement_decision"
     },
     {
       "relation": "contains",
@@ -5559,9 +5769,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_requirement_tp_file_title",
-      "target": "templates_requirement_neo4j_query",
-      "confidence_score": 1.0
+      "target": "templates_requirement_neo4j_query"
     },
     {
       "relation": "contains",
@@ -5569,9 +5779,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_requirement_tp_file_title",
-      "target": "templates_requirement_overview",
-      "confidence_score": 1.0
+      "target": "templates_requirement_overview"
     },
     {
       "relation": "contains",
@@ -5579,9 +5789,9 @@
       "source_file": "beads-ui-knowledge/Templates/requirement.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_requirement_comparison",
-      "target": "templates_requirement_candidate_1",
-      "confidence_score": 1.0
+      "target": "templates_requirement_candidate_1"
     },
     {
       "relation": "contains",
@@ -5589,9 +5799,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_research",
-      "target": "templates_research_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_research_tp_file_title"
     },
     {
       "relation": "contains",
@@ -5599,9 +5809,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_research_tp_file_title",
-      "target": "templates_research_background",
-      "confidence_score": 1.0
+      "target": "templates_research_background"
     },
     {
       "relation": "contains",
@@ -5609,9 +5819,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_research_tp_file_title",
-      "target": "templates_research_dependencies",
-      "confidence_score": 1.0
+      "target": "templates_research_dependencies"
     },
     {
       "relation": "contains",
@@ -5619,9 +5829,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_research_tp_file_title",
-      "target": "templates_research_findings",
-      "confidence_score": 1.0
+      "target": "templates_research_findings"
     },
     {
       "relation": "contains",
@@ -5629,9 +5839,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_research_tp_file_title",
-      "target": "templates_research_implications",
-      "confidence_score": 1.0
+      "target": "templates_research_implications"
     },
     {
       "relation": "contains",
@@ -5639,9 +5849,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_research_tp_file_title",
-      "target": "templates_research_references",
-      "confidence_score": 1.0
+      "target": "templates_research_references"
     },
     {
       "relation": "contains",
@@ -5649,9 +5859,9 @@
       "source_file": "beads-ui-knowledge/Templates/research.md",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_research_tp_file_title",
-      "target": "templates_research_related",
-      "confidence_score": 1.0
+      "target": "templates_research_related"
     },
     {
       "relation": "contains",
@@ -5659,9 +5869,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_tool_doc",
-      "target": "templates_tool_doc_tp_file_title",
-      "confidence_score": 1.0
+      "target": "templates_tool_doc_tp_file_title"
     },
     {
       "relation": "contains",
@@ -5669,9 +5879,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_tool_doc_tp_file_title",
-      "target": "templates_tool_doc_configuration",
-      "confidence_score": 1.0
+      "target": "templates_tool_doc_configuration"
     },
     {
       "relation": "contains",
@@ -5679,9 +5889,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_tool_doc_tp_file_title",
-      "target": "templates_tool_doc_dependencies",
-      "confidence_score": 1.0
+      "target": "templates_tool_doc_dependencies"
     },
     {
       "relation": "contains",
@@ -5689,9 +5899,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_tool_doc_tp_file_title",
-      "target": "templates_tool_doc_overview",
-      "confidence_score": 1.0
+      "target": "templates_tool_doc_overview"
     },
     {
       "relation": "contains",
@@ -5699,9 +5909,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_tool_doc_tp_file_title",
-      "target": "templates_tool_doc_related",
-      "confidence_score": 1.0
+      "target": "templates_tool_doc_related"
     },
     {
       "relation": "contains",
@@ -5709,9 +5919,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_tool_doc_tp_file_title",
-      "target": "templates_tool_doc_troubleshooting",
-      "confidence_score": 1.0
+      "target": "templates_tool_doc_troubleshooting"
     },
     {
       "relation": "contains",
@@ -5719,9 +5929,9 @@
       "source_file": "beads-ui-knowledge/Templates/tool-doc.md",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "templates_tool_doc_tp_file_title",
-      "target": "templates_tool_doc_usage",
-      "confidence_score": 1.0
+      "target": "templates_tool_doc_usage"
     },
     {
       "relation": "contains",
@@ -5729,9 +5939,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_author",
-      "confidence_score": 1.0
+      "target": "package_author"
     },
     {
       "relation": "contains",
@@ -5739,9 +5949,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_bin",
-      "confidence_score": 1.0
+      "target": "package_bin"
     },
     {
       "relation": "contains",
@@ -5749,9 +5959,9 @@
       "source_file": "package.json",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_dependencies",
-      "confidence_score": 1.0
+      "target": "package_dependencies"
     },
     {
       "relation": "contains",
@@ -5759,9 +5969,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_description",
-      "confidence_score": 1.0
+      "target": "package_description"
     },
     {
       "relation": "contains",
@@ -5769,9 +5979,9 @@
       "source_file": "package.json",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_devdependencies",
-      "confidence_score": 1.0
+      "target": "package_devdependencies"
     },
     {
       "relation": "contains",
@@ -5779,9 +5989,9 @@
       "source_file": "package.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_engines",
-      "confidence_score": 1.0
+      "target": "package_engines"
     },
     {
       "relation": "contains",
@@ -5789,9 +5999,9 @@
       "source_file": "package.json",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_files",
-      "confidence_score": 1.0
+      "target": "package_files"
     },
     {
       "relation": "contains",
@@ -5799,9 +6009,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_homepage",
-      "confidence_score": 1.0
+      "target": "package_homepage"
     },
     {
       "relation": "contains",
@@ -5809,9 +6019,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_keywords",
-      "confidence_score": 1.0
+      "target": "package_keywords"
     },
     {
       "relation": "contains",
@@ -5819,9 +6029,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_name",
-      "confidence_score": 1.0
+      "target": "package_name"
     },
     {
       "relation": "contains",
@@ -5829,9 +6039,9 @@
       "source_file": "package.json",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_repository",
-      "confidence_score": 1.0
+      "target": "package_repository"
     },
     {
       "relation": "contains",
@@ -5839,9 +6049,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_scripts",
-      "confidence_score": 1.0
+      "target": "package_scripts"
     },
     {
       "relation": "contains",
@@ -5849,9 +6059,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_type",
-      "confidence_score": 1.0
+      "target": "package_type"
     },
     {
       "relation": "contains",
@@ -5859,9 +6069,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_version",
-      "confidence_score": 1.0
+      "target": "package_version"
     },
     {
       "relation": "contains",
@@ -5869,9 +6079,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_bin",
-      "target": "package_bin_bdui",
-      "confidence_score": 1.0
+      "target": "package_bin_bdui"
     },
     {
       "relation": "contains",
@@ -5879,9 +6089,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_engines",
-      "target": "package_engines_node",
-      "confidence_score": 1.0
+      "target": "package_engines_node"
     },
     {
       "relation": "contains",
@@ -5889,9 +6099,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_all",
-      "confidence_score": 1.0
+      "target": "package_scripts_all"
     },
     {
       "relation": "contains",
@@ -5899,9 +6109,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_build",
-      "confidence_score": 1.0
+      "target": "package_scripts_build"
     },
     {
       "relation": "contains",
@@ -5909,9 +6119,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_hooks_check",
-      "confidence_score": 1.0
+      "target": "package_scripts_hooks_check"
     },
     {
       "relation": "contains",
@@ -5919,9 +6129,9 @@
       "source_file": "package.json",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_hooks_reconcile",
-      "confidence_score": 1.0
+      "target": "package_scripts_hooks_reconcile"
     },
     {
       "relation": "contains",
@@ -5929,9 +6139,9 @@
       "source_file": "package.json",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_lint",
-      "confidence_score": 1.0
+      "target": "package_scripts_lint"
     },
     {
       "relation": "contains",
@@ -5939,9 +6149,9 @@
       "source_file": "package.json",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_postpack",
-      "confidence_score": 1.0
+      "target": "package_scripts_postpack"
     },
     {
       "relation": "contains",
@@ -5949,9 +6159,9 @@
       "source_file": "package.json",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_postversion",
-      "confidence_score": 1.0
+      "target": "package_scripts_postversion"
     },
     {
       "relation": "contains",
@@ -5959,9 +6169,9 @@
       "source_file": "package.json",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_prepack",
-      "confidence_score": 1.0
+      "target": "package_scripts_prepack"
     },
     {
       "relation": "contains",
@@ -5969,9 +6179,9 @@
       "source_file": "package.json",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_prettier_check",
-      "confidence_score": 1.0
+      "target": "package_scripts_prettier_check"
     },
     {
       "relation": "contains",
@@ -5979,9 +6189,9 @@
       "source_file": "package.json",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_prettier_write",
-      "confidence_score": 1.0
+      "target": "package_scripts_prettier_write"
     },
     {
       "relation": "contains",
@@ -5989,9 +6199,9 @@
       "source_file": "package.json",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_preversion",
-      "confidence_score": 1.0
+      "target": "package_scripts_preversion"
     },
     {
       "relation": "contains",
@@ -5999,9 +6209,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_start",
-      "confidence_score": 1.0
+      "target": "package_scripts_start"
     },
     {
       "relation": "contains",
@@ -6009,9 +6219,9 @@
       "source_file": "package.json",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_test",
-      "confidence_score": 1.0
+      "target": "package_scripts_test"
     },
     {
       "relation": "contains",
@@ -6019,9 +6229,9 @@
       "source_file": "package.json",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_test_watch",
-      "confidence_score": 1.0
+      "target": "package_scripts_test_watch"
     },
     {
       "relation": "contains",
@@ -6029,9 +6239,9 @@
       "source_file": "package.json",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_tsc",
-      "confidence_score": 1.0
+      "target": "package_scripts_tsc"
     },
     {
       "relation": "contains",
@@ -6039,9 +6249,9 @@
       "source_file": "package.json",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_version",
-      "confidence_score": 1.0
+      "target": "package_scripts_version"
     },
     {
       "relation": "contains",
@@ -6049,9 +6259,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_watch",
-      "confidence_score": 1.0
+      "target": "package_scripts_watch"
     },
     {
       "relation": "contains",
@@ -6059,9 +6269,9 @@
       "source_file": "package.json",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_debug",
-      "confidence_score": 1.0
+      "target": "package_dependencies_debug"
     },
     {
       "relation": "contains",
@@ -6069,9 +6279,9 @@
       "source_file": "package.json",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_dompurify",
-      "confidence_score": 1.0
+      "target": "package_dependencies_dompurify"
     },
     {
       "relation": "contains",
@@ -6079,9 +6289,9 @@
       "source_file": "package.json",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_express",
-      "confidence_score": 1.0
+      "target": "package_dependencies_express"
     },
     {
       "relation": "contains",
@@ -6089,9 +6299,9 @@
       "source_file": "package.json",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_lit_html",
-      "confidence_score": 1.0
+      "target": "package_dependencies_lit_html"
     },
     {
       "relation": "contains",
@@ -6099,9 +6309,9 @@
       "source_file": "package.json",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_marked",
-      "confidence_score": 1.0
+      "target": "package_dependencies_marked"
     },
     {
       "relation": "contains",
@@ -6109,9 +6319,9 @@
       "source_file": "package.json",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_ws",
-      "confidence_score": 1.0
+      "target": "package_dependencies_ws"
     },
     {
       "relation": "contains",
@@ -6119,9 +6329,9 @@
       "source_file": "package.json",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_esbuild",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_esbuild"
     },
     {
       "relation": "contains",
@@ -6129,9 +6339,9 @@
       "source_file": "package.json",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_eslint"
     },
     {
       "relation": "contains",
@@ -6139,9 +6349,9 @@
       "source_file": "package.json",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint_js",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_eslint_js"
     },
     {
       "relation": "contains",
@@ -6149,9 +6359,9 @@
       "source_file": "package.json",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint_plugin_import",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_eslint_plugin_import"
     },
     {
       "relation": "contains",
@@ -6159,9 +6369,9 @@
       "source_file": "package.json",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint_plugin_jsdoc",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_eslint_plugin_jsdoc"
     },
     {
       "relation": "contains",
@@ -6169,9 +6379,9 @@
       "source_file": "package.json",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_eslint_plugin_n",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_eslint_plugin_n"
     },
     {
       "relation": "contains",
@@ -6179,9 +6389,9 @@
       "source_file": "package.json",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_globals",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_globals"
     },
     {
       "relation": "contains",
@@ -6189,9 +6399,9 @@
       "source_file": "package.json",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_jsdom",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_jsdom"
     },
     {
       "relation": "contains",
@@ -6199,9 +6409,9 @@
       "source_file": "package.json",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_prettier",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_prettier"
     },
     {
       "relation": "contains",
@@ -6209,9 +6419,9 @@
       "source_file": "package.json",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_studio_changes",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_studio_changes"
     },
     {
       "relation": "contains",
@@ -6219,9 +6429,9 @@
       "source_file": "package.json",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_trivago_prettier_plugin_sort_imports",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_trivago_prettier_plugin_sort_imports"
     },
     {
       "relation": "contains",
@@ -6229,9 +6439,9 @@
       "source_file": "package.json",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_types_debug",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_types_debug"
     },
     {
       "relation": "contains",
@@ -6239,9 +6449,9 @@
       "source_file": "package.json",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_types_express",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_types_express"
     },
     {
       "relation": "contains",
@@ -6249,9 +6459,9 @@
       "source_file": "package.json",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_types_node",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_types_node"
     },
     {
       "relation": "contains",
@@ -6259,9 +6469,9 @@
       "source_file": "package.json",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_types_ws",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_types_ws"
     },
     {
       "relation": "contains",
@@ -6269,9 +6479,9 @@
       "source_file": "package.json",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_typescript",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_typescript"
     },
     {
       "relation": "contains",
@@ -6279,9 +6489,9 @@
       "source_file": "package.json",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_vitest",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_vitest"
     },
     {
       "relation": "contains",
@@ -6289,9 +6499,9 @@
       "source_file": "package.json",
       "source_location": "L80",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_repository",
-      "target": "package_repository_type",
-      "confidence_score": 1.0
+      "target": "package_repository_type"
     },
     {
       "relation": "contains",
@@ -6299,9 +6509,9 @@
       "source_file": "package.json",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_repository",
-      "target": "package_repository_url",
-      "confidence_score": 1.0
+      "target": "package_repository_url"
     },
     {
       "relation": "contains",
@@ -11640,5 +11850,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "a45555c52f4cd4ad4a6b085e30b3cf7685d30652"
+  "built_at_commit": "27e16144bfb514b5cac37c70b40ef159eb7c345a"
 }
