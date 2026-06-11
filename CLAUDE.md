@@ -91,6 +91,15 @@ This repo tracks its own dev work in beads under the **`bdui-`** prefix.
 - **Mode:** external server (shared horde Dolt on `127.0.0.1:3307`, database `bdui`). The server is managed by systemd — **do NOT run `bd dolt start`/`stop`**.
 - General `bd` workflow + session-close protocol is injected by `bd prime` (see the Beads Issue Tracker section above); don't duplicate it here.
 
+## BMad workflow (project-specific) — beads IS the story
+
+BMad 6.8.0 is installed but runs in a **modified, beads-backed** mode. Do **not** follow stock BMad's sprint-status path.
+
+- **No `_bmad-output/sprint-status.yaml` and no story `.md` files** — `_bmad-output/` is empty by design. When a BMad skill (`bmad-dev-story`, `bmad-create-story`, etc.) tries to auto-discover a "ready-for-dev" story, **skip that discovery**: the **bead** (e.g. `bdui-321.1`) IS the story spec. Read it with `bd show <id>`.
+- Track progress/completion on the bead via `bd update <id> --notes` and checkbox-equivalent updates — there is no story file to edit.
+- `bmad-dev-story` ends at status **"review"**, not closed. Beads has no `review` status, so **leave the bead `in_progress` with completion notes** and recommend a code-review; the human closes it.
+- Don't HALT hunting for sprint-status / story-markdown artifacts — they don't exist here.
+
 ## Code understanding — tool router
 
 Three complementary tools for understanding code. Pick the lens (check in this order):
