@@ -5,7 +5,7 @@ This file provides instructions and context for AI coding agents working on this
 <!-- BEGIN BEADS INTEGRATION v:1 profile:minimal hash:ca08a54f -->
 ## Beads Issue Tracker
 
-This project uses **bd (beads)** for issue tracking. Full workflow context and commands are auto-injected at session start by the SessionStart hook (`bd prime`) — no need to run it manually.
+This project uses **bd (beads)** for issue tracking.
 
 ### Quick Reference
 
@@ -19,7 +19,6 @@ bd close <id>         # Complete work
 ### Rules
 
 - Use `bd` for ALL task tracking — do NOT use TodoWrite, TaskCreate, or markdown TODO lists
-- Detailed command reference + session-close protocol are auto-injected by the SessionStart hook (`bd prime`); don't run it manually
 - Use `bd remember` for persistent knowledge — do NOT use MEMORY.md files
 
 ## Session Completion
@@ -89,7 +88,7 @@ Coding conventions for this vanilla-JS / lit-html codebase:
 This repo tracks its own dev work in beads under the **`bdui-`** prefix.
 
 - **Mode:** external server (shared horde Dolt on `127.0.0.1:3307`, database `bdui`). The server is managed by systemd — **do NOT run `bd dolt start`/`stop`**.
-- General `bd` workflow + session-close protocol is injected by `bd prime` (see the Beads Issue Tracker section above); don't duplicate it here.
+- General `bd` workflow + session-close protocol arrive in context automatically; don't duplicate them here.
 
 ## BMad workflow (project-specific) — beads IS the story
 
