@@ -119,8 +119,8 @@ Rule: **graphify to find & frame → Serena to read & change.** Don't dump whole
 read or a graph query answers it. (A one-shot PreToolUse nudge fires once per session if a raw
 grep/read reaches past these.)
 
-**Hooks are reconciled, not hand-managed.** This repo's canonical CC hook set (`bd prime` on
-SessionStart/PreCompact + the single `tool-router-nudge.sh` on PreToolUse) is declared in
+**Hooks are reconciled, not hand-managed.** This repo's canonical CC hook set (a beads session-context
+primer on SessionStart/PreCompact + the single `tool-router-nudge.sh` on PreToolUse) is declared in
 `.claude/hooks/reconcile-hooks.py`. Installers (`graphify claude install`, `bd setup claude`) can
 re-inject superseded hooks — after running any of them, run `npm run hooks:reconcile` (or
 `npm run hooks:check` to detect drift) to restore the canonical set. Edit the `DESIRED` /
