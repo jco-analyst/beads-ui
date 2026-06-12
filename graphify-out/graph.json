@@ -4,14 +4,164 @@
   "graph": {},
   "nodes": [
     {
+      "label": "conventions.md",
+      "file_type": "document",
+      "source_file": "docs/conventions.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_conventions",
+      "community": 55,
+      "norm_label": "conventions.md"
+    },
+    {
+      "label": "Conventions & Patterns",
+      "file_type": "document",
+      "source_file": "docs/conventions.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_conventions_conventions_patterns",
+      "community": 55,
+      "norm_label": "conventions & patterns"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "claude.md",
+      "id": "claude"
+    },
+    {
+      "label": "Project Instructions for AI Agents",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "project instructions for ai agents",
+      "id": "claude_project_instructions_for_ai_agents"
+    },
+    {
+      "label": "Beads Issue Tracker",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L6",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "beads issue tracker",
+      "id": "claude_beads_issue_tracker"
+    },
+    {
+      "label": "Quick Reference",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "quick reference",
+      "id": "claude_quick_reference"
+    },
+    {
+      "label": "Rules",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "rules",
+      "id": "claude_rules"
+    },
+    {
+      "label": "Session Completion",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L24",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "session completion",
+      "id": "claude_session_completion"
+    },
+    {
+      "label": "Build & Test",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "build & test",
+      "id": "claude_build_test"
+    },
+    {
+      "label": "Architecture Overview",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "architecture overview",
+      "id": "claude_architecture_overview"
+    },
+    {
+      "label": "Conventions & Patterns",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L77",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "conventions & patterns",
+      "id": "claude_conventions_patterns"
+    },
+    {
+      "label": "Beads (project-specific config)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "beads (project-specific config)",
+      "id": "claude_beads_project_specific_config"
+    },
+    {
+      "label": "BMad workflow (project-specific) \u2014 beads IS the story",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L93",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "bmad workflow (project-specific) \u2014 beads is the story",
+      "id": "claude_bmad_workflow_project_specific_beads_is_the_story"
+    },
+    {
+      "label": "Code understanding \u2014 tool router",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "code understanding \u2014 tool router",
+      "id": "claude_code_understanding_tool_router"
+    },
+    {
+      "label": "Knowledge vault (`beads-ui-knowledge/`)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L129",
+      "_origin": "ast",
+      "community": 7,
+      "norm_label": "knowledge vault (`beads-ui-knowledge/`)",
+      "id": "claude_knowledge_vault_beads_ui_knowledge"
+    },
+    {
       "label": "package.json",
       "file_type": "code",
       "source_file": "package.json",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "package",
       "community": 5,
-      "norm_label": "package.json"
+      "norm_label": "package.json",
+      "id": "package"
     },
     {
       "label": "name",
@@ -19,9 +169,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "package_name",
       "community": 5,
-      "norm_label": "name"
+      "norm_label": "name",
+      "id": "package_name"
     },
     {
       "label": "version",
@@ -29,9 +179,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "package_version",
       "community": 5,
-      "norm_label": "version"
+      "norm_label": "version",
+      "id": "package_version"
     },
     {
       "label": "description",
@@ -39,9 +189,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "package_description",
       "community": 5,
-      "norm_label": "description"
+      "norm_label": "description",
+      "id": "package_description"
     },
     {
       "label": "keywords",
@@ -49,9 +199,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "package_keywords",
       "community": 5,
-      "norm_label": "keywords"
+      "norm_label": "keywords",
+      "id": "package_keywords"
     },
     {
       "label": "homepage",
@@ -59,9 +209,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "_origin": "ast",
-      "id": "package_homepage",
       "community": 5,
-      "norm_label": "homepage"
+      "norm_label": "homepage",
+      "id": "package_homepage"
     },
     {
       "label": "author",
@@ -69,9 +219,9 @@
       "source_file": "package.json",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "package_author",
       "community": 5,
-      "norm_label": "author"
+      "norm_label": "author",
+      "id": "package_author"
     },
     {
       "label": "type",
@@ -79,9 +229,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "package_type",
       "community": 5,
-      "norm_label": "type"
+      "norm_label": "type",
+      "id": "package_type"
     },
     {
       "label": "bin",
@@ -89,9 +239,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "package_bin",
       "community": 5,
-      "norm_label": "bin"
+      "norm_label": "bin",
+      "id": "package_bin"
     },
     {
       "label": "bdui",
@@ -99,9 +249,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "package_bin_bdui",
       "community": 5,
-      "norm_label": "bdui"
+      "norm_label": "bdui",
+      "id": "package_bin_bdui"
     },
     {
       "label": "engines",
@@ -109,9 +259,9 @@
       "source_file": "package.json",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "package_engines",
       "community": 5,
-      "norm_label": "engines"
+      "norm_label": "engines",
+      "id": "package_engines"
     },
     {
       "label": "node",
@@ -119,9 +269,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "_origin": "ast",
-      "id": "package_engines_node",
       "community": 5,
-      "norm_label": "node"
+      "norm_label": "node",
+      "id": "package_engines_node"
     },
     {
       "label": "scripts",
@@ -129,9 +279,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "package_scripts",
       "community": 23,
-      "norm_label": "scripts"
+      "norm_label": "scripts",
+      "id": "package_scripts"
     },
     {
       "label": "all",
@@ -139,9 +289,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "package_scripts_all",
       "community": 23,
-      "norm_label": "all"
+      "norm_label": "all",
+      "id": "package_scripts_all"
     },
     {
       "label": "start",
@@ -149,9 +299,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "package_scripts_start",
       "community": 23,
-      "norm_label": "start"
+      "norm_label": "start",
+      "id": "package_scripts_start"
     },
     {
       "label": "build",
@@ -159,9 +309,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "package_scripts_build",
       "community": 23,
-      "norm_label": "build"
+      "norm_label": "build",
+      "id": "package_scripts_build"
     },
     {
       "label": "watch",
@@ -169,9 +319,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "package_scripts_watch",
       "community": 23,
-      "norm_label": "watch"
+      "norm_label": "watch",
+      "id": "package_scripts_watch"
     },
     {
       "label": "dev:vite",
@@ -179,9 +329,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "_origin": "ast",
-      "id": "package_scripts_dev_vite",
       "community": 23,
-      "norm_label": "dev:vite"
+      "norm_label": "dev:vite",
+      "id": "package_scripts_dev_vite"
     },
     {
       "label": "tsc:react",
@@ -189,9 +339,9 @@
       "source_file": "package.json",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "package_scripts_tsc_react",
       "community": 23,
-      "norm_label": "tsc:react"
+      "norm_label": "tsc:react",
+      "id": "package_scripts_tsc_react"
     },
     {
       "label": "hooks:check",
@@ -199,9 +349,9 @@
       "source_file": "package.json",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "package_scripts_hooks_check",
       "community": 23,
-      "norm_label": "hooks:check"
+      "norm_label": "hooks:check",
+      "id": "package_scripts_hooks_check"
     },
     {
       "label": "hooks:reconcile",
@@ -209,9 +359,9 @@
       "source_file": "package.json",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "package_scripts_hooks_reconcile",
       "community": 23,
-      "norm_label": "hooks:reconcile"
+      "norm_label": "hooks:reconcile",
+      "id": "package_scripts_hooks_reconcile"
     },
     {
       "label": "test",
@@ -219,9 +369,9 @@
       "source_file": "package.json",
       "source_location": "L29",
       "_origin": "ast",
-      "id": "package_scripts_test",
       "community": 23,
-      "norm_label": "test"
+      "norm_label": "test",
+      "id": "package_scripts_test"
     },
     {
       "label": "test:watch",
@@ -229,9 +379,9 @@
       "source_file": "package.json",
       "source_location": "L30",
       "_origin": "ast",
-      "id": "package_scripts_test_watch",
       "community": 23,
-      "norm_label": "test:watch"
+      "norm_label": "test:watch",
+      "id": "package_scripts_test_watch"
     },
     {
       "label": "tsc",
@@ -239,9 +389,9 @@
       "source_file": "package.json",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "package_scripts_tsc",
       "community": 23,
-      "norm_label": "tsc"
+      "norm_label": "tsc",
+      "id": "package_scripts_tsc"
     },
     {
       "label": "lint",
@@ -249,9 +399,9 @@
       "source_file": "package.json",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "package_scripts_lint",
       "community": 23,
-      "norm_label": "lint"
+      "norm_label": "lint",
+      "id": "package_scripts_lint"
     },
     {
       "label": "prettier:write",
@@ -259,9 +409,9 @@
       "source_file": "package.json",
       "source_location": "L33",
       "_origin": "ast",
-      "id": "package_scripts_prettier_write",
       "community": 23,
-      "norm_label": "prettier:write"
+      "norm_label": "prettier:write",
+      "id": "package_scripts_prettier_write"
     },
     {
       "label": "prettier:check",
@@ -269,9 +419,9 @@
       "source_file": "package.json",
       "source_location": "L34",
       "_origin": "ast",
-      "id": "package_scripts_prettier_check",
       "community": 23,
-      "norm_label": "prettier:check"
+      "norm_label": "prettier:check",
+      "id": "package_scripts_prettier_check"
     },
     {
       "label": "preversion",
@@ -279,9 +429,9 @@
       "source_file": "package.json",
       "source_location": "L35",
       "_origin": "ast",
-      "id": "package_scripts_preversion",
       "community": 23,
-      "norm_label": "preversion"
+      "norm_label": "preversion",
+      "id": "package_scripts_preversion"
     },
     {
       "label": "version",
@@ -289,9 +439,9 @@
       "source_file": "package.json",
       "source_location": "L36",
       "_origin": "ast",
-      "id": "package_scripts_version",
       "community": 23,
-      "norm_label": "version"
+      "norm_label": "version",
+      "id": "package_scripts_version"
     },
     {
       "label": "postversion",
@@ -299,9 +449,9 @@
       "source_file": "package.json",
       "source_location": "L37",
       "_origin": "ast",
-      "id": "package_scripts_postversion",
       "community": 23,
-      "norm_label": "postversion"
+      "norm_label": "postversion",
+      "id": "package_scripts_postversion"
     },
     {
       "label": "prepack",
@@ -309,9 +459,9 @@
       "source_file": "package.json",
       "source_location": "L38",
       "_origin": "ast",
-      "id": "package_scripts_prepack",
       "community": 23,
-      "norm_label": "prepack"
+      "norm_label": "prepack",
+      "id": "package_scripts_prepack"
     },
     {
       "label": "postpack",
@@ -319,9 +469,9 @@
       "source_file": "package.json",
       "source_location": "L39",
       "_origin": "ast",
-      "id": "package_scripts_postpack",
       "community": 23,
-      "norm_label": "postpack"
+      "norm_label": "postpack",
+      "id": "package_scripts_postpack"
     },
     {
       "label": "dependencies",
@@ -329,9 +479,9 @@
       "source_file": "package.json",
       "source_location": "L41",
       "_origin": "ast",
-      "id": "package_dependencies",
       "community": 5,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "package_dependencies"
     },
     {
       "label": "debug",
@@ -339,9 +489,9 @@
       "source_file": "package.json",
       "source_location": "L42",
       "_origin": "ast",
-      "id": "package_dependencies_debug",
       "community": 5,
-      "norm_label": "debug"
+      "norm_label": "debug",
+      "id": "package_dependencies_debug"
     },
     {
       "label": "dompurify",
@@ -349,9 +499,9 @@
       "source_file": "package.json",
       "source_location": "L43",
       "_origin": "ast",
-      "id": "package_dependencies_dompurify",
       "community": 5,
-      "norm_label": "dompurify"
+      "norm_label": "dompurify",
+      "id": "package_dependencies_dompurify"
     },
     {
       "label": "express",
@@ -359,9 +509,9 @@
       "source_file": "package.json",
       "source_location": "L44",
       "_origin": "ast",
-      "id": "package_dependencies_express",
       "community": 5,
-      "norm_label": "express"
+      "norm_label": "express",
+      "id": "package_dependencies_express"
     },
     {
       "label": "lit-html",
@@ -369,9 +519,9 @@
       "source_file": "package.json",
       "source_location": "L45",
       "_origin": "ast",
-      "id": "package_dependencies_lit_html",
       "community": 5,
-      "norm_label": "lit-html"
+      "norm_label": "lit-html",
+      "id": "package_dependencies_lit_html"
     },
     {
       "label": "marked",
@@ -379,9 +529,9 @@
       "source_file": "package.json",
       "source_location": "L46",
       "_origin": "ast",
-      "id": "package_dependencies_marked",
       "community": 5,
-      "norm_label": "marked"
+      "norm_label": "marked",
+      "id": "package_dependencies_marked"
     },
     {
       "label": "react",
@@ -389,9 +539,9 @@
       "source_file": "package.json",
       "source_location": "L47",
       "_origin": "ast",
-      "id": "package_dependencies_react",
       "community": 5,
-      "norm_label": "react"
+      "norm_label": "react",
+      "id": "package_dependencies_react"
     },
     {
       "label": "react-dom",
@@ -399,9 +549,9 @@
       "source_file": "package.json",
       "source_location": "L48",
       "_origin": "ast",
-      "id": "package_dependencies_react_dom",
       "community": 5,
-      "norm_label": "react-dom"
+      "norm_label": "react-dom",
+      "id": "package_dependencies_react_dom"
     },
     {
       "label": "ws",
@@ -409,9 +559,9 @@
       "source_file": "package.json",
       "source_location": "L49",
       "_origin": "ast",
-      "id": "package_dependencies_ws",
       "community": 5,
-      "norm_label": "ws"
+      "norm_label": "ws",
+      "id": "package_dependencies_ws"
     },
     {
       "label": "devDependencies",
@@ -419,9 +569,9 @@
       "source_file": "package.json",
       "source_location": "L51",
       "_origin": "ast",
-      "id": "package_devdependencies",
       "community": 8,
-      "norm_label": "devdependencies"
+      "norm_label": "devdependencies",
+      "id": "package_devdependencies"
     },
     {
       "label": "@eslint/js",
@@ -429,9 +579,9 @@
       "source_file": "package.json",
       "source_location": "L52",
       "_origin": "ast",
-      "id": "package_devdependencies_eslint_js",
       "community": 8,
-      "norm_label": "@eslint/js"
+      "norm_label": "@eslint/js",
+      "id": "package_devdependencies_eslint_js"
     },
     {
       "label": "@studio/changes",
@@ -439,9 +589,9 @@
       "source_file": "package.json",
       "source_location": "L53",
       "_origin": "ast",
-      "id": "package_devdependencies_studio_changes",
       "community": 8,
-      "norm_label": "@studio/changes"
+      "norm_label": "@studio/changes",
+      "id": "package_devdependencies_studio_changes"
     },
     {
       "label": "@trivago/prettier-plugin-sort-imports",
@@ -449,9 +599,9 @@
       "source_file": "package.json",
       "source_location": "L54",
       "_origin": "ast",
-      "id": "package_devdependencies_trivago_prettier_plugin_sort_imports",
       "community": 8,
-      "norm_label": "@trivago/prettier-plugin-sort-imports"
+      "norm_label": "@trivago/prettier-plugin-sort-imports",
+      "id": "package_devdependencies_trivago_prettier_plugin_sort_imports"
     },
     {
       "label": "@types/debug",
@@ -459,9 +609,9 @@
       "source_file": "package.json",
       "source_location": "L55",
       "_origin": "ast",
-      "id": "package_devdependencies_types_debug",
       "community": 8,
-      "norm_label": "@types/debug"
+      "norm_label": "@types/debug",
+      "id": "package_devdependencies_types_debug"
     },
     {
       "label": "@types/express",
@@ -469,9 +619,9 @@
       "source_file": "package.json",
       "source_location": "L56",
       "_origin": "ast",
-      "id": "package_devdependencies_types_express",
       "community": 8,
-      "norm_label": "@types/express"
+      "norm_label": "@types/express",
+      "id": "package_devdependencies_types_express"
     },
     {
       "label": "@types/node",
@@ -479,9 +629,9 @@
       "source_file": "package.json",
       "source_location": "L57",
       "_origin": "ast",
-      "id": "package_devdependencies_types_node",
       "community": 8,
-      "norm_label": "@types/node"
+      "norm_label": "@types/node",
+      "id": "package_devdependencies_types_node"
     },
     {
       "label": "@types/react",
@@ -489,9 +639,9 @@
       "source_file": "package.json",
       "source_location": "L58",
       "_origin": "ast",
-      "id": "package_devdependencies_types_react",
       "community": 8,
-      "norm_label": "@types/react"
+      "norm_label": "@types/react",
+      "id": "package_devdependencies_types_react"
     },
     {
       "label": "@types/react-dom",
@@ -499,9 +649,9 @@
       "source_file": "package.json",
       "source_location": "L59",
       "_origin": "ast",
-      "id": "package_devdependencies_types_react_dom",
       "community": 8,
-      "norm_label": "@types/react-dom"
+      "norm_label": "@types/react-dom",
+      "id": "package_devdependencies_types_react_dom"
     },
     {
       "label": "@types/ws",
@@ -509,9 +659,9 @@
       "source_file": "package.json",
       "source_location": "L60",
       "_origin": "ast",
-      "id": "package_devdependencies_types_ws",
       "community": 8,
-      "norm_label": "@types/ws"
+      "norm_label": "@types/ws",
+      "id": "package_devdependencies_types_ws"
     },
     {
       "label": "@vitejs/plugin-react",
@@ -519,9 +669,9 @@
       "source_file": "package.json",
       "source_location": "L61",
       "_origin": "ast",
-      "id": "package_devdependencies_vitejs_plugin_react",
       "community": 8,
-      "norm_label": "@vitejs/plugin-react"
+      "norm_label": "@vitejs/plugin-react",
+      "id": "package_devdependencies_vitejs_plugin_react"
     },
     {
       "label": "babel-plugin-react-compiler",
@@ -529,9 +679,9 @@
       "source_file": "package.json",
       "source_location": "L62",
       "_origin": "ast",
-      "id": "package_devdependencies_babel_plugin_react_compiler",
       "community": 8,
-      "norm_label": "babel-plugin-react-compiler"
+      "norm_label": "babel-plugin-react-compiler",
+      "id": "package_devdependencies_babel_plugin_react_compiler"
     },
     {
       "label": "esbuild",
@@ -539,9 +689,9 @@
       "source_file": "package.json",
       "source_location": "L63",
       "_origin": "ast",
-      "id": "package_devdependencies_esbuild",
       "community": 8,
-      "norm_label": "esbuild"
+      "norm_label": "esbuild",
+      "id": "package_devdependencies_esbuild"
     },
     {
       "label": "eslint",
@@ -549,9 +699,9 @@
       "source_file": "package.json",
       "source_location": "L64",
       "_origin": "ast",
-      "id": "package_devdependencies_eslint",
       "community": 8,
-      "norm_label": "eslint"
+      "norm_label": "eslint",
+      "id": "package_devdependencies_eslint"
     },
     {
       "label": "eslint-plugin-import",
@@ -559,9 +709,9 @@
       "source_file": "package.json",
       "source_location": "L65",
       "_origin": "ast",
-      "id": "package_devdependencies_eslint_plugin_import",
       "community": 8,
-      "norm_label": "eslint-plugin-import"
+      "norm_label": "eslint-plugin-import",
+      "id": "package_devdependencies_eslint_plugin_import"
     },
     {
       "label": "eslint-plugin-jsdoc",
@@ -569,9 +719,9 @@
       "source_file": "package.json",
       "source_location": "L66",
       "_origin": "ast",
-      "id": "package_devdependencies_eslint_plugin_jsdoc",
       "community": 8,
-      "norm_label": "eslint-plugin-jsdoc"
+      "norm_label": "eslint-plugin-jsdoc",
+      "id": "package_devdependencies_eslint_plugin_jsdoc"
     },
     {
       "label": "eslint-plugin-n",
@@ -579,9 +729,9 @@
       "source_file": "package.json",
       "source_location": "L67",
       "_origin": "ast",
-      "id": "package_devdependencies_eslint_plugin_n",
       "community": 8,
-      "norm_label": "eslint-plugin-n"
+      "norm_label": "eslint-plugin-n",
+      "id": "package_devdependencies_eslint_plugin_n"
     },
     {
       "label": "globals",
@@ -589,9 +739,9 @@
       "source_file": "package.json",
       "source_location": "L68",
       "_origin": "ast",
-      "id": "package_devdependencies_globals",
       "community": 8,
-      "norm_label": "globals"
+      "norm_label": "globals",
+      "id": "package_devdependencies_globals"
     },
     {
       "label": "jsdom",
@@ -599,9 +749,9 @@
       "source_file": "package.json",
       "source_location": "L69",
       "_origin": "ast",
-      "id": "package_devdependencies_jsdom",
       "community": 8,
-      "norm_label": "jsdom"
+      "norm_label": "jsdom",
+      "id": "package_devdependencies_jsdom"
     },
     {
       "label": "prettier",
@@ -609,9 +759,9 @@
       "source_file": "package.json",
       "source_location": "L70",
       "_origin": "ast",
-      "id": "package_devdependencies_prettier",
       "community": 8,
-      "norm_label": "prettier"
+      "norm_label": "prettier",
+      "id": "package_devdependencies_prettier"
     },
     {
       "label": "typescript",
@@ -619,9 +769,9 @@
       "source_file": "package.json",
       "source_location": "L71",
       "_origin": "ast",
-      "id": "package_devdependencies_typescript",
       "community": 8,
-      "norm_label": "typescript"
+      "norm_label": "typescript",
+      "id": "package_devdependencies_typescript"
     },
     {
       "label": "vite",
@@ -629,9 +779,9 @@
       "source_file": "package.json",
       "source_location": "L72",
       "_origin": "ast",
-      "id": "package_devdependencies_vite",
       "community": 8,
-      "norm_label": "vite"
+      "norm_label": "vite",
+      "id": "package_devdependencies_vite"
     },
     {
       "label": "vitest",
@@ -639,9 +789,9 @@
       "source_file": "package.json",
       "source_location": "L73",
       "_origin": "ast",
-      "id": "package_devdependencies_vitest",
       "community": 8,
-      "norm_label": "vitest"
+      "norm_label": "vitest",
+      "id": "package_devdependencies_vitest"
     },
     {
       "label": "files",
@@ -649,9 +799,9 @@
       "source_file": "package.json",
       "source_location": "L75",
       "_origin": "ast",
-      "id": "package_files",
       "community": 5,
-      "norm_label": "files"
+      "norm_label": "files",
+      "id": "package_files"
     },
     {
       "label": "repository",
@@ -659,9 +809,9 @@
       "source_file": "package.json",
       "source_location": "L88",
       "_origin": "ast",
-      "id": "package_repository",
       "community": 5,
-      "norm_label": "repository"
+      "norm_label": "repository",
+      "id": "package_repository"
     },
     {
       "label": "type",
@@ -669,9 +819,9 @@
       "source_file": "package.json",
       "source_location": "L89",
       "_origin": "ast",
-      "id": "package_repository_type",
       "community": 5,
-      "norm_label": "type"
+      "norm_label": "type",
+      "id": "package_repository_type"
     },
     {
       "label": "url",
@@ -679,9 +829,9 @@
       "source_file": "package.json",
       "source_location": "L90",
       "_origin": "ast",
-      "id": "package_repository_url",
       "community": 5,
-      "norm_label": "url"
+      "norm_label": "url",
+      "id": "package_repository_url"
     },
     {
       "label": "App.tsx",
@@ -689,9 +839,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_app",
       "community": 50,
-      "norm_label": "app.tsx"
+      "norm_label": "app.tsx",
+      "id": "src_app"
     },
     {
       "label": "App()",
@@ -699,9 +849,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "src_app_app",
       "community": 50,
-      "norm_label": "app()"
+      "norm_label": "app()",
+      "id": "src_app_app"
     },
     {
       "label": "main.tsx",
@@ -709,9 +859,9 @@
       "source_file": "src/main.tsx",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "src_main",
       "community": 51,
-      "norm_label": "main.tsx"
+      "norm_label": "main.tsx",
+      "id": "src_main"
     },
     {
       "label": "root",
@@ -719,9 +869,9 @@
       "source_file": "src/main.tsx",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "src_main_root",
       "community": 51,
-      "norm_label": "root"
+      "norm_label": "root",
+      "id": "src_main_root"
     },
     {
       "label": "tsconfig.app.json",
@@ -729,9 +879,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "tsconfig_app",
       "community": 4,
-      "norm_label": "tsconfig.app.json"
+      "norm_label": "tsconfig.app.json",
+      "id": "tsconfig_app"
     },
     {
       "label": "//",
@@ -739,9 +889,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L2",
       "_origin": "ast",
-      "id": "beads_ui_tsconfig_app",
       "community": 4,
-      "norm_label": "//"
+      "norm_label": "//",
+      "id": "beads_ui_tsconfig_app"
     },
     {
       "label": "compilerOptions",
@@ -749,9 +899,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L3",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions",
       "community": 4,
-      "norm_label": "compileroptions"
+      "norm_label": "compileroptions",
+      "id": "tsconfig_app_compileroptions"
     },
     {
       "label": "tsBuildInfoFile",
@@ -759,9 +909,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L4",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_tsbuildinfofile",
       "community": 4,
-      "norm_label": "tsbuildinfofile"
+      "norm_label": "tsbuildinfofile",
+      "id": "tsconfig_app_compileroptions_tsbuildinfofile"
     },
     {
       "label": "target",
@@ -769,9 +919,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L5",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_target",
       "community": 4,
-      "norm_label": "target"
+      "norm_label": "target",
+      "id": "tsconfig_app_compileroptions_target"
     },
     {
       "label": "useDefineForClassFields",
@@ -779,9 +929,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L6",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_usedefineforclassfields",
       "community": 4,
-      "norm_label": "usedefineforclassfields"
+      "norm_label": "usedefineforclassfields",
+      "id": "tsconfig_app_compileroptions_usedefineforclassfields"
     },
     {
       "label": "lib",
@@ -789,9 +939,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L7",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_lib",
       "community": 4,
-      "norm_label": "lib"
+      "norm_label": "lib",
+      "id": "tsconfig_app_compileroptions_lib"
     },
     {
       "label": "module",
@@ -799,9 +949,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L8",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_module",
       "community": 4,
-      "norm_label": "module"
+      "norm_label": "module",
+      "id": "tsconfig_app_compileroptions_module"
     },
     {
       "label": "types",
@@ -809,9 +959,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L9",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_types",
       "community": 4,
-      "norm_label": "types"
+      "norm_label": "types",
+      "id": "tsconfig_app_compileroptions_types"
     },
     {
       "label": "skipLibCheck",
@@ -819,9 +969,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L10",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_skiplibcheck",
       "community": 4,
-      "norm_label": "skiplibcheck"
+      "norm_label": "skiplibcheck",
+      "id": "tsconfig_app_compileroptions_skiplibcheck"
     },
     {
       "label": "moduleResolution",
@@ -829,9 +979,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L12",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_moduleresolution",
       "community": 4,
-      "norm_label": "moduleresolution"
+      "norm_label": "moduleresolution",
+      "id": "tsconfig_app_compileroptions_moduleresolution"
     },
     {
       "label": "allowImportingTsExtensions",
@@ -839,9 +989,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L13",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_allowimportingtsextensions",
       "community": 4,
-      "norm_label": "allowimportingtsextensions"
+      "norm_label": "allowimportingtsextensions",
+      "id": "tsconfig_app_compileroptions_allowimportingtsextensions"
     },
     {
       "label": "verbatimModuleSyntax",
@@ -849,9 +999,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L14",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_verbatimmodulesyntax",
       "community": 4,
-      "norm_label": "verbatimmodulesyntax"
+      "norm_label": "verbatimmodulesyntax",
+      "id": "tsconfig_app_compileroptions_verbatimmodulesyntax"
     },
     {
       "label": "moduleDetection",
@@ -859,9 +1009,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L15",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_moduledetection",
       "community": 4,
-      "norm_label": "moduledetection"
+      "norm_label": "moduledetection",
+      "id": "tsconfig_app_compileroptions_moduledetection"
     },
     {
       "label": "noEmit",
@@ -869,9 +1019,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L16",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_noemit",
       "community": 4,
-      "norm_label": "noemit"
+      "norm_label": "noemit",
+      "id": "tsconfig_app_compileroptions_noemit"
     },
     {
       "label": "jsx",
@@ -879,9 +1029,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L17",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_jsx",
       "community": 4,
-      "norm_label": "jsx"
+      "norm_label": "jsx",
+      "id": "tsconfig_app_compileroptions_jsx"
     },
     {
       "label": "strict",
@@ -889,9 +1039,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L19",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_strict",
       "community": 4,
-      "norm_label": "strict"
+      "norm_label": "strict",
+      "id": "tsconfig_app_compileroptions_strict"
     },
     {
       "label": "noUnusedLocals",
@@ -899,9 +1049,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L20",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_nounusedlocals",
       "community": 4,
-      "norm_label": "nounusedlocals"
+      "norm_label": "nounusedlocals",
+      "id": "tsconfig_app_compileroptions_nounusedlocals"
     },
     {
       "label": "noUnusedParameters",
@@ -909,9 +1059,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L21",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_nounusedparameters",
       "community": 4,
-      "norm_label": "nounusedparameters"
+      "norm_label": "nounusedparameters",
+      "id": "tsconfig_app_compileroptions_nounusedparameters"
     },
     {
       "label": "erasableSyntaxOnly",
@@ -919,9 +1069,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_erasablesyntaxonly",
       "community": 4,
-      "norm_label": "erasablesyntaxonly"
+      "norm_label": "erasablesyntaxonly",
+      "id": "tsconfig_app_compileroptions_erasablesyntaxonly"
     },
     {
       "label": "noFallthroughCasesInSwitch",
@@ -929,9 +1079,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L23",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_nofallthroughcasesinswitch",
       "community": 4,
-      "norm_label": "nofallthroughcasesinswitch"
+      "norm_label": "nofallthroughcasesinswitch",
+      "id": "tsconfig_app_compileroptions_nofallthroughcasesinswitch"
     },
     {
       "label": "noUncheckedSideEffectImports",
@@ -939,9 +1089,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L24",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_nouncheckedsideeffectimports",
       "community": 4,
-      "norm_label": "nouncheckedsideeffectimports"
+      "norm_label": "nouncheckedsideeffectimports",
+      "id": "tsconfig_app_compileroptions_nouncheckedsideeffectimports"
     },
     {
       "label": "baseUrl",
@@ -949,9 +1099,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L26",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_baseurl",
       "community": 4,
-      "norm_label": "baseurl"
+      "norm_label": "baseurl",
+      "id": "tsconfig_app_compileroptions_baseurl"
     },
     {
       "label": "paths",
@@ -959,9 +1109,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L27",
       "_origin": "ast",
-      "id": "tsconfig_app_compileroptions_paths",
       "community": 4,
-      "norm_label": "paths"
+      "norm_label": "paths",
+      "id": "tsconfig_app_compileroptions_paths"
     },
     {
       "label": "@/*",
@@ -969,9 +1119,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L28",
       "_origin": "ast",
-      "id": "tsconfig_app_paths",
       "community": 4,
-      "norm_label": "@/*"
+      "norm_label": "@/*",
+      "id": "tsconfig_app_paths"
     },
     {
       "label": "include",
@@ -979,9 +1129,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L31",
       "_origin": "ast",
-      "id": "tsconfig_app_include",
       "community": 4,
-      "norm_label": "include"
+      "norm_label": "include",
+      "id": "tsconfig_app_include"
     },
     {
       "label": "exclude",
@@ -989,9 +1139,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L32",
       "_origin": "ast",
-      "id": "tsconfig_app_exclude",
       "community": 4,
-      "norm_label": "exclude"
+      "norm_label": "exclude",
+      "id": "tsconfig_app_exclude"
     },
     {
       "label": "vite.config.ts",
@@ -999,9 +1149,9 @@
       "source_file": "vite.config.ts",
       "source_location": "L1",
       "_origin": "ast",
-      "id": "vite_config",
       "community": 52,
-      "norm_label": "vite.config.ts"
+      "norm_label": "vite.config.ts",
+      "id": "vite_config"
     },
     {
       "label": "ADR-0001-migrate-frontend-to-react-shadcn.md",
@@ -1284,126 +1434,6 @@
       "community": 9,
       "norm_label": "pretooluse",
       "id": "claude_settings_hooks_pretooluse"
-    },
-    {
-      "label": "CLAUDE.md",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "claude.md",
-      "id": "claude"
-    },
-    {
-      "label": "Project Instructions for AI Agents",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "project instructions for ai agents",
-      "id": "claude_project_instructions_for_ai_agents"
-    },
-    {
-      "label": "Beads Issue Tracker",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L6",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "beads issue tracker",
-      "id": "claude_beads_issue_tracker"
-    },
-    {
-      "label": "Quick Reference",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L10",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "quick reference",
-      "id": "claude_quick_reference"
-    },
-    {
-      "label": "Rules",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L19",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "rules",
-      "id": "claude_rules"
-    },
-    {
-      "label": "Session Completion",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L25",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "session completion",
-      "id": "claude_session_completion"
-    },
-    {
-      "label": "Build & Test",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L53",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "build & test",
-      "id": "claude_build_test"
-    },
-    {
-      "label": "Architecture Overview",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L68",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "architecture overview",
-      "id": "claude_architecture_overview"
-    },
-    {
-      "label": "Conventions & Patterns",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L78",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "conventions & patterns",
-      "id": "claude_conventions_patterns"
-    },
-    {
-      "label": "Beads (project-specific config)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L87",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "beads (project-specific config)",
-      "id": "claude_beads_project_specific_config"
-    },
-    {
-      "label": "Code understanding \u2014 tool router",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L94",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "code understanding \u2014 tool router",
-      "id": "claude_code_understanding_tool_router"
-    },
-    {
-      "label": "Knowledge vault (`beads-ui-knowledge/`)",
-      "file_type": "document",
-      "source_file": "CLAUDE.md",
-      "source_location": "L121",
-      "_origin": "ast",
-      "community": 7,
-      "norm_label": "knowledge vault (`beads-ui-knowledge/`)",
-      "id": "claude_knowledge_vault_beads_ui_knowledge"
     },
     {
       "label": "architecture.md",
@@ -2811,7 +2841,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "main.deep-link.test.js",
       "id": "mnt_main_beads_ui_app_main_deep_link_test_js"
     },
@@ -2821,7 +2851,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L6",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "calls",
       "id": "app_main_deep_link_test_calls"
     },
@@ -2831,7 +2861,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "issues",
       "id": "app_main_deep_link_test_issues"
     },
@@ -2841,7 +2871,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "send()",
       "id": "app_main_deep_link_test_send"
     },
@@ -2851,7 +2881,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L27",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "on()",
       "id": "app_main_deep_link_test_on"
     },
@@ -2861,7 +2891,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "_trigger()",
       "id": "app_main_deep_link_test_trigger"
     },
@@ -2871,7 +2901,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L39",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "close()",
       "id": "app_main_deep_link_test_close"
     },
@@ -2881,7 +2911,7 @@
       "source_file": "app/main.deep-link.test.js",
       "source_location": "L40",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "getstate()",
       "id": "app_main_deep_link_test_getstate"
     },
@@ -2891,7 +2921,7 @@
       "source_file": "app/main.dialog.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 1,
+      "community": 49,
       "norm_label": "main.dialog.test.js",
       "id": "mnt_main_beads_ui_app_main_dialog_test_js"
     },
@@ -2901,7 +2931,7 @@
       "source_file": "app/main.dialog.test.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 1,
+      "community": 49,
       "norm_label": "send()",
       "id": "app_main_dialog_test_send"
     },
@@ -2911,7 +2941,7 @@
       "source_file": "app/main.dialog.test.js",
       "source_location": "L22",
       "_origin": "ast",
-      "community": 1,
+      "community": 49,
       "norm_label": "on()",
       "id": "app_main_dialog_test_on"
     },
@@ -2921,7 +2951,7 @@
       "source_file": "app/main.dialog.test.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 1,
+      "community": 49,
       "norm_label": "close()",
       "id": "app_main_dialog_test_close"
     },
@@ -2931,7 +2961,7 @@
       "source_file": "app/main.dialog.test.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 1,
+      "community": 49,
       "norm_label": "getstate()",
       "id": "app_main_dialog_test_getstate"
     },
@@ -2941,7 +2971,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 44,
+      "community": 1,
       "norm_label": "main.filter-switch-reset.test.js",
       "id": "mnt_main_beads_ui_app_main_filter_switch_reset_test_js"
     },
@@ -2951,7 +2981,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 44,
+      "community": 1,
       "norm_label": "togglefilter()",
       "id": "app_main_filter_switch_reset_test_togglefilter"
     },
@@ -2961,7 +2991,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L38",
       "_origin": "ast",
-      "community": 44,
+      "community": 1,
       "norm_label": "send()",
       "id": "app_main_filter_switch_reset_test_send"
     },
@@ -2971,7 +3001,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L47",
       "_origin": "ast",
-      "community": 44,
+      "community": 1,
       "norm_label": "on()",
       "id": "app_main_filter_switch_reset_test_on"
     },
@@ -2981,7 +3011,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L58",
       "_origin": "ast",
-      "community": 44,
+      "community": 1,
       "norm_label": "_trigger()",
       "id": "app_main_filter_switch_reset_test_trigger"
     },
@@ -2991,7 +3021,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L63",
       "_origin": "ast",
-      "community": 44,
+      "community": 1,
       "norm_label": "onconnection()",
       "id": "app_main_filter_switch_reset_test_onconnection"
     },
@@ -3001,7 +3031,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L66",
       "_origin": "ast",
-      "community": 44,
+      "community": 1,
       "norm_label": "close()",
       "id": "app_main_filter_switch_reset_test_close"
     },
@@ -3011,7 +3041,7 @@
       "source_file": "app/main.filter-switch-reset.test.js",
       "source_location": "L67",
       "_origin": "ast",
-      "community": 44,
+      "community": 1,
       "norm_label": "getstate()",
       "id": "app_main_filter_switch_reset_test_getstate"
     },
@@ -3201,7 +3231,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 46,
       "norm_label": "main.push-stores.e2e.test.js",
       "id": "mnt_main_beads_ui_app_main_push_stores_e2e_test_js"
     },
@@ -3211,7 +3241,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L16",
       "_origin": "ast",
-      "community": 6,
+      "community": 46,
       "norm_label": "send()",
       "id": "app_main_push_stores_e2e_test_send"
     },
@@ -3221,7 +3251,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L26",
       "_origin": "ast",
-      "community": 6,
+      "community": 46,
       "norm_label": "on()",
       "id": "app_main_push_stores_e2e_test_on"
     },
@@ -3231,7 +3261,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L37",
       "_origin": "ast",
-      "community": 6,
+      "community": 46,
       "norm_label": "_trigger()",
       "id": "app_main_push_stores_e2e_test_trigger"
     },
@@ -3241,7 +3271,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L45",
       "_origin": "ast",
-      "community": 6,
+      "community": 46,
       "norm_label": "onconnection()",
       "id": "app_main_push_stores_e2e_test_onconnection"
     },
@@ -3251,7 +3281,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L51",
       "_origin": "ast",
-      "community": 6,
+      "community": 46,
       "norm_label": "_emitconn()",
       "id": "app_main_push_stores_e2e_test_emitconn"
     },
@@ -3261,7 +3291,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L60",
       "_origin": "ast",
-      "community": 6,
+      "community": 46,
       "norm_label": "close()",
       "id": "app_main_push_stores_e2e_test_close"
     },
@@ -3271,7 +3301,7 @@
       "source_file": "app/main.push-stores.e2e.test.js",
       "source_location": "L61",
       "_origin": "ast",
-      "community": 6,
+      "community": 46,
       "norm_label": "getstate()",
       "id": "app_main_push_stores_e2e_test_getstate"
     },
@@ -3631,7 +3661,7 @@
       "source_file": "app/utils/issue-id-renderer.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 44,
       "norm_label": "issue-id-renderer.js",
       "id": "mnt_main_beads_ui_app_utils_issue_id_renderer_js"
     },
@@ -3641,7 +3671,7 @@
       "source_file": "app/utils/issue-id-renderer.js",
       "source_location": "L11",
       "_origin": "ast",
-      "community": 2,
+      "community": 44,
       "norm_label": "createissueidrenderer()",
       "id": "utils_issue_id_renderer_createissueidrenderer"
     },
@@ -3651,7 +3681,7 @@
       "source_file": "app/utils/issue-id-renderer.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 44,
       "norm_label": "issue-id-renderer.test.js",
       "id": "mnt_main_beads_ui_app_utils_issue_id_renderer_test_js"
     },
@@ -3691,7 +3721,7 @@
       "source_file": "app/utils/issue-url.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 22,
       "norm_label": "issue-url.js",
       "id": "mnt_main_beads_ui_app_utils_issue_url_js"
     },
@@ -3701,7 +3731,7 @@
       "source_file": "app/utils/issue-url.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 2,
+      "community": 22,
       "norm_label": "issuehashfor()",
       "id": "utils_issue_url_issuehashfor"
     },
@@ -3881,7 +3911,7 @@
       "source_file": "app/utils/toast.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 22,
       "norm_label": "toast.js",
       "id": "mnt_main_beads_ui_app_utils_toast_js"
     },
@@ -3891,7 +3921,7 @@
       "source_file": "app/utils/toast.js",
       "source_location": "L8",
       "_origin": "ast",
-      "community": 2,
+      "community": 22,
       "norm_label": "showtoast()",
       "id": "utils_toast_showtoast"
     },
@@ -3901,7 +3931,7 @@
       "source_file": "app/utils/type-badge.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 46,
+      "community": 53,
       "norm_label": "type-badge.js",
       "id": "mnt_main_beads_ui_app_utils_type_badge_js"
     },
@@ -3911,7 +3941,7 @@
       "source_file": "app/utils/type-badge.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 46,
+      "community": 53,
       "norm_label": "createtypebadge()",
       "id": "utils_type_badge_createtypebadge"
     },
@@ -3921,7 +3951,7 @@
       "source_file": "app/utils/type-badge.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 46,
+      "community": 53,
       "norm_label": "type-badge.test.js",
       "id": "mnt_main_beads_ui_app_utils_type_badge_test_js"
     },
@@ -4441,7 +4471,7 @@
       "source_file": "app/views/detail.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 49,
+      "community": 54,
       "norm_label": "detail.test.js",
       "id": "mnt_main_beads_ui_app_views_detail_test_js"
     },
@@ -4451,7 +4481,7 @@
       "source_file": "app/views/detail.test.js",
       "source_location": "L25",
       "_origin": "ast",
-      "community": 49,
+      "community": 54,
       "norm_label": "snapshotfor()",
       "id": "views_detail_test_snapshotfor"
     },
@@ -4461,7 +4491,7 @@
       "source_file": "app/views/detail.test.js",
       "source_location": "L28",
       "_origin": "ast",
-      "community": 49,
+      "community": 54,
       "norm_label": "subscribe()",
       "id": "views_detail_test_subscribe"
     },
@@ -4611,7 +4641,7 @@
       "source_file": "app/views/issue-dialog.focus.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 44,
       "norm_label": "issue-dialog.focus.test.js",
       "id": "mnt_main_beads_ui_app_views_issue_dialog_focus_test_js"
     },
@@ -4621,7 +4651,7 @@
       "source_file": "app/views/issue-dialog.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 2,
+      "community": 44,
       "norm_label": "issue-dialog.js",
       "id": "mnt_main_beads_ui_app_views_issue_dialog_js"
     },
@@ -4631,7 +4661,7 @@
       "source_file": "app/views/issue-dialog.js",
       "source_location": "L19",
       "_origin": "ast",
-      "community": 2,
+      "community": 44,
       "norm_label": "createissuedialog()",
       "id": "views_issue_dialog_createissuedialog"
     },
@@ -4911,7 +4941,7 @@
       "source_file": "app/ws.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "ws.js",
       "id": "mnt_main_beads_ui_app_ws_js"
     },
@@ -4931,7 +4961,7 @@
       "source_file": "app/ws.test.js",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "ws.test.js",
       "id": "mnt_main_beads_ui_app_ws_test_js"
     },
@@ -4941,7 +4971,7 @@
       "source_file": "app/ws.test.js",
       "source_location": "L7",
       "_origin": "ast",
-      "community": 6,
+      "community": 1,
       "norm_label": "setupfakewebsocket()",
       "id": "app_ws_test_setupfakewebsocket"
     },
@@ -4967,6 +4997,136 @@
     }
   ],
   "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/conventions.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_conventions",
+      "target": "docs_conventions_conventions_patterns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude",
+      "target": "claude_project_instructions_for_ai_agents"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_project_instructions_for_ai_agents",
+      "target": "claude_architecture_overview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_project_instructions_for_ai_agents",
+      "target": "claude_beads_issue_tracker"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_project_instructions_for_ai_agents",
+      "target": "claude_beads_project_specific_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_project_instructions_for_ai_agents",
+      "target": "claude_bmad_workflow_project_specific_beads_is_the_story"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_project_instructions_for_ai_agents",
+      "target": "claude_build_test"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_project_instructions_for_ai_agents",
+      "target": "claude_code_understanding_tool_router"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_project_instructions_for_ai_agents",
+      "target": "claude_conventions_patterns"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_project_instructions_for_ai_agents",
+      "target": "claude_knowledge_vault_beads_ui_knowledge"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_project_instructions_for_ai_agents",
+      "target": "claude_session_completion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_beads_issue_tracker",
+      "target": "claude_quick_reference"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "claude_beads_issue_tracker",
+      "target": "claude_rules"
+    },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
@@ -5153,9 +5313,9 @@
       "source_file": "package.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_dev_vite",
-      "confidence_score": 1.0
+      "target": "package_scripts_dev_vite"
     },
     {
       "relation": "contains",
@@ -5293,9 +5453,9 @@
       "source_file": "package.json",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_tsc_react",
-      "confidence_score": 1.0
+      "target": "package_scripts_tsc_react"
     },
     {
       "relation": "contains",
@@ -5373,9 +5533,9 @@
       "source_file": "package.json",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_react",
-      "confidence_score": 1.0
+      "target": "package_dependencies_react"
     },
     {
       "relation": "contains",
@@ -5383,9 +5543,9 @@
       "source_file": "package.json",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_react_dom",
-      "confidence_score": 1.0
+      "target": "package_dependencies_react_dom"
     },
     {
       "relation": "contains",
@@ -5403,9 +5563,9 @@
       "source_file": "package.json",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_babel_plugin_react_compiler",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_babel_plugin_react_compiler"
     },
     {
       "relation": "contains",
@@ -5553,9 +5713,9 @@
       "source_file": "package.json",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_types_react",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_types_react"
     },
     {
       "relation": "contains",
@@ -5563,9 +5723,9 @@
       "source_file": "package.json",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_types_react_dom",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_types_react_dom"
     },
     {
       "relation": "contains",
@@ -5593,9 +5753,9 @@
       "source_file": "package.json",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_vite",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_vite"
     },
     {
       "relation": "contains",
@@ -5603,9 +5763,9 @@
       "source_file": "package.json",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_vitejs_plugin_react",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_vitejs_plugin_react"
     },
     {
       "relation": "contains",
@@ -5643,9 +5803,9 @@
       "source_file": "src/App.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_app",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "src_app_app"
     },
     {
       "relation": "contains",
@@ -5653,9 +5813,9 @@
       "source_file": "src/main.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main",
-      "target": "src_main_root",
-      "confidence_score": 1.0
+      "target": "src_main_root"
     },
     {
       "relation": "contains",
@@ -5663,9 +5823,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app",
-      "target": "beads_ui_tsconfig_app",
-      "confidence_score": 1.0
+      "target": "beads_ui_tsconfig_app"
     },
     {
       "relation": "contains",
@@ -5673,9 +5833,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app",
-      "target": "tsconfig_app_compileroptions",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions"
     },
     {
       "relation": "contains",
@@ -5683,9 +5843,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app",
-      "target": "tsconfig_app_exclude",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_exclude"
     },
     {
       "relation": "contains",
@@ -5693,9 +5853,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app",
-      "target": "tsconfig_app_include",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_include"
     },
     {
       "relation": "contains",
@@ -5703,9 +5863,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_allowimportingtsextensions",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_allowimportingtsextensions"
     },
     {
       "relation": "contains",
@@ -5713,9 +5873,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_baseurl",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_baseurl"
     },
     {
       "relation": "contains",
@@ -5723,9 +5883,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_erasablesyntaxonly",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_erasablesyntaxonly"
     },
     {
       "relation": "contains",
@@ -5733,9 +5893,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_jsx",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_jsx"
     },
     {
       "relation": "contains",
@@ -5743,9 +5903,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_lib",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_lib"
     },
     {
       "relation": "contains",
@@ -5753,9 +5913,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_module",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_module"
     },
     {
       "relation": "contains",
@@ -5763,9 +5923,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_moduledetection",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_moduledetection"
     },
     {
       "relation": "contains",
@@ -5773,9 +5933,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_moduleresolution",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_moduleresolution"
     },
     {
       "relation": "contains",
@@ -5783,9 +5943,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_noemit",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_noemit"
     },
     {
       "relation": "contains",
@@ -5793,9 +5953,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_nofallthroughcasesinswitch",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_nofallthroughcasesinswitch"
     },
     {
       "relation": "contains",
@@ -5803,9 +5963,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_nouncheckedsideeffectimports",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_nouncheckedsideeffectimports"
     },
     {
       "relation": "contains",
@@ -5813,9 +5973,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_nounusedlocals",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_nounusedlocals"
     },
     {
       "relation": "contains",
@@ -5823,9 +5983,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_nounusedparameters",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_nounusedparameters"
     },
     {
       "relation": "contains",
@@ -5833,9 +5993,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_paths",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_paths"
     },
     {
       "relation": "contains",
@@ -5843,9 +6003,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_skiplibcheck",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_skiplibcheck"
     },
     {
       "relation": "contains",
@@ -5853,9 +6013,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_strict",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_strict"
     },
     {
       "relation": "contains",
@@ -5863,9 +6023,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_target",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_target"
     },
     {
       "relation": "contains",
@@ -5873,9 +6033,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_tsbuildinfofile",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_tsbuildinfofile"
     },
     {
       "relation": "contains",
@@ -5883,9 +6043,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_types",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_types"
     },
     {
       "relation": "contains",
@@ -5893,9 +6053,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_usedefineforclassfields",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_usedefineforclassfields"
     },
     {
       "relation": "contains",
@@ -5903,9 +6063,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions",
-      "target": "tsconfig_app_compileroptions_verbatimmodulesyntax",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_compileroptions_verbatimmodulesyntax"
     },
     {
       "relation": "contains",
@@ -5913,9 +6073,9 @@
       "source_file": "tsconfig.app.json",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "tsconfig_app_compileroptions_paths",
-      "target": "tsconfig_app_paths",
-      "confidence_score": 1.0
+      "target": "tsconfig_app_paths"
     },
     {
       "relation": "contains",
@@ -6212,116 +6372,6 @@
       "confidence_score": 1.0,
       "source": "claude_settings_hooks",
       "target": "claude_settings_hooks_sessionstart"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L1",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude",
-      "target": "claude_project_instructions_for_ai_agents"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L68",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_architecture_overview"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L6",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_beads_issue_tracker"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L87",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_beads_project_specific_config"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L53",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_build_test"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L94",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_code_understanding_tool_router"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L78",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_conventions_patterns"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L121",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_knowledge_vault_beads_ui_knowledge"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L25",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_project_instructions_for_ai_agents",
-      "target": "claude_session_completion"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L10",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_beads_issue_tracker",
-      "target": "claude_quick_reference"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "CLAUDE.md",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "claude_beads_issue_tracker",
-      "target": "claude_rules"
     },
     {
       "relation": "contains",
@@ -12630,5 +12680,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "2f8e2736a9f56b7203c8dceb4208dfd83a82027b"
+  "built_at_commit": "13c318e4303e1fa3d06cb8ee234d2fbeed126745"
 }

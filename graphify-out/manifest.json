@@ -1,12 +1,12 @@
 {
   ".beads/backup/backup_state.json": {
-    "mtime": 1781216286.9860253,
-    "ast_hash": "a005603aae5755d6de2318a823be7768",
+    "mtime": 1781263127.9833162,
+    "ast_hash": "6a9283f4a7ed658dd2aaf5d823409128",
     "semantic_hash": ""
   },
   ".beads/export-state.json": {
-    "mtime": 1781216287.011026,
-    "ast_hash": "0fe4a4904108fcb3eed9d1f277782cc4",
+    "mtime": 1781216778.9415934,
+    "ast_hash": "4447699d1a4d3f63473ff5d1ea06fc35",
     "semantic_hash": ""
   },
   ".beads/hooks/post-checkout": {
@@ -5325,8 +5325,8 @@
     "semantic_hash": ""
   },
   "CLAUDE.md": {
-    "mtime": 1781200968.6181366,
-    "ast_hash": "7cc208e3643c32683dc8b9cbfd651b5b",
+    "mtime": 1781263084.4642036,
+    "ast_hash": "8e6ab7c16f159fb7d49d58c7ae337042",
     "semantic_hash": ""
   },
   "README.md": {
@@ -5542,6 +5542,11 @@
   "index.html": {
     "mtime": 1781215873.1757755,
     "ast_hash": "5c40169a0506cb13b690ff32aba34747",
+    "semantic_hash": ""
+  },
+  "docs/conventions.md": {
+    "mtime": 1781271632.2831,
+    "ast_hash": "033944a85d14e88fbc5dd2c42be7cec2",
     "semantic_hash": ""
   }
 }
