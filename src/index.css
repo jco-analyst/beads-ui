@@ -1,0 +1,63 @@
+@import 'tailwindcss';
+
+@plugin 'tailwindcss-animate';
+
+/* Dark mode is class-based (`.dark` on an ancestor) for the React app, matching
+   the shadcn/base-vega convention used in later prep stories (bdui-321.3+). */
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Beads design tokens (bdui-321.2) — ported from the legacy palette in
+ * app/styles.css into Tailwind v4 CSS-first `@theme`. Putting the base hues in
+ * `@theme` makes Tailwind both (a) generate utilities — `bg-status-open`,
+ * `text-type-bug`, `bg-priority-p0` — and (b) expose them as `:root` CSS vars so
+ * the visual epic (bdui-c2z) can derive badge variants from them.
+ *
+ * Hues are expressed in oklch (perceptually uniform; original hex kept in
+ * comments). Priority reuses the type hues per the legacy mapping:
+ *   p0 → bug · p1 → epic · p2 → task · p3 → feature · p4 → chore
+ */
+@theme {
+  /* Neutral surface tokens */
+  --color-background: oklch(1 0 0);
+  --color-foreground: oklch(0.21 0.006 285.9);
+  --color-panel: oklch(0.985 0 0);
+  --color-border: oklch(0.92 0.004 286.3);
+  --color-muted: oklch(0.552 0.016 285.9);
+
+  /* Status base colors */
+  --color-status-open: oklch(0.747 0.198 142.91); /* #51cb4e */
+  --color-status-in-progress: oklch(0.5103 0 89.88); /* #666666 */
+  --color-status-closed: oklch(0.4591 0.2264 290.16); /* #5f26c9 */
+
+  /* Type base colors */
+  --color-type-bug: oklch(0.4581 0.1648 30.67); /* #9f2011 */
+  --color-type-task: oklch(0.7249 0.1312 83.78); /* #cd9e33 */
+  --color-type-epic: oklch(0.762 0.1495 59.57); /* #f69842 */
+  --color-type-feature: oklch(0.7459 0.206 141.63); /* #51cb43 */
+  --color-type-chore: oklch(0.5103 0 89.88); /* #666666 */
+
+  /* Priority palette — aliases of the type hues (legacy mapping) */
+  --color-priority-p0: var(--color-type-bug);
+  --color-priority-p1: var(--color-type-epic);
+  --color-priority-p2: var(--color-type-task);
+  --color-priority-p3: var(--color-type-feature);
+  --color-priority-p4: var(--color-type-chore);
+}
+
+/* Dark surface overrides. The hue tokens above are shared across themes; only the
+   neutral surfaces flip so derived badge mixes stay legible in both modes. */
+.dark {
+  --color-background: oklch(0.141 0.005 285.8);
+  --color-foreground: oklch(0.985 0 0);
+  --color-panel: oklch(0.21 0.006 285.9);
+  --color-border: oklch(0.274 0.006 286.0);
+  --color-muted: oklch(0.705 0.015 286.1);
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-foreground);
+}

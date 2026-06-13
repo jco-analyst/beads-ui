@@ -1,4 +1,5 @@
 /// <reference types="vitest" />
+import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
 
@@ -10,8 +11,8 @@ import { defineConfig } from 'vite';
 // HTTP server from `app/`.
 //
 // Mirrors the Work-wellness reference config: React Compiler via Babel + `@`→`/src`.
-// Tailwind v4 (`@tailwindcss/vite`) is intentionally NOT wired here yet — it lands
-// in the next prep story (bdui-321.2).
+// Tailwind v4 is wired via `@tailwindcss/vite` (bdui-321.2); the CSS-first config
+// (theme tokens, dark variant) lives in `src/index.css`.
 const NODE_SERVER = 'http://127.0.0.1:3000';
 
 // https://vite.dev/config/
@@ -21,7 +22,8 @@ export default defineConfig({
       babel: {
         plugins: [['babel-plugin-react-compiler', {}]]
       }
-    })
+    }),
+    tailwindcss()
   ],
   resolve: {
     alias: {
