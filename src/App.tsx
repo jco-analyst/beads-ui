@@ -7,13 +7,16 @@
  *
  * The Tailwind v4 utilities below (bdui-321.2) double as a smoke test that the
  * CSS-first setup compiles: neutral surface tokens, a ported status hue, and a
- * `dark:` variant all exercise `src/index.css`.
+ * `dark:` variant all exercise `src/index.css`. The shadcn base-vega gallery
+ * (bdui-321.3) smoke-tests the ported Base UI components.
  */
+import { UiGallery } from '@/components/ui-gallery';
+
 export function App() {
   return (
     <main className="min-h-screen bg-background p-8 font-sans text-foreground">
       <h1 className="text-2xl font-semibold">Beads UI — React shell</h1>
-      <p className="mt-2 text-muted">
+      <p className="mt-2 text-muted-foreground">
         Vite + React 19 toolchain scaffolded. Migration in progress.
       </p>
       <div className="mt-4 flex gap-2 text-sm font-medium">
@@ -26,6 +29,9 @@ export function App() {
         <span className="rounded-full bg-priority-p0/15 px-3 py-1 text-priority-p0 dark:bg-priority-p0/25">
           priority: p0
         </span>
+      </div>
+      <div className="mt-6">
+        <UiGallery />
       </div>
     </main>
   );
